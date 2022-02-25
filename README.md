@@ -1,6 +1,10 @@
-# I've joined the #100DaysOfCode Challenge
+# I've joined the #100DaysOfCode Challenge.
+
+<br/>
 
 # Click [here](log.md) to see my progress.
+
+<br/>
 
 ## Contents
 
