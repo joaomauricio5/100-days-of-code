@@ -20,6 +20,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 **Key Takeaways**: 
 
 - [gitignore.io](https://www.toptal.com/developers/gitignore) was super useful to create the .gitignore file for the project I worked on today.
+- Managed to get some more practice with Git and Github.
 - Learned about the SwiftUI inspector in Xcode 
 - The Views and Modifiers library in Xcode will definitely come in handy.
 - First time using MapKit
