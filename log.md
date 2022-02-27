@@ -5,7 +5,7 @@
 | Day                 | Focus                                   | Day                 | Focus                                         |
 |:-------------------:|:----------------------------------------|:-------------------:|:----------------------------------------------|
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
-| [Day 3](#day3)      |                                         | [Day 4](#day4)      |                                               |
+| [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      |                                               |
 
 
 
@@ -35,7 +35,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 <a name="day2"></a>
 ### Day 2: 26 February 2022, Saturday
 
-**Today's Progress**: Today I started the 2nd part of Apple's [Introducing SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) and made some progress, but ultimately got stuck for a while, specifically in the part where we need to extract data from a JSON file and assign it to an object. Although we have access to the code that does exactly that, I'm not yet 100% understanding it, and I have the feeling that understanding this is going to be really useful. However, today I'm pretty tired from work (arrived home at 9PM) so I put JSON on hold until tomorrow and I worked on something a little bit simpler.  
+**Today's Progress**: Today I started the 2nd part of Apple's [Introducing SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) (Building Lists and Navigation) and made some progress, but ultimately got stuck for a while, specifically in the part where we need to extract data from a JSON file and assign it to an object. Although we have access to the code that does exactly that, I'm not yet 100% understanding it, and I have the feeling that understanding this is going to be really useful. However, today I'm pretty tired from work (arrived home at 9PM) so I put JSON on hold until tomorrow and I worked on something a little bit simpler.  
 I finished the Enums section of Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer), which allowed me code a little bit with iterating over enums, extracting and assigning rawValues, associated values, as well as defining/using methods and computed properties within enums.
 
 **Key Takeaways**: 
@@ -49,3 +49,23 @@ I finished the Enums section of Codecademy's [iOS Developer Career Path](https:/
 **Link(s) to work**
 1. [Landmark - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 2. [Enums in Codecademy's iOS Developer Career Path](https://www.codecademy.com/paths/ios-developer/tracks/exploring-recipes-swiftui/modules/swift-enumerations/projects/numero-uno-software-store)
+
+
+<a name="day3"></a>
+### Day 3: 27 February 2022, Sunday
+
+**Today's Progress**: Today I completed Codecademy's Enums project for Swift. Not really complex but forced me to practice and actually utilise what I learnt yesterday about Enums in a more "real-world" scenario. 
+Additionally, I went back to the part where I got stuck in yesterday's [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) (Decoding JSON files) and identified what I need to learn to overcome this part: Tomorrow I will go through Codecademy's JSON Encoding and Decoding article in Swift, [Swift's Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html) (specifically do-catch statements and the *try* keyword), as well as studying/practicing generics and guard statements. Realistically, these are the concepts I don't fully understand from going through Apple's SwiftUI tutorial source code, so I'm expecting that splitting it into these many parts will help me progress.
+
+**Key Takeaways**:  
+  
+Checklist for tomorrow to understand the JSON file decoding part of [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation):
+- Codecademy - JSON Encoding and Decoding in Swift
+- Generics
+- Guard statements
+- Error handling in Swift (do-catch statements and *try* keyword)
+
+
+
+**Link(s) to work**
+1. [Enums Codecademy's Project](https://app.codingrooms.com/w/fAxyqpXjzL5F)
