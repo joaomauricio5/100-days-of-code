@@ -5,9 +5,9 @@
 | Day                 | Focus                                   | Day                 | Focus                                         |
 |:-------------------:|:----------------------------------------|:-------------------:|:----------------------------------------------|
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
-| [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      |                                               |
+| [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
 
-
+--------------------------------
 
 <a name="day1"></a>
 ### Day 1: 25 February 2022, Friday
@@ -29,7 +29,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 **Link(s) to work**
 1. [Landmark - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 
-
+--------------------------------
 
 
 <a name="day2"></a>
@@ -50,6 +50,8 @@ I finished the Enums section of Codecademy's [iOS Developer Career Path](https:/
 1. [Landmark - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 2. [Enums in Codecademy's iOS Developer Career Path](https://www.codecademy.com/paths/ios-developer/tracks/exploring-recipes-swiftui/modules/swift-enumerations/projects/numero-uno-software-store)
 
+--------------------------------
+
 
 <a name="day3"></a>
 ### Day 3: 27 February 2022, Sunday
@@ -69,3 +71,28 @@ Checklist for tomorrow to understand the JSON file decoding part of [SwiftUI - B
 
 **Link(s) to work**
 1. [Enums Codecademy's Project](https://app.codingrooms.com/w/fAxyqpXjzL5F)
+
+--------------------------------
+<a name="day4"></a>
+### Day 4: 28 February 2022, Monday
+
+**Today's Progress**: Today I went through Codecademy's article about JSON Decoding and Encoding in Swift and realised that, actually, the process itself is fairly simple, as long as we are working with structures that only have properties that conform to Encodable/Decodable/Codable. This made me acknowledge that what I wasn't really understanding in the JSON file decoding part of [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) was actually not the JSON handling itself, but other intermediate Swift concepts that I never used myself: Optionals, Generics, do-catch statements, the *try* keyword and throwing functions.   
+With this in mind, I completed the Codecademy module about Swift Optionals, which forced me to utilise the ***!*** operator to force unwrap optionals, optional binding with the *if let* statement, *guard* statements, and the *?? - nil-coalescing* operator. I finished the day of by completing a small Codecademy project using what I learnt about Optionals (link is below)
+
+**Key Takeaways**:  
+  
+- JavaScript Object Notation, abbreviated as JSON, is a format for storing data. When online APis send data to an application, they usually use JSON as the format for the data. Competing formats to JSON include XML and YAML.
+- JSON objects are very similar to Swift dictionaries. Just like a dictionary, a JSON object contains some number of key-value pairs.
+- *Codable* protocol combines the *Encodable* and *Decodable* protocols
+- Swift's Foundation framework includes JSONEncoder and JSONDecoder
+- Optionals represent variables that might be absent
+- Force unwrapping - ! Only use the ! operator if you are absolutely sure that the value isn’t nil. Otherwise, the program will crash.
+- Safely unwrap optionals by using an if let statement to bind the optional to a new variable.
+- The nil-coalescing operator ?? unwraps an optional value and provides a default if the optional is nil.
+- A guard block is another way to write a conditional in Swift. All guard statements must have an else block that exits the current scope if the boolean expression is false. If the guard statement is true, the code below continues executing.
+
+
+
+**Link(s) to work**
+1. [Optionals Codecademy's Project](https://app.codingrooms.com/w/EsNzkXZuZ9Oz)
+2. [Optionals Cheatsheet](https://www.codecademy.com/learn/paths/ios-developer/tracks/editing-and-favorting-recipes-swiftui/modules/swift-optionals-module/cheatsheet)
