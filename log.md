@@ -81,7 +81,7 @@ With this in mind, I completed the Codecademy module about Swift Optionals, whic
 
 **Key Takeaways**:  
   
-- JavaScript Object Notation, abbreviated as JSON, is a format for storing data. When online APis send data to an application, they usually use JSON as the format for the data. Competing formats to JSON include XML and YAML.
+- JavaScript Object Notation, abbreviated as JSON, is a format for storing data. When online APIs send data to an application, they usually use JSON as the format for the data. Competing formats to JSON include XML and YAML.
 - JSON objects are very similar to Swift dictionaries. Just like a dictionary, a JSON object contains some number of key-value pairs.
 - *Codable* protocol combines the *Encodable* and *Decodable* protocols
 - Swift's Foundation framework includes JSONEncoder and JSONDecoder
