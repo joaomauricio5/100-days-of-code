@@ -6,7 +6,7 @@
 |:-------------------:|:----------------------------------------|:-------------------:|:----------------------------------------------|
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
-| [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) |                                               |
+| [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming JSON Tutorial!             |
 
 --------------------------------
 
@@ -28,7 +28,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 - We can use the @State attribute to establish a source of truth for data in our app that we can modify from more than one view.
 
 **Link(s) to work**
-1. [Landmark - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
+1. [Landmarks - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 
 --------------------------------
 
@@ -123,9 +123,32 @@ With this new knowledge, I now feel ready to continue the [SwiftUI - Building Li
 - Generics allow us to create functions that make few assumptions about the underlying data types of its arguments and can be used with multiple data types.
 - Opaque types allow us to hide the specific data type that is being returned from the caller. The caller doesn’t need to know the exact type being returned in this case, only that the function should return something that conforms to a certain protocol.
 
+**Link(s) to work**
+1. [Protocols/Generics Codecademy's Project](https://app.codingrooms.com/w/ILhbd3gbqTAe)
 
+
+
+--------------------------------
+
+
+
+<a name="day6"></a>
+### Day 6: 2 March 2022, Wednesday
+
+**Today's Progress**: Today I finally completed the 2nd part of Apple's [SwiftUI Essentials Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). Really good to look back on [Day 2](#day2) of this challenge and remind myself that I didn't understand 80% of this part of the tutorial just 4 days ago! Splitting these problems into many different tasks or concepts to learn really has been benefitial in my progress. Also, the do-catch statement finally came in handy while I was debugging my JSON decoding implementation today. It really allowed me to find the specific part of my code that needed to be changed.  Will definitely try and use it more in the future.  
+Also had the chance to learn more about Preview modifiers such as *previewLayout*, *previewDevice* and *previewDisplayName*, as well as Lists and navigation in SwiftUI Apps (using NavigationView and NavigationLink).
+
+
+**Key Takeaways**:  
+- In SwiftUI, you can use a Group to return multiple previews from a preview provider.
+- previewLayout modifier for Previews
+- previewDevice modifier can include more devices in the preview (useful to see how the app reacts to different window sizes)
+- Use the previewDisplayName(_:) modifier to add the device names as labels for the previews.
+- List is a container that presents rows of data arranged in a single column, optionally providing the ability to select one or more members.
+- Lists work with identifiable data. You can make your data identifiable in one of two ways: by passing along with your data a key path to a property that uniquely identifies each element, or by making your data type conform to the Identifiable protocol.
+- You add navigation capabilities to a list by embedding it in a NavigationView, and then nesting each row in a NavigationLink to set up a transtition to a destination view.
 
 
 
 **Link(s) to work**
-1. [Protocols/Generics Codecademy's Project](https://app.codingrooms.com/w/ILhbd3gbqTAe)
+1. [Landmarks - SwiftUI App Tutorial](https://github.com/joaomauricio5/Landmarks/commits/main)
