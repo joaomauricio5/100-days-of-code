@@ -6,12 +6,13 @@
 |:-------------------:|:----------------------------------------|:-------------------:|:----------------------------------------------|
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
-| [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming JSON Tutorial!             |
+| [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 
 --------------------------------
 
 <a name="day1"></a>
 ### Day 1: 25 February 2022, Friday
+### **SwiftUI - Creating and combining views**
 
 **Today's Progress**: Finally, the first day of the 100DaysOfCode. I'm pretty excited to push myself to stay consistent (which is something I'm struggling with at the moment), and I want to use this challenge to really progress my knowledge of iOS Development while building some interesting apps. I have been using Swift for a while now, but I feel like I should really focus on SwiftUI.  
 Today I finished Part 1 of Apple's [Introducing SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views). I'm actually impressed with how simple it was to create a fairly good-looking UI and it got me super curious for the next few parts of the course.  
@@ -35,6 +36,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 
 <a name="day2"></a>
 ### Day 2: 26 February 2022, Saturday
+### **Intro to JSON files in Swift + Enums**
 
 **Today's Progress**: Today I started the 2nd part of Apple's [Introducing SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) (Building Lists and Navigation) and made some progress, but ultimately got stuck for a while, specifically in the part where we need to extract data from a JSON file and assign it to an object. Although we have access to the code that does exactly that, I'm not yet 100% understanding it, and I have the feeling that understanding this is going to be really useful. However, today I'm pretty tired from work (arrived home at 9PM) so I put JSON on hold until tomorrow and I worked on something a little bit simpler.  
 I finished the Enums section of Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer), which allowed me code a little bit with iterating over enums, extracting and assigning rawValues, associated values, as well as defining/using methods and computed properties within enums.
@@ -56,6 +58,7 @@ I finished the Enums section of Codecademy's [iOS Developer Career Path](https:/
 
 <a name="day3"></a>
 ### Day 3: 27 February 2022, Sunday
+### **More Enums + Prep for JSON decoding**
 
 **Today's Progress**: Today I completed Codecademy's Enums project for Swift. Not really complex but forced me to practice and actually utilise what I learnt yesterday about Enums in a more "real-world" scenario. 
 Additionally, I went back to the part where I got stuck in yesterday's [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) (Decoding JSON files) and identified what I need to learn to overcome this part: Tomorrow I will go through Codecademy's JSON Encoding and Decoding article in Swift, [Swift's Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html) (specifically do-catch statements and the *try* keyword), as well as studying/practicing generics and guard statements. Realistically, these are the concepts I don't fully understand from going through Apple's SwiftUI tutorial source code, so I'm expecting that splitting it into these many parts will help me progress.
@@ -76,6 +79,7 @@ Checklist for tomorrow to understand the JSON file decoding part of [SwiftUI - B
 --------------------------------
 <a name="day4"></a>
 ### Day 4: 28 February 2022, Monday
+### **JSON Decoding/Encoding in Swift + Optionals**
 
 **Today's Progress**: Today I went through Codecademy's article about JSON Decoding and Encoding in Swift and realised that, actually, the process itself is fairly simple, as long as we are working with structures that only have properties that conform to Encodable/Decodable/Codable. This made me acknowledge that what I wasn't really understanding in the JSON file decoding part of [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) was actually not the JSON handling itself, but other intermediate Swift concepts that I never used myself: Optionals, Generics, do-catch statements, the *try* keyword and throwing functions.   
 With this in mind, I completed the Codecademy module about Swift Optionals, which forced me to utilise the ***!*** operator to force unwrap optionals, optional binding with the *if let* statement, *guard* statements, and the *?? - nil-coalescing* operator. I finished the day of by completing a small Codecademy project using what I learnt about Optionals (link is below)
@@ -106,6 +110,7 @@ With this in mind, I completed the Codecademy module about Swift Optionals, whic
 
 <a name="day5"></a>
 ### Day 5: 1 March 2022, Tuesday
+### **Error Handling in Swift + Protocols/Generics**
 
 **Today's Progress**: Today I started by learning Error Handling with Swift. I explored what throwing functions are and how they can be useful in order to specify the kinds of errors our programs might come across. To call throwing functions I also learned about the *try* keyword, its different variations (*try*, *try?* and *try!*), and the do-catch statement. Lastly, I completed a module from Codecademy's [Learn Intermediate Swift Course](https://www.codecademy.com/learn/learn-intermediate-swift) regarding Protocols and Generics, which culminated in a small project exploring those concepts (link [here](https://app.codingrooms.com/w/ILhbd3gbqTAe)).  
 With this new knowledge, I now feel ready to continue the [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) Tutorial in such a way that I actually understand what is going on. I will continue that project tomorrow!
@@ -134,6 +139,7 @@ With this new knowledge, I now feel ready to continue the [SwiftUI - Building Li
 
 <a name="day6"></a>
 ### Day 6: 2 March 2022, Wednesday
+### **Finally overcoming the JSON Tutorial!**
 
 **Today's Progress**: Today I finally completed the 2nd part of Apple's [SwiftUI Essentials Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation). Really good to look back on [Day 2](#day2) of this challenge and remind myself that I didn't understand 80% of this part of the tutorial just 4 days ago! Splitting these problems into many different tasks or concepts to learn really has been benefitial in my progress. Also, the do-catch statement finally came in handy while I was debugging my JSON decoding implementation today. It really allowed me to find the specific part of my code that needed to be changed.  Will definitely try and use it more in the future.  
 Also had the chance to learn more about Preview modifiers such as *previewLayout*, *previewDevice* and *previewDisplayName*, as well as Lists and navigation in SwiftUI Apps (using NavigationView and NavigationLink).
