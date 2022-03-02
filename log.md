@@ -6,6 +6,7 @@
 |:-------------------:|:----------------------------------------|:-------------------:|:----------------------------------------------|
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
+| [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) |                                               |
 
 --------------------------------
 
@@ -96,3 +97,35 @@ With this in mind, I completed the Codecademy module about Swift Optionals, whic
 **Link(s) to work**
 1. [Optionals Codecademy's Project](https://app.codingrooms.com/w/EsNzkXZuZ9Oz)
 2. [Optionals Cheatsheet](https://www.codecademy.com/learn/paths/ios-developer/tracks/editing-and-favorting-recipes-swiftui/modules/swift-optionals-module/cheatsheet)
+
+
+
+--------------------------------
+
+
+
+<a name="day5"></a>
+### Day 5: 1 March 2022, Tuesday
+
+**Today's Progress**: Today I started by learning exploring Error Handling with Swift. I explored what throwing functions are and how they can be useful in order to specify the kinds of errors our programs might come across. To call throwing functions I also learned about the *try* keyword, its different variations (*try*, *try?* and *try!*), and the do-catch statement. Lastly, I completed a module from Codecademy's [Learn Intermediate Swift Course](https://www.codecademy.com/learn/learn-intermediate-swift) regarding Protocols and Generics, which culminated in a small project exploring those concepts (link [here](https://app.codingrooms.com/w/ILhbd3gbqTAe).  
+With this new knowledge, I now feel ready to continue the [SwiftUI - Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) Tutorial in such a way that I actually understand what is going on. I will continue that project tomorrow!
+
+**Key Takeaways**:  
+- Throwing functions are those that will flag up errors if problems happen, and Swift requires you to handle those errors in your code.
+- You need to use the try keyword to call a throwing function.
+- Using try! is like force unwrapping an optional, and should be used only when you are sure that no errors will be thrown. Use try! whenever you want to crash when a error is thrown
+- If you’d like to call a throwing function safely but don’t need to handle the errors independently, you can use try?. Using try? means that if the call fails, it simply becomes nil. Using try? converts the throwing function’s return type into an optional.
+- You use a do-catch statement to handle errors by running a block of code. If an error is thrown by the code in the do clause, it’s matched against the catch clauses to determine which one of them can handle the error.
+- A protocol is a set of standards that classes, structs, or enums can choose to implement in their own ways. These standards come in the form of properties and functions.
+- The definitions of protocols are very similar to classes and structs. However, in the case of protocols, the definition does not implement the properties and functions. Instead, the class or struct that adopts the protocol handles the implementation of the properties and methods.
+- A protocol can inherit from another protocol, like a class can inherit from another class.
+- In an extension for a protocol, you can provide default implementations of its requirements.
+- Generics allow us to create functions that make few assumptions about the underlying data types of its arguments and can be used with multiple data types.
+- Opaque types allow us to hide the specific data type that is being returned from the caller. The caller doesn’t need to know the exact type being returned in this case, only that the function should return something that conforms to a certain protocol.
+
+
+
+
+
+**Link(s) to work**
+1. [Protocols/Generics Codecademy's Project](https://app.codingrooms.com/w/ILhbd3gbqTAe)
