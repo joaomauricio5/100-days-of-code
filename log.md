@@ -7,6 +7,7 @@
 | [Day 1](#day1)      | SwiftUI - Creating and combining views  | [Day 2](#day2)      | Intro to JSON files in Swift + Enums          |
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
+| [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      |                                               |
 
 --------------------------------
 
@@ -158,3 +159,31 @@ Also had the chance to learn more about Preview modifiers such as *previewLayout
 
 **Link(s) to work**
 1. [Landmarks - SwiftUI App Tutorial](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day7"></a>
+### Day 7: 3 March 2022, Wednesday
+### **Closures in Swift**
+
+**Today's Progress**: Today I finally completed Codecademy's Course in [Intermediate Swift](https://www.codecademy.com/learn/learn-intermediate-swift) by finshing the Closures module. I should say this course stretched my brain a little bit, but it's really great to be continuously learning more and more concepts (which I can definitely apply to other programming languages apart from Swift). I have seen closures being used in some CodeWars solutions but never took the time to fully understand them. I can now see how useful they can be, specifically when paired up with Swift higher-order methods like reduce, map, filter , etc etc.
+
+
+**Key Takeaways**:  
+- Closures are self-contained blocks of functionality. Just like functions, closures take in arguments, execute instructions, and return a value or Void.
+- Closures may be referred to as blocks or lambdas in other programming languages
+- A higher-order function is a function that takes another function as an argument.
+- If a function’s last argument is a closure, the function can be called using trailing closure syntax. Omit the last argument from the method call and close the parentheses. Then, define the closure immediately after the parentheses are closed.
+- Shorthand argument names: argument names can be omitted in favor of $0, $1
+- A closure escapes a function when it’s called after the function returns. This can happen when the closure is assigned to a variable. Escaping closures must be marked with the @escaping tag in a function signature.
+- Closures can capture values from their surrounding scope. When a closure captures a value, it keeps track of it and can manipulate the value even if the original function returns.
+
+
+
+
+**Link(s) to work**
+1. [Closures Codecademy's Project](https://app.codingrooms.com/w/D3zvOcYMq2P8)
+2. [Closures Codecademy's Cheatsheet](https://www.codecademy.com/learn/paths/learn-intermediate-swift/tracks/learn-intermediate-swift/modules/swift-closures/cheatsheet)
