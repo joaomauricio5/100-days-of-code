@@ -194,7 +194,7 @@ Also had the chance to learn more about Preview modifiers such as *previewLayout
 
 
 <a name="day8"></a>
-### Day 7: 4 March 2022, Friday
+### Day 8: 4 March 2022, Friday
 ### **Landmarks App - MapAnnotation**
 
 **Today's Progress**: Today I worked further on the Landmarks app - without following any tutorials, which was a nice change to really test my current SwiftUI knowledge. I worked on adding a new page where the user can have a fullscreen map which details where each Landmark is located through map pins. These map pins are clickable and take the user to the relevant LandmarkDetail page, which presents a detailed description of the Landmark. For this, I used the MapAnnotation SwiftUI view in order to place small pin Images in specific locations, which are then included in a NavigationLink taking the user to the LandmarkDetail page. Closures came in super handy and I'm glad I took the time to study them properly today. The trailing closure syntax was especially useful.  
