@@ -8,6 +8,7 @@
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
+| [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     |                                               |
 
 --------------------------------
 
@@ -207,6 +208,28 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 - MapAnnotation is a bit trickier to set up but it allowed me to use any icon for the map pin and then make that icon clickable to perform an action.
 - I need to debug the current runtime error on the app: "Modifying state during view update, this will cause undefined behaviour"
 - I want to take some time to study bindings in SwiftUI
+
+
+
+
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+
+--------------------------------
+
+
+
+<a name="day9"></a>
+### Day 9: 5 March 2022, Saturday
+### **Landmarks App - User Input**
+
+**Today's Progress**: 
+
+**Key Takeaways**:  
+
 
 
 
