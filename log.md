@@ -226,13 +226,14 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 ### Day 9: 5 March 2022, Saturday
 ### **Landmarks App - User Input**
 
-**Today's Progress**: 
+**Today's Progress**: Today I started the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input) and I managed to get through most of the project. It involved creating a way for the users to select their favorite landmarks and provide a toggle to only make their favorite landmarks visible. I now have a few extra concepts I need to learn about to continue my SwiftUI journey and be able to fully understand the tutorials: What does the *final* keyword mean before a class? What are property wrappers? When should we use @State, @Published, @EnvironmentObject and @StateObject? I will look into these concepts tomorrow and should be able to swiftly complete this section of the tutorial afterwards.
 
 **Key Takeaways**:  
-
-
-
-
+- State is a value, or a set of values, that can change over time, and that affects a view’s behavior, content, or layout. You use a property with the @State attribute to add state to a view.
+- To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
+- A binding acts as a reference to a mutable state. When a user taps the toggle from off to on, and off again, the control uses the binding to update the view’s state accordingly.
+- An observable object is a custom object for your data that can be bound to a view from storage in SwiftUI’s environment. SwiftUI watches for any changes to observable objects that could affect a view, and displays the correct version of the view after a change.
+- I need to read more about property wrappers such as @State, @Published, @EnvironmentObject and @StateObject
 
 
 **Link(s) to work**
