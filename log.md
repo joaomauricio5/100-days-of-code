@@ -8,7 +8,7 @@
 | [Day 3](#day3)      | More Enums + Prep for JSON decoding     | [Day 4](#day4)      | JSON Decoding/Encoding in Swift + Optionals   |
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
-| [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     |                                               |
+| [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
 
 --------------------------------
 
@@ -234,6 +234,33 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 - A binding acts as a reference to a mutable state. When a user taps the toggle from off to on, and off again, the control uses the binding to update the view’s state accordingly.
 - An observable object is a custom object for your data that can be bound to a view from storage in SwiftUI’s environment. SwiftUI watches for any changes to observable objects that could affect a view, and displays the correct version of the view after a change.
 - I need to read more about property wrappers such as @State, @Published, @EnvironmentObject and @StateObject
+
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day9"></a>
+### Day 10: 6 March 2022, Sunday
+### **Landmarks App - User Input pt.2**
+
+**Today's Progress**: Continued working on the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). I am taking my time with these tutorials as there's often some Swift tutorials I have never used before, and I want to take as much away as possible for these resources. I am struggling a little bit with Data management inside SwiftUI, specifically with all of the different property wrappers available. It's currently a bit unclear which ones to use in specific cases right, but I'll get there eventually. Today I am definitely feeling more confident with it than yestertda, as I spent quite a lot of time reading about property wrappers for storage management and examples of when/how to use them. I am expecting to feel even more confident with them in the next few days.
+
+**Key Takeaways**:  
+- Whenever an ObservableObject with a property marked @Published is changed, all views using that object will be reloaded to reflect those changes.
+-  A preview fails if any subview requires a model object in the environment, but the view you are previewing doesn’t have the environmentObject(_:) modifier.
+- A simple rule is this: if you see “state” in the name of a property wrapper, it means that views definitely owns the data.
+- I want to make a new property owned by the current view. You should use @State for value types, and @StateObject for reference types.
+I want to refer to a value created elsewhere. You should use @Binding for value types, and either @ObservedObject or @EnvironmentObject for reference types.
+- [Hacking with Swift](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views)
+- Although class inheritance is very useful – and in fact large parts of Apple’s platforms require you to use it – sometimes you want to disallow other developers from building their own class based on yours.
+Swift gives us a final keyword just for this purpose: when you declare a class as being final, no other class can inherit from it. This means they can’t override your methods in order to change your behavior – they need to use your class the way it was written.
+
+
 
 
 **Link(s) to work**
