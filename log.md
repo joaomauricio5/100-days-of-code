@@ -9,7 +9,7 @@
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
-| [Day 11](#day11)    | Landmarks App - User Input pt.3         | [Day 12](#day12)     |                                              |
+| [Day 11](#day11)    |                                         | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 
 --------------------------------
 
@@ -268,16 +268,39 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
 
 
-
 --------------------------------
 
 
 
 <a name="day11"></a>
-### Day 11: 8 March 2022, Tuesday
+### Day 11: 7 March 2022, Monday
 ### **Landmarks App - User Input pt.3**
 
-**Today's Progress**: Data management in SwiftUI is getting clearer now. [Hacking with Swift](https://www.hackingwithswift.com/) has been such an amazing resource and I have been using it quite a lot to get to understand the scenarios where we would use @EnvironmentObject, @Published, @StateObject, etc etc. I finally finsihed the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). Looking back over the whole project, the way data flows from view to view is starting to make a bit more sense, specifically when different views share the same model data. I am really curious to start learning more about the MVVVM design.
+**Today's Progress**: Today I decided to keep it simple and spent my coding hour solving Kata in [Codewars](https://www.codewars.com/). Really nice to feel some real progress in the solutions I have been coming up with, specifically when they are super short. I reckon that longer solutions might be easier to read sometimes, however, it's good to still be able to come up with concise code. For this, some of Swift's higher-order functions such as .reduce(), .filter() have been incredibly useful. Looking forward to work with more complex Kata.
+
+**Key Takeaways**:  
+- Sometimes more concise code can be harder to read by other developers.
+- Swift's higher-order functions such as .filter() and .reduce() have been really good ways to refactor Codewars' Kata solutions
+- *where* is a powerful keyword within Swift to filter out values.
+
+
+
+
+
+**Link(s) to work**
+1. [Kata 1](https://www.codewars.com/kata/58cb43f4256836ed95000f97)
+2. [Kata 2](https://www.codewars.com/kata/55a70521798b14d4750000a4)
+3. [Kata 3](https://www.codewars.com/kata/545afd0761aa4c3055001386)
+4. [Kata 4](https://www.codewars.com/kata/5715eaedb436cf5606000381)
+--------------------------------
+
+
+
+<a name="day12"></a>
+### Day 12: 8 March 2022, Tuesday
+### **Landmarks App - User Input pt.3**
+
+**Today's Progress**: Data management in SwiftUI is getting clearer now. [Hacking with Swift](https://www.hackingwithswift.com/) has been such an amazing resource and I have been using it quite a lot to get to understand the scenarios where we would use @EnvironmentObject, @Published, @StateObject, etc etc. I finally finsihed the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). Looking back over the whole project, the way data flows from view to view is starting to make a bit more sense, specifically when different views share the same model data. I am really curious to start learning more about the MVVVM design. 
 
 **Key Takeaways**:  
 - Static variables are those variables whose values are shared among all the instance or object of a class. When we define any variable as static, it gets attached to a class rather than an object.
