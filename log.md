@@ -9,6 +9,7 @@
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
+| [Day 11](#day11)    | Landmarks App - User Input pt.3         | [Day 12](#day12)     |                                              |
 
 --------------------------------
 
@@ -244,11 +245,11 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 
 
 
-<a name="day9"></a>
+<a name="day10"></a>
 ### Day 10: 6 March 2022, Sunday
 ### **Landmarks App - User Input pt.2**
 
-**Today's Progress**: Continued working on the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). I am taking my time with these tutorials as there's often some Swift tutorials I have never used before, and I want to take as much away as possible for these resources. I am struggling a little bit with Data management inside SwiftUI, specifically with all of the different property wrappers available. It's currently a bit unclear which ones to use in specific cases right, but I'll get there eventually. Today I am definitely feeling more confident with it than yestertda, as I spent quite a lot of time reading about property wrappers for storage management and examples of when/how to use them. I am expecting to feel even more confident with them in the next few days.
+**Today's Progress**: Continued working on the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). I am taking my time with these tutorials as there's often some Swift concepts I have never used before, and I want to take as much away as possible for these resources. I am struggling a little bit with Data management inside SwiftUI, specifically with all of the different property wrappers available. It's currently a bit unclear which ones to use in specific cases right, but I'll get there eventually. Today I am definitely feeling more confident with it than yestertday, as I spent quite a lot of time reading about property wrappers for storage management and examples of when/how to use them. I am expecting to feel even more confident with them in the next few days.
 
 **Key Takeaways**:  
 - Whenever an ObservableObject with a property marked @Published is changed, all views using that object will be reloaded to reflect those changes.
@@ -259,6 +260,31 @@ I want to refer to a value created elsewhere. You should use @Binding for val
 - [Hacking with Swift](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views)
 - Although class inheritance is very useful – and in fact large parts of Apple’s platforms require you to use it – sometimes you want to disallow other developers from building their own class based on yours.
 Swift gives us a final keyword just for this purpose: when you declare a class as being final, no other class can inherit from it. This means they can’t override your methods in order to change your behavior – they need to use your class the way it was written.
+
+
+
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+
+--------------------------------
+
+
+
+<a name="day11"></a>
+### Day 11: 8 March 2022, Tuesday
+### **Landmarks App - User Input pt.3**
+
+**Today's Progress**: Data management in SwiftUI is getting clearer now. [Hacking with Swift](https://www.hackingwithswift.com/) has been such an amazing resource and I have been using it quite a lot to get to understand the scenarios where we would use @EnvironmentObject, @Published, @StateObject, etc etc. I finally finsihed the 3rd part of Apple's SwiftUI Essentials Tutorial - [Handling User Input](https://developer.apple.com/tutorials/swiftui/handling-user-input). Looking back over the whole project, the way data flows from view to view is starting to make a bit more sense, specifically when different views share the same model data. I am really curious to start learning more about the MVVVM design.
+
+**Key Takeaways**:  
+- Static variables are those variables whose values are shared among all the instance or object of a class. When we define any variable as static, it gets attached to a class rather than an object.
+- The title string that you provide for the button’s label doesn’t appear in the UI when you use the iconOnly label style, but VoiceOver uses it to improve accessibility.
+- [Hacking with Swift - SwiftUI Tips and Tricks](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks)
+- [Where keyword](https://www.avanderlee.com/swift/where-using-swift/)
+
 
 
 
