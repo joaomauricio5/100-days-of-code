@@ -9,7 +9,7 @@
 | [Day 5](#day5)      | Error Handling in Swift + Protocols/Generics | [Day 6](#day6) | Finally overcoming the JSON Tutorial!         |
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
-| [Day 11](#day11)    |                                         | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
+| [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 
 --------------------------------
 
