@@ -274,7 +274,7 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 
 <a name="day11"></a>
 ### Day 11: 7 March 2022, Monday
-### **Landmarks App - User Input pt.3**
+### **Codewars Kata**
 
 **Today's Progress**: Today I decided to keep it simple and spent my coding hour solving Kata in [Codewars](https://www.codewars.com/). Really nice to feel some real progress in the solutions I have been coming up with, specifically when they are super short. I reckon that longer solutions might be easier to read sometimes, however, it's good to still be able to come up with concise code. For this, some of Swift's higher-order functions such as .reduce(), .filter() have been incredibly useful. Looking forward to work with more complex Kata.
 
