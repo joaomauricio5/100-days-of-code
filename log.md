@@ -10,6 +10,7 @@
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
+| [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    |                                               |
 
 --------------------------------
 
@@ -292,6 +293,8 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 2. [Kata 2](https://www.codewars.com/kata/55a70521798b14d4750000a4)
 3. [Kata 3](https://www.codewars.com/kata/545afd0761aa4c3055001386)
 4. [Kata 4](https://www.codewars.com/kata/5715eaedb436cf5606000381)
+
+
 --------------------------------
 
 
@@ -314,3 +317,30 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 
 **Link(s) to work**
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day13"></a>
+### Day 13: 9 March 2022, Wednesday
+### **Starting Cookcademy App**
+
+**Today's Progress**: Today I decided to put Landmarks on the side for a bit (next tutorial step in that app will be to [learn to draw and animate with SwiftUI](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)), and continue my progress in Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by starting the foundation for the Cookcademy app. This is a digital recipe book where users can view, create, edit, favorite, and save recipes.  
+Today was all about creating the model for the application, specifically around setting up the Recipe structure. Learned a few new things which are detailed in the Key Takeaways below.
+
+**Key Takeaways**:  
+- Use MVVM as a way of getting some of our program state and logic out of our view structs. We are, in effect, separating logic from layout.
+- Both the static and class keywords allow us to attach variables to a class rather than to instances of a class. 
+Where static and class differ is how they support inheritance: When you make a static property it becomes owned by the class and cannot be changed by subclasses, whereas when you use class it may be overridden if needed.
+- With Data, we can ask iOS to ensure the file is written with encryption so that it can only be read once the user has unlocked their device. This is in addition to requesting atomic writes – iOS does almost all the work for us.
+- The String(format:) method is used to create a formatted String from a Double. The %g String Format Specifier specifier suppresses any trailing zeros. If you had "1.10000", it would turn your number to "1.1". This functionality allows you to guarantee that the numbers are printed in a readable way.
+
+
+
+
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
