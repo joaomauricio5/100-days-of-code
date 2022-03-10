@@ -10,7 +10,7 @@
 | [Day 7](#day7)      | Closures in Swift                       | [Day 8](#day8)      | Landmarks App - MapAnnotation                 |
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
-| [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    |                                               |
+| [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
 
 --------------------------------
 
@@ -339,6 +339,29 @@ Where static and class differ is how they support inheritance: When you make
 
 
 
+
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day14"></a>
+### Day 14: 10 March 2022, Wednesday
+### **Cookcademy App - Adding a list and sections**
+
+**Today's Progress**: Today I continued working on the Cookcademy app - so far it's been very similar to the Landmarks project in the sense that it presents the user with a List with clickable items that redirect the user to a detailView. Hoping that it gets a bit more complex in the next few steps, but it's good to get some extra practice with Lists and the MVVM - specifially the implementation of property wrappers like @Published, @StateObject and @EnvironmentObject. I was also introduced to the concept of Sections, to organize a list. 
+
+**Key Takeaways**:  
+- Creating a list requires either passing in Identifiable structures or specifying an id with a keypath.
+- Swift keypaths are a means to store a reference to a property, without actually storing the value of the property itself. Think of it as a path to the property.
+- The UUID structure “creates a universally unique value that can be used to identify types, interfaces, and other items”. 
+- When a structure conforms to the Identifiable protocol, it means that it must have a property called id that is a unique identifier. By using an instance of the UUID structure (built into Swift Foundation) we guarantee that id is unique. 
+- If you remove the NavigationView, you will no longer be able to see the navigation title in the preview. 
 
 
 
