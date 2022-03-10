@@ -354,7 +354,7 @@ Where static and class differ is how they support inheritance: When you make
 ### Day 14: 10 March 2022, Wednesday
 ### **Cookcademy App - Adding a list and sections**
 
-**Today's Progress**: Today I continued working on the Cookcademy app - so far it's been very similar to the Landmarks project in the sense that it presents the user with a List with clickable items that redirect the user to a detailView. Hoping that it gets a bit more complex in the next few steps, but it's good to get some extra practice with Lists and the MVVM - specifially the implementation of property wrappers like @Published, @StateObject and @EnvironmentObject. I was also introduced to the concept of Sections, to organize a list. 
+**Today's Progress**: Today I continued working on the Cookcademy app - so far it's been very similar to the Landmarks project in the sense that it presents the user with a List with clickable items that redirect the user to a detailView. Hoping that it gets a bit more complex in the next few steps, but it's good to get some extra practice with Lists and the MVVM software architectural pattern - specifically the implementation of property wrappers like @Published, @StateObject and @EnvironmentObject. I was also introduced to the concept of Sections, to organize a list. 
 
 **Key Takeaways**:  
 - Creating a list requires either passing in Identifiable structures or specifying an id with a keypath.
