@@ -11,6 +11,7 @@
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
+| [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    |                                               |
 
 --------------------------------
 
@@ -351,7 +352,7 @@ Where static and class differ is how they support inheritance: When you make
 
 
 <a name="day14"></a>
-### Day 14: 10 March 2022, Wednesday
+### Day 14: 10 March 2022, Thursday
 ### **Cookcademy App - Adding a list and sections**
 
 **Today's Progress**: Today I continued working on the Cookcademy app - so far it's been very similar to the Landmarks project in the sense that it presents the user with a List with clickable items that redirect the user to a detailView. Hoping that it gets a bit more complex in the next few steps, but it's good to get some extra practice with Lists and the MVVM software architectural pattern - specifically the implementation of property wrappers like @Published, @StateObject and @EnvironmentObject. I was also introduced to the concept of Sections, to organize a list. 
@@ -363,6 +364,30 @@ Where static and class differ is how they support inheritance: When you make
 - When a structure conforms to the Identifiable protocol, it means that it must have a property called id that is a unique identifier. By using an instance of the UUID structure (built into Swift Foundation) we guarantee that id is unique. 
 - If you remove the NavigationView, you will no longer be able to see the navigation title in the preview. 
 
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+
+--------------------------------
+
+
+
+<a name="day15"></a>
+### Day 15: 11 March 2022, Friday
+### **SwiftUI Grids**
+
+**Today's Progress**: Today I studied and practiced Grids in SwiftUI. The implementation seems to be very simple, and it's really seamless to adapt the grids to different device sizes. I created a simple scrollable calendar with uses Capsules for each day of the week. Each day is then laid out (7 days horizontally) into the standard calendar layout we know. I then started to import this knowledge into the Cookcademy app, to define a grid with a NavigationLink that takes user to different categories of recipes (breakfast, lunch, dinner, dessert).
+
+**Key Takeaways**:  
+- In order to create our grid-based view, we’ll need to define an array of GridItem instances first. These GridItem instances serve to describe the layout properties of the grid. We can use various types of GridItem instances to get the spacing and alignment of the columns or rows of the grid exactly how we wish. We can even use them to describe a grid that adjusts dynamically based on the size and orientation of the device.
+- Similar to the concept of lazy properties, the Lazy in LazyVGrid and LazyHGrid refers to the fact that the elements of the grid aren’t created until they are needed to display in the view.
+- Loading thousands of images would cause the app to slow down. By using lazy loading, we create much smoother, more performant user experiences.
+- With GridItem, the flexible option creates a column that takes up the available width it has. You must define a minimum width, and you can optionally specify a maximum width.
+- Another useful feature of grids is the ability to pin views while scrolling. The section header view sticks to the top of the screen while you are scrolling through that particular section. This can help create a smooth, intuitive user experience.
+- You are not supposed to do any kind of looping/condition making block of codes while creating Array's or Dictionary.
 
 
 **Link(s) to work**
