@@ -379,7 +379,7 @@ Where static and class differ is how they support inheritance: When you make
 ### Day 15: 11 March 2022, Friday
 ### **SwiftUI Grids**
 
-**Today's Progress**: Today I studied and practiced Grids in SwiftUI. The implementation seems to be very simple, and it's really seamless to adapt the grids to different device sizes. I created a simple scrollable calendar with uses Capsules for each day of the week. Each day is then laid out (7 days horizontally) into the standard calendar layout we know. I then started to import this knowledge into the Cookcademy app, to define a grid with a NavigationLink that takes user to different categories of recipes (breakfast, lunch, dinner, dessert).
+**Today's Progress**: Today I studied and practiced Grids in SwiftUI. The implementation seems to be very simple, and it's really seamless to adapt the grids to different device sizes. I created a simple scrollable calendar which uses Capsules for each day of the week. Each day is then laid out (7 days horizontally) into the standard calendar layout we know. I started to import this knowledge into the Cookcademy app, to define a grid with NavigationLinks that take the user to different categories of recipes (breakfast, lunch, dinner, dessert).
 
 **Key Takeaways**:  
 - In order to create our grid-based view, we’ll need to define an array of GridItem instances first. These GridItem instances serve to describe the layout properties of the grid. We can use various types of GridItem instances to get the spacing and alignment of the columns or rows of the grid exactly how we wish. We can even use them to describe a grid that adjusts dynamically based on the size and orientation of the device.
