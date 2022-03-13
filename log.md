@@ -11,7 +11,7 @@
 | [Day 9](#day9)      | Landmarks App - User Input              | [Day 10](#day8)     | Landmarks App - User Input pt.2               |
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
-| [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    |                                               |
+| [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
 
 --------------------------------
 
@@ -392,3 +392,24 @@ Where static and class differ is how they support inheritance: When you make
 
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day16"></a>
+### Day 16: 12 March 2022, Saturday
+### **SwiftUI Grids**
+
+**Today's Progress**: Today I had to keep it short so I completed a few Codewars' Kata for an hour. I'm starting to feel more confident with a bit more complex coding challenges. I managed to complete a level 6 Kata and it definitely feels good. Looking forward to being able to complete level 1 challenges but, in the meanwhile, I'm really enjoying the process of getting there. Will continue working on the Cookcademy app in the next few days.
+
+**Key Takeaways**:  
+- Completed my first 6 kyu Codewars' Kata!
+
+
+
+**Link(s) to work**
+1. [Kata 1](https://www.codewars.com/kata/5813d19765d81c592200001a)
+2. [Kata 2](https://www.codewars.com/kata/5d5ee4c35162d9001af7d699)
+3. [Kata 3](https://www.codewars.com/kata/5596f6e9529e9ab6fb000014)
