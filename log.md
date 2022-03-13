@@ -427,8 +427,11 @@ Where static and class differ is how they support inheritance: When you make
 ### Day 17: 13 March 2022, Sunday
 ### **Cookcademy Category Grid + Codewars**
 
-**Today's Progress**: 
+**Today's Progress**: Today I managed to complete another section in Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by building a category grid for the Cookcademy app. This meant creating a grid of 4 categories for the recipes (breakfast, lunch, dinner and dessert), and redirecting the user to the chosen list of recipes, while still keeping the MVVM model by making sure the views don't directly interact with the models. I'm finding that trying to implement the requirements myself rather than directly following the tutorials has been really beneficial. I then use the tutorials to get a few hints or to compare with my solution. I also managed to complete 7 Codewars Kata. I'm really enjoying the challenges.
+
 **Key Takeaways**:  
+- For the iOS project tutorials, I'm going to try to implement the app requirements mostly by myself rather than just following the tutorial steps.
+- I am now getting comfortable with Level 8 and 7 Kata in Codewars, so I'm going to try to challenge myself a bit more with Level 6 challenges.
 
 
 **Link(s) to work**
