@@ -12,6 +12,7 @@
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
+| [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | Codewars Kata                                 |
 
 --------------------------------
 
@@ -414,3 +415,28 @@ Where static and class differ is how they support inheritance: When you make
 1. [Kata 1](https://www.codewars.com/kata/5813d19765d81c592200001a)
 2. [Kata 2](https://www.codewars.com/kata/5d5ee4c35162d9001af7d699)
 3. [Kata 3](https://www.codewars.com/kata/5596f6e9529e9ab6fb000014)
+
+
+
+
+--------------------------------
+
+
+
+<a name="day17"></a>
+### Day 17: 13 March 2022, Sunday
+### **Cookcademy Category Grid + Codewars**
+
+**Today's Progress**: 
+**Key Takeaways**:  
+
+
+**Link(s) to work**
+1. [Kata 1](https://www.codewars.com/kata/5544c7a5cb454edb3c000047)
+2. [Kata 2](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
+3. [Kata 3](https://www.codewars.com/kata/5545f109004975ea66000086)
+4. [Kata 4](https://www.codewars.com/kata/5583090cbe83f4fd8c000051)
+5. [Kata 5](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
+6. [Kata 6](https://www.codewars.com/kata/57eae65a4321032ce000002d)
+7. [Kata 7](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
+8. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
