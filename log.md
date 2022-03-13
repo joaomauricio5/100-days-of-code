@@ -400,12 +400,13 @@ Where static and class differ is how they support inheritance: When you make
 
 <a name="day16"></a>
 ### Day 16: 12 March 2022, Saturday
-### **SwiftUI Grids**
+### **Codewars Kata**
 
 **Today's Progress**: Today I had to keep it short so I completed a few Codewars' Kata for an hour. I'm starting to feel more confident with a bit more complex coding challenges. I managed to complete a level 6 Kata and it definitely feels good. Looking forward to being able to complete level 1 challenges but, in the meanwhile, I'm really enjoying the process of getting there. Will continue working on the Cookcademy app in the next few days.
 
 **Key Takeaways**:  
 - Completed my first 6 kyu Codewars' Kata!
+- Got some more practice with the *filter* higher-order function. Definitely proving to be super useful for these challenges.
 
 
 
