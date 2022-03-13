@@ -432,6 +432,7 @@ Where static and class differ is how they support inheritance: When you make
 **Key Takeaways**:  
 - For the iOS project tutorials, I'm going to try to implement the app requirements mostly by myself rather than just following the tutorial steps.
 - I am now getting comfortable with Level 8 and 7 Kata in Codewars, so I'm going to try to challenge myself a bit more with Level 6 challenges.
+- The map() method allows us to transform arrays (and indeed any kind of collection) using a transformation closure we specify. The return value will be an array of the same size, containing your transformed elements.
 
 
 **Link(s) to work**
