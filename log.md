@@ -12,7 +12,7 @@
 | [Day 11](#day11)    | Codewars Kata                           | [Day 12](#day12)    | Landmarks App - User Input pt.3               |
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
-| [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | Codewars Kata                                 |
+| [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
 
 --------------------------------
 
@@ -445,3 +445,25 @@ Where static and class differ is how they support inheritance: When you make
 6. [Kata 6](https://www.codewars.com/kata/57eae65a4321032ce000002d)
 7. [Kata 7](https://www.codewars.com/kata/5467e4d82edf8bbf40000155)
 8. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day18"></a>
+### Day 18: 14 March 2022, Monday
+### **HackerRank + Codewars**
+
+**Today's Progress**: Today I focused solely on coding challenges. I started using [HackerRank](https://www.hackerrank.com/dashboard) as it was recommended for technical interview prepping. The challenges I've completed today were quite simple, but I'm pushing myself to also think out loud and explain my process as if someone else was seeing me code. From what I've read, being able to explain my thought process is super important for technical interviews and it definitely makes it a little bit harder for me at the moment, so I want to make sure I practice as much as possible.
+
+**Key Takeaways**:  
+- I'm going to start using [HackerRank](https://www.hackerrank.com/dashboard) more frequently to prep for technical interviews.
+- I'm going to focus on also explaining my thought process while I'm solving coding challenges.
+- I'm thinking of also completing HackerRank's 30 Days of Code by solving at least one of their suggested challenges each day.
+
+
+**Link(s) to work**
+1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem?h_r=profile)
+2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)
+3. [Codewars Kata](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)
