@@ -175,7 +175,7 @@ Also had the chance to learn more about Preview modifiers such as *previewLayout
 ### Day 7: 3 March 2022, Thursday
 ### **Closures in Swift**
 
-**Today's Progress**: Today I finally completed Codecademy's Course in [Intermediate Swift](https://www.codecademy.com/learn/learn-intermediate-swift) by finshing the Closures module. I should say this course stretched my brain a little bit, but it's really great to be continuously learning more and more concepts (which I can definitely apply to other programming languages apart from Swift). I have seen closures being used in some CodeWars solutions but never took the time to fully understand them. I can now see how useful they can be, specifically when paired up with Swift higher-order methods like reduce, map, filter , etc etc.
+**Today's Progress**: Today I finally completed Codecademy's Course in [Intermediate Swift](https://www.codecademy.com/learn/learn-intermediate-swift) by finishing the Closures module. I should say this course stretched my brain a little bit, but it's really great to be continuously learning more and more concepts (which I can definitely apply to other programming languages apart from Swift). I have seen closures being used in some CodeWars solutions but never took the time to fully understand them. I can now see how useful they can be, specifically when paired up with Swift higher-order methods like reduce, map, filter , etc etc.
 
 
 **Key Takeaways**:  
