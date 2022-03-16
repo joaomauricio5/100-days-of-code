@@ -13,6 +13,7 @@
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
+| [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    |                                               |
 
 --------------------------------
 
@@ -467,3 +468,30 @@ Where static and class differ is how they support inheritance: When you make
 1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem?h_r=profile)
 2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)
 3. [Codewars Kata](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039)
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day19"></a>
+### Day 19: 15 March 2022, Tuesday
+### **More HackerRank**
+
+**Today's Progress**: Today was quite a busy day travelling but I still put in some practice with HackerRank challenges and Codecademy practice sessions for the [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer). I've recently applied for 2 roles that might lead to a technical interview so I'm starting to feel like I should shift my focus onto these kinds of challenges, at least for me to feel a bit more prepared. I'm going back to SwiftUI in a few days.
+I also realised how useful the if let or guard let statements are when dealing with optionals. A few weeks ago I was struggling with a few exercises with Dictionaries because I was dealing with keys that hadn't been yet initialised. In these cases, we can use the guard let / if let statements to check if the key-value pair is already initialized -> if it is, then we proceed with our code, otherwise we can initialise them. Really useful when trying to figure out the number of times that a specific string or int shows up in an array, for example.
+
+
+**Key Takeaways**:  
+- Internal is the default level of access control in Swift when creating variables
+- Use guard let or if let when trying to access dictionary keys that may not have been initialized already
+
+
+
+**Link(s) to work**
+1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/30-data-types?h_r=profile)
+2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer?h_r=profile)
+3. [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer)
