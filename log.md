@@ -508,7 +508,7 @@ I also realised how useful the if let or guard let statements are when dealing w
 ### Day 20: 16 March 2022, Wednesday
 ### **More HackerRank pt.2**
 
-**Today's Progress**: Today I continued working on HackerRank's coding challenges. I've started doing their 30 Days of Code which I'm also expecting to complete, but those challenges are still fairly easy at the moment. Today I've also changed my approach to these coding challenges - although I can normally come up with quick solutions using Swift's built-in functions, I'm pushing myself to also provide solutions that don't use functions like map, filter, reduce, etc, just in case I'm asked to do that in a technical interview. So, for each coding challenge, I try to provide 1 lenghtier solution with no major Swift functions and another shorter ones that uses Swift's "shortcuts".
+**Today's Progress**: Today I continued working on HackerRank's coding challenges. I've started doing their 30 Days of Code which I'm also expecting to complete, but those challenges are still fairly easy at the moment. Today I've also changed my approach to these problems - although I can normally come up with quick solutions using Swift's built-in functions, I'm pushing myself to also provide solutions that don't use functions like map, filter, reduce, etc, just in case I'm asked to do that in a technical interview. So, for each coding challenge, I try to provide 1 lenghtier solution with no major Swift functions and another shorter one that uses Swift's "shortcuts". So, rather than focusing on the number of challenges completed, I'm trying to explore different solutions as much as I can, even if I can come up with one solution very quickly.
 
 
 **Key Takeaways**:  
