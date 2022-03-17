@@ -13,7 +13,7 @@
 | [Day 13](#day13)    | Starting Cookcademy App                 | [Day 14](#day14)    | Cookcademy App - Adding a list and sections   |
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
-| [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    |                                               |
+| [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
 
 --------------------------------
 
@@ -495,3 +495,29 @@ I also realised how useful the if let or guard let statements are when dealing w
 1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/30-data-types?h_r=profile)
 2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer?h_r=profile)
 3. [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer)
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day20"></a>
+### Day 20: 16 March 2022, Wednesday
+### **More HackerRank pt.2**
+
+**Today's Progress**: Today I continued working on HackerRank's coding challenges. I've started doing their 30 Days of Code which I'm also expecting to complete, but those challenges are still fairly easy at the moment. Today I've also changed my approach to these coding challenges - although I can normally come up with quick solutions using Swift's built-in functions, I'm pushing myself to also provide solutions that don't use functions like map, filter, reduce, etc, just in case I'm asked to do that in a technical interview. So, for each coding challenge, I try to provide 1 lenghtier solution with no major Swift functions and another shorter ones that uses Swift's "shortcuts".
+
+
+**Key Takeaways**:  
+- When working with coding challenges, it seems to be good practice to also find solutions that don't rely on specific Swift functions (like map, filter, reduce etc).
+- I'm getting more practice with explaining my solutions out loud and also my thought process while I'm completing coding challenges.
+
+
+
+**Link(s) to work**
+1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/problem)
+2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/30-operators/problem?h_r=profile)
+3. [HackerRank 3rd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem)
