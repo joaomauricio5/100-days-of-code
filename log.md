@@ -14,6 +14,7 @@
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
+| [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    |                                               |
 
 --------------------------------
 
@@ -521,3 +522,28 @@ I also realised how useful the if let or guard let statements are when dealing w
 1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/problem)
 2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/30-operators/problem?h_r=profile)
 3. [HackerRank 3rd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem)
+
+
+--------------------------------
+
+
+
+<a name="day21"></a>
+### Day 21: 17 March 2022, Thursday
+### **Toolbars and Sheets in SwiftUI**
+
+**Today's Progress**: Today I continued my learning in Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by practicing with Sheets and Toolbars in SwiftUI. I took a quiz and created a small project to implement what I've learnt but tomorrow I'll be working on adding these to the Cookcademy app. Additionally, I've also completed 2 HackerRank challenges. They are starting to get a bit more complex but I'm really happy I've been able to handle the challenges by breaking them down into a few different steps.
+
+
+**Key Takeaways**:  
+- SwiftUI’s toolbar modifier allows for placement of views along the top or bottom space of a view. For a toolbar to work properly, it must be embedded in a NavigationView.
+- According to the Apple docs, a toolbar wraps views just like a VStack or NavigationView
+- the toolbar is by default a transparent container.
+- A ToolbarItem can be given a specific placement onto the toolbar. The placement is determined by the optional placement parameter for ToolbarItem which takes in a value of type ToolbarItemPlacement. If there is no placement given, it will default to the top right corner.
+- SwiftUI sheets are used to present a new view over an existing one. Think of this as a stack of papers. You can have multiple sheets on top of one another, and the middle one can be accessed by removing the ones above it.
+
+
+**Link(s) to work**
+1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem?h_r=profile)
+2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/30-conditional-statements/problem?h_r=profile)
+3. [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer)
