@@ -558,7 +558,9 @@ I also realised how useful the if let or guard let statements are when dealing w
 ### Day 22: 18 March 2022, Friday
 ### **Adding recipes to Cookcademy + Sheets/Toolbars**
 
-**Today's Progress**: 
+**Today's Progress**: Today I continued working on the Cookcademy app by adding a Modal View that provides the foundation for users to add recipes to the app. Currently it only populates a newRecipe with test strings, but in the next few days it will allow users to fully save whole recipes with their own text input. I also got some practice with the @Binding property wrapper in order to understand which cases it should be used in.  
+While learning what a modal view was, I also explored Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/), and it seems like such a great resource for making applications, as it provides tips to create great user experiences.  
+Additionally, I also completed 4 [HackerRank](https://www.hackerrank.com/dashboard) challenges.
 
 
 **Key Takeaways**: 
