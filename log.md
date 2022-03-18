@@ -14,7 +14,7 @@
 | [Day 15](#day15)    | SwiftUI Grids                           | [Day 16](#day16)    | Codewars Kata                                 |
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
-| [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    |                                               |
+| [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 
 --------------------------------
 
@@ -547,3 +547,26 @@ I also realised how useful the if let or guard let statements are when dealing w
 1. [HackerRank 1st challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem?h_r=profile)
 2. [HackerRank 2nd challenge](https://www.hackerrank.com/challenges/30-conditional-statements/problem?h_r=profile)
 3. [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer)
+
+
+
+--------------------------------
+
+
+
+<a name="day22"></a>
+### Day 22: 18 March 2022, Friday
+### **Adding recipes to Cookcademy + Sheets/Toolbars**
+
+**Today's Progress**: 
+
+
+**Key Takeaways**:  
+
+
+**Link(s) to work**
+1. [HackerRank - Diagonal Difference](https://www.hackerrank.com/challenges/one-month-preparation-kit-diagonal-difference?h_r=profile)
+2. [HackerRank - Permuting Two Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-two-arrays?h_r=profile)
+3. [HackerRank - Pangrams](https://www.hackerrank.com/challenges/one-month-preparation-kit-pangrams?h_r=profile)
+4. [HackerRank - XOR Strings 2](https://www.hackerrank.com/challenges/one-month-preparation-kit-strings-xor?h_r=profile)
+6. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
