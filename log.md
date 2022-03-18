@@ -561,7 +561,11 @@ I also realised how useful the if let or guard let statements are when dealing w
 **Today's Progress**: 
 
 
-**Key Takeaways**:  
+**Key Takeaways**: 
+- According to the [Apple Docs](https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/modality/), a modal view is a temporary view that’s separate from the user’s previous current context and requires an explicit action to exit.
+- Presenting content modally can: help people focus on a self-contained task or set of closely related options; ensure that people receive critical information and, if necessary, act on it.
+- @Binding lets us declare that one value actually comes from elsewhere, and should be shared in both places. This is not the same as @ObservedObject or @EnvironmentObject, both of which are designed for reference types to be shared across potentially many views.
+- The binding allows ModifyRecipeView to access and modify the original property as if it owned recipe (*Recipe()*).
 
 
 **Link(s) to work**
