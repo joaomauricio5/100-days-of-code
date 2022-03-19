@@ -15,6 +15,7 @@
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
+| [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    |                                               |
 
 --------------------------------
 
@@ -576,3 +577,24 @@ Additionally, I also completed 4 [HackerRank](https://www.hackerrank.com/dashboa
 3. [HackerRank - Pangrams](https://www.hackerrank.com/challenges/one-month-preparation-kit-pangrams?h_r=profile)
 4. [HackerRank - XOR Strings 2](https://www.hackerrank.com/challenges/one-month-preparation-kit-strings-xor?h_r=profile)
 6. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+--------------------------------
+
+
+
+<a name="day23"></a>
+### Day 23: 19 March 2022, Saturday
+### **Reviewing Closures + HackerRank**
+
+**Today's Progress**: Today I came back from work quite late so I ended doing just a quick review on closures through Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) and a few HackerRank challenges. I managed to finish 2 challenges but I also started a third one which I still need some time with.   
+I noticed that HackerRank also offers Problem Solving Certificates, so I'm going to take the test for the Basic certificate in the next few days. 
+
+
+**Key Takeaways**: 
+- [HackerRank Certifications](https://www.hackerrank.com/skills-verification)
+
+
+**Link(s) to work**
+1. [HackerRank - Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?h_r=profile)
+2. [HackerRank - Counting Sort](https://www.hackerrank.com/challenges/one-month-preparation-kit-countingsort1?h_r=profile)
