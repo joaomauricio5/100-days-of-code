@@ -588,7 +588,7 @@ Additionally, I also completed 4 [HackerRank](https://www.hackerrank.com/dashboa
 ### **Reviewing Closures + HackerRank**
 
 **Today's Progress**: Today I came back from work quite late so I ended doing just a quick review on closures through Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) and a few HackerRank challenges. I managed to finish 2 challenges but I also started a third one which I still need some time with.   
-I noticed that HackerRank also offers Problem Solving Certificates, so I'm going to take the test for the Basic certificate in the next few days. 
+I noticed that HackerRank also offers Problem Solving Certificates, so I'm going to take the exam for the Basic certificate in the next few days to test how my skills evolved in these past few weeks.
 
 
 **Key Takeaways**: 
