@@ -15,7 +15,7 @@
 | [Day 17](#day17)    | Cookcademy Category Grid + Codewars     | [Day 18](#day18)    | HackerRank + Codewars                         |
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
-| [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    |                                               |
+| [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 
 --------------------------------
 
@@ -598,3 +598,32 @@ I noticed that HackerRank also offers Problem Solving Certificates, so I'm going
 **Link(s) to work**
 1. [HackerRank - Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?h_r=profile)
 2. [HackerRank - Counting Sort](https://www.hackerrank.com/challenges/one-month-preparation-kit-countingsort1?h_r=profile)
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day24"></a>
+### Day 24: 20 March 2022, Sunday
+### **Forms, TextEditors and Pickers in SwiftUI**
+
+**Today's Progress**: Today I continued Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) and learnt about some new SwiftUI concepts, such as Form, TextField, TextEditor and Picker. With this, I created a small app which consists of a simple contact form that utilises these new concepts. The apps I've been working on so far only consisted of buttons, text, navigation, haven't included any data editing, so I was looking forward to concepts I've learnt today. I'm liking SwiftUI more and more each day. Very intuitive so far and straight to the point.  
+I've also completed a small quiz about today's lessons and the daily challenge from HackerRank's 30 Days of Code.
+
+
+**Key Takeaways**: 
+- The Form element wraps controls used for data entry. SwiftUI includes many of those controls, including toggles, text fields, pickers, and more.
+- A TextField is a view that lets us enter and edit short bits of text
+- While TextField is great for short bits of text, we’ll want to use something different for long-form text: the TextEditor view. Text editors let us display and edit as many lines of text as we need—perfect for composing messages, descriptions, and anything else that won’t fit on one line.
+- Just as we’ve learned to do with lists, we can organize our forms using sections.
+- By default, pickers use a NavigationLink to present a list of options on a separate page.
+- Notice that each option has a tag attached. That’s how SwiftUI knows what value the picker represents.
+- SwiftUI lets us choose from a few different picker styles that might better suit our needs. We can apply a picker style using the .pickerStyle() view modifier. 
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
