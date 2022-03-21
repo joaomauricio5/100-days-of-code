@@ -16,6 +16,7 @@
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
+| [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate | [Day 26](#day26)    |                                               |
 
 --------------------------------
 
@@ -627,3 +628,29 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+
+
+--------------------------------
+
+
+
+<a name="day25"></a>
+### Day 25: 21 March 2022, Monday
+### **HackerRank's Basic Problem Solving Certificate**
+
+**Today's Progress**: Today I was 100% focused on HackerRank's coding challenges. I felt prepared for the [Basic Problem Solving Certificate](https://www.hackerrank.com/skills-verification/problem_solving_basic) so I decided to give it a try. It was a 1h30 test with 2 different challenges. I was quite impressed that, even though I got to the solutions and my test cases were passing, the submission wasn't being counted as "valid" or "correct" because the computation for my algorithm took longer than HackerRank's limit for Swift (2 seconds). Although this was frustrating, as the problem solving part of it was "correct", it served as a "wake up call" for me to start studying the time complexity of my solutions and how to make them more efficient. I'll be able to take the test again in 30 days.
+
+
+**Key Takeaways**: 
+- HackerRank Certificates apparently require the solutions for their challenges to be able to be computed quicker than their specified maximum time.
+- I need to start thinking about the time complexity of my solutions to coding challenges. How can I start studying it?
+
+
+**Link(s) to work**
+1. [HackerRank - Flipping bits](https://www.hackerrank.com/challenges/one-month-preparation-kit-flipping-bits?h_r=profile)
+2. [HackerRank - Sales by Match](https://www.hackerrank.com/challenges/one-month-preparation-kit-sock-merchant?h_r=profile)
+3. [HackerRank - Zig Zag Sequence](https://www.hackerrank.com/challenges/one-month-preparation-kit-zig-zag-sequence?h_r=profile)
+4. [HackerRank - Drawing Book](https://www.hackerrank.com/challenges/one-month-preparation-kit-drawing-book?h_r=profile)
+5. [HackerRank Basic Problem Solving Certificate](https://www.hackerrank.com/skills-verification/problem_solving_basic)
