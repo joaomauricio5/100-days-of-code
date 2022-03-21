@@ -644,7 +644,7 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 
 
 **Key Takeaways**: 
-- HackerRank Certificates apparently require the solutions for their challenges to be able to be computed quicker than their specified maximum time.
+- HackerRank Certificates apparently require the solutions for their challenges to be able to be computed quicker than their specified maximum time for the used language.
 - I need to start thinking about the time complexity of my solutions to coding challenges. How can I start studying it?
 
 
