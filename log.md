@@ -16,7 +16,7 @@
 | [Day 19](#day19)    | More HackerRank                         | [Day 20](#day20)    | More HackerRank pt.2                          |
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
-| [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate | [Day 26](#day26)    |                                               |
+| [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 
 --------------------------------
 
@@ -654,3 +654,25 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 3. [HackerRank - Zig Zag Sequence](https://www.hackerrank.com/challenges/one-month-preparation-kit-zig-zag-sequence?h_r=profile)
 4. [HackerRank - Drawing Book](https://www.hackerrank.com/challenges/one-month-preparation-kit-drawing-book?h_r=profile)
 5. [HackerRank Basic Problem Solving Certificate](https://www.hackerrank.com/skills-verification/problem_solving_basic)
+
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day25"></a>
+### Day 25: 21 March 2022, Monday
+### **Adding new recipe editing for Cookcademy**
+
+**Today's Progress**: Today I continued working on the Cookcademy app by adding a features that lets users customize the main information section of a new recipe (name, author, description and category). This was done using the new concepts I learnt a few days ago from Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) around Picker, Form, TextField, TextEditor and Sections. I'm still continuing my journey through the tutorials by trying to come up with my own implementation before reading the full step by step guide, which has been going surprisingly well. This is allowing me to really test what I've learnt and make sure that I get real practice.  
+I've also completed HackerRank's daily coding challenge through their [30 Days Of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code). Currently on day 8.
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps?isFullScreen=true)
+
