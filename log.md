@@ -664,8 +664,8 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 
 
 
-<a name="day25"></a>
-### Day 25: 21 March 2022, Monday
+<a name="day26"></a>
+### Day 26: 22 March 2022, Tuesday
 ### **Adding new recipe editing for Cookcademy**
 
 **Today's Progress**: Today I continued working on the Cookcademy app by adding a features that lets users customize the main information section of a new recipe (name, author, description and category). This was done using the new concepts I learnt a few days ago from Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) around Picker, Form, TextField, TextEditor and Sections. I'm still continuing my journey through the tutorials by trying to come up with my own implementation before reading the full step by step guide, which has been going surprisingly well. This is allowing me to really test what I've learnt and make sure that I get real practice.  
