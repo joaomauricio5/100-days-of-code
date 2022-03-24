@@ -17,6 +17,7 @@
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
+| [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28) |                                             |
 
 --------------------------------
 
@@ -675,4 +676,29 @@ I've also completed HackerRank's daily coding challenge through their [30 Days O
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps?isFullScreen=true)
+
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day27"></a>
+### Day 27: 23 March 2022, Wednesday
+### **Continuing recipe editing in Cookcademy**
+
+**Today's Progress**: Today I continued working on the recipe editing for Cookcademy, specifically the ingredients section. I was able to implement the addition of new ingredients to the list, by creating a new view that presents the user with the current list of ingredients and a button to add a new ingredient. That button then redirects the user to another view which will detail the name of the ingredient, the quantity, and the units (if applicable).
+I got introduced to the Stepper view and how we can use it to easily change numeric values in our application.
+
+**Key Takeaways**: 
+- Use keyboardType(_:) to specify the keyboard type to use for text entry. A number of different keyboard types are available to meet specialized input needs, such as entering email addresses or phone numbers.
+- Use a stepper control when you want the user to have granular control while incrementing or decrementing a value. For example, you can use a stepper to: change a value up or down by 1; operate strictly over a prescribed range; step by specific amounts over a stepper’s range of possible values.
+- Instances of NumberFormatter format the textual representation of cells that contain NSNumber objects and convert textual representations of numeric values into NSNumber objects. The representation encompasses integers, floats, and doubles; floats and doubles can be formatted to a specified decimal position. NumberFormatter objects can also impose ranges on the numeric values cells can accept.
+- 
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 
