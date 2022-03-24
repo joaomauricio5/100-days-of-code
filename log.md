@@ -17,7 +17,7 @@
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
-| [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28) |                                             |
+| [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28).    | Protocols and Generics in Cookcademy          |
 
 --------------------------------
 
@@ -697,6 +697,29 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 - Use keyboardType(_:) to specify the keyboard type to use for text entry. A number of different keyboard types are available to meet specialized input needs, such as entering email addresses or phone numbers.
 - Use a stepper control when you want the user to have granular control while incrementing or decrementing a value. For example, you can use a stepper to: change a value up or down by 1; operate strictly over a prescribed range; step by specific amounts over a stepper’s range of possible values.
 - Instances of NumberFormatter format the textual representation of cells that contain NSNumber objects and convert textual representations of numeric values into NSNumber objects. The representation encompasses integers, floats, and doubles; floats and doubles can be formatted to a specified decimal position. NumberFormatter objects can also impose ranges on the numeric values cells can accept.
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day28"></a>
+### Day 28: 24 March 2022, Thursday
+### **Protocols and Generics in Cookcademy**
+
+**Today's Progress**: Today I got some more real-world practice with generics and generic where clauses, by creating a view for Cookcademy that can edit either Ingredients or Directions in each recipe of the app. I also had to implement protocols to make sure the model had the necessary structure properties to be "compatible" with the views, such as Ingredient and Recipe both having a String representation (description such as "3 tablespoons of olive oil" / "Bake for 35 minutes"). This reminds me of polymorphism with C++ and it definitely is a great way of avoiding redundant code.
+
+**Key Takeaways**: 
+- Types that conform to the CustomStringConvertible protocol can provide their own representation to be used when converting an instance to a string. The String(describing:) initializer is the preferred way to convert an instance of any type to a string. If the passed instance conforms to CustomStringConvertible, the String(describing:) initializer and the print(_:) function use the instance’s custom description property.
+- Type constraints, as described in Type Constraints, enable you to define requirements on the type parameters associated with a generic function, subscript, or type.
+- A generic where clause enables you to require that an associated type must conform to a certain protocol, or that certain type parameters and associated types must be the same. A generic where clause starts with the where keyword, followed by constraints for associated types or equality relationships between types and associated types.
 
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
