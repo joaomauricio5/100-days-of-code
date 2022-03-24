@@ -697,7 +697,6 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 - Use keyboardType(_:) to specify the keyboard type to use for text entry. A number of different keyboard types are available to meet specialized input needs, such as entering email addresses or phone numbers.
 - Use a stepper control when you want the user to have granular control while incrementing or decrementing a value. For example, you can use a stepper to: change a value up or down by 1; operate strictly over a prescribed range; step by specific amounts over a stepper’s range of possible values.
 - Instances of NumberFormatter format the textual representation of cells that contain NSNumber objects and convert textual representations of numeric values into NSNumber objects. The representation encompasses integers, floats, and doubles; floats and doubles can be formatted to a specified decimal position. NumberFormatter objects can also impose ranges on the numeric values cells can accept.
-- 
 
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
