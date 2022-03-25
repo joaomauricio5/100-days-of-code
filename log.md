@@ -17,8 +17,8 @@
 | [Day 21](#day21)    | Toolbars and Sheets in SwiftUI          | [Day 22](#day22)    | Adding recipes to Cookcademy + Sheets/Toolbars|
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
-| [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28).    | Protocols and Generics in Cookcademy          |
-| [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30).    |                                               |
+| [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
+| [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     |                                               |
 
 --------------------------------
 
