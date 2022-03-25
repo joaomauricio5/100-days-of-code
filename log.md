@@ -18,6 +18,7 @@
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28).    | Protocols and Generics in Cookcademy          |
+| [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30).    |                                               |
 
 --------------------------------
 
@@ -723,4 +724,21 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+
+
+
+--------------------------------
+
+
+
+<a name="day29"></a>
+### Day 29: 25 March 2022, Friday
+### **HackerRank challenges**
+
+**Today's Progress**: Today I focused on solving 3 different HackerRank challenges. I'm currently doing their [1 Month Preparation Kit](https://www.hackerrank.com/interview/preparation-kits/one-month-preparation-kit) for technical interviews and I'm on week 2. It's getting to the point where each challenge is taking me almost 30 minutes to complete and they're getting more and more complex. However, it feels like progress because I have still been able to complete them and fully understand the solution. There is only one challenge so far from HackerRank which I still haven't found a solution for. Will come back to it in a few days.
+
+**Link(s) to work**
+1. [HackerRank - 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays?h_r=profile)
+2. [HackerRank - Caesar Cipher](https://www.hackerrank.com/challenges/one-month-preparation-kit-caesar-cipher-1?h_r=profile)
+3. [HackerRank - Dynamic Array](https://www.hackerrank.com/challenges/one-month-preparation-kit-dynamic-array?h_r=profile)
 
