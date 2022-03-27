@@ -18,7 +18,7 @@
 | [Day 23](#day23)    | Reviewing Closures + HackerRank         | [Day 24](#day24)    | Forms, TextEditors and Pickers in SwiftUI     |
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
-| [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     |                                               |
+| [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
 
 --------------------------------
 
@@ -741,4 +741,23 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 1. [HackerRank - 2D Arrays](https://www.hackerrank.com/challenges/30-2d-arrays?h_r=profile)
 2. [HackerRank - Caesar Cipher](https://www.hackerrank.com/challenges/one-month-preparation-kit-caesar-cipher-1?h_r=profile)
 3. [HackerRank - Dynamic Array](https://www.hackerrank.com/challenges/one-month-preparation-kit-dynamic-array?h_r=profile)
+
+
+
+
+
+--------------------------------
+
+
+
+<a name="day30"></a>
+### Day 30: 26 March 2022, Saturday
+### **Static properties in Cookcademy + HackerRank**
+
+**Today's Progress**: Today I made a small improvement on Cookcademy in order for app the able to display the name of the generic component that is being displayed (is the user seeing a recipe or a direction?). This was done by adding a static property to the RecipeComponent protocol and then displaying it on the screen. I'm starting to feel like I have been able to solve all of these "bugs" by myself without looking at the tutorial and I think it's a sign that I'm improving! Additionally, I completed 2 HackerRank challenges.
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Grid challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-grid-challenge?h_r=profile)
+3. [HackerRank - Day12: Inheritance](https://www.hackerrank.com/challenges/30-inheritance?h_r=profile)
 
