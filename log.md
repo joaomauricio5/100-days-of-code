@@ -19,8 +19,9 @@
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
+| [Day 31](#day31)    |                                         |[Day 32](#day32)     |                                               |
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 <a name="day1"></a>
 ### Day 1: 25 February 2022, Friday
@@ -43,7 +44,7 @@ I also learned about a few useful Xcode features like the SwiftUI inspector and 
 **Link(s) to work**
 1. [Landmarks - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 <a name="day2"></a>
@@ -65,7 +66,7 @@ I finished the Enums section of Codecademy's [iOS Developer Career Path](https:/
 1. [Landmark - iOS App Tutorial](https://github.com/joaomauricio5/Landmarks)
 2. [Enums in Codecademy's iOS Developer Career Path](https://www.codecademy.com/paths/ios-developer/tracks/exploring-recipes-swiftui/modules/swift-enumerations/projects/numero-uno-software-store)
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 <a name="day3"></a>
@@ -88,7 +89,7 @@ Checklist for tomorrow to understand the JSON file decoding part of [SwiftUI - B
 **Link(s) to work**
 1. [Enums Codecademy's Project](https://app.codingrooms.com/w/fAxyqpXjzL5F)
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 <a name="day4"></a>
 ### Day 4: 28 February 2022, Monday
 ### **JSON Decoding/Encoding in Swift + Optionals**
@@ -116,7 +117,7 @@ With this in mind, I completed the Codecademy module about Swift Optionals, whic
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -145,7 +146,7 @@ With this new knowledge, I now feel ready to continue the [SwiftUI - Building Li
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -172,7 +173,7 @@ Also had the chance to learn more about Preview modifiers such as *previewLayout
 1. [Landmarks - SwiftUI App Tutorial](https://github.com/joaomauricio5/Landmarks/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -200,7 +201,7 @@ Also had the chance to learn more about Preview modifiers such as *previewLayout
 2. [Closures Codecademy's Cheatsheet](https://www.codecademy.com/learn/paths/learn-intermediate-swift/tracks/learn-intermediate-swift/modules/swift-closures/cheatsheet)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -228,7 +229,7 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -250,7 +251,7 @@ After implementing these changes, I am sometimes getting a runtime error saying 
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -277,7 +278,7 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -303,7 +304,7 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 4. [Kata 4](https://www.codewars.com/kata/5715eaedb436cf5606000381)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -327,7 +328,7 @@ Swift gives us a final keyword just for this purpose: when you declare a class
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -354,7 +355,7 @@ Where static and class differ is how they support inheritance: When you make
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -378,7 +379,7 @@ Where static and class differ is how they support inheritance: When you make
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -401,7 +402,7 @@ Where static and class differ is how they support inheritance: When you make
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -425,7 +426,7 @@ Where static and class differ is how they support inheritance: When you make
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -453,7 +454,7 @@ Where static and class differ is how they support inheritance: When you make
 8. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -478,7 +479,7 @@ Where static and class differ is how they support inheritance: When you make
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -505,7 +506,7 @@ I also realised how useful the if let or guard let statements are when dealing w
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -528,7 +529,7 @@ I also realised how useful the if let or guard let statements are when dealing w
 3. [HackerRank 3rd challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -554,7 +555,7 @@ I also realised how useful the if let or guard let statements are when dealing w
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -582,7 +583,7 @@ Additionally, I also completed 4 [HackerRank](https://www.hackerrank.com/dashboa
 6. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -606,7 +607,7 @@ I noticed that HackerRank also offers Problem Solving Certificates, so I'm going
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -634,7 +635,7 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -662,7 +663,7 @@ I've also completed a small quiz about today's lessons and the daily challenge f
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -683,7 +684,7 @@ I've also completed HackerRank's daily coding challenge through their [30 Days O
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -707,7 +708,7 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -727,7 +728,7 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -746,7 +747,7 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 
 
 
---------------------------------
+------------------------------------------------------------------------------------------------------
 
 
 
@@ -760,4 +761,23 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Grid challenge](https://www.hackerrank.com/challenges/one-month-preparation-kit-grid-challenge?h_r=profile)
 3. [HackerRank - Day12: Inheritance](https://www.hackerrank.com/challenges/30-inheritance?h_r=profile)
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day31"></a>
+### Day 31: 27 March 2022, Sunday
+### ****
+
+**Today's Progress**: 
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem)
 
