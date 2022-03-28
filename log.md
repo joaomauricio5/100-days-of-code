@@ -796,11 +796,12 @@ Additionally, I went back to Codewars and completed 3 challenges.
 
 
 
-<a name="day31"></a>
+<a name="day32"></a>
 ### Day 32: 28 March 2022, Monday
 ### ****
 
-**Today's Progress**: 
+**Today's Progress**: Today I focused solely on coding challenges. For each challenge, I was going through my thought process out loud, explaining my idea before implementing it, and then explaining the implementation itself while I was coding it. Whenever I reached a suitable solution, I would stop and consider: "Is there any other solution that would be simpler/quicker/shorter?". And then, I would refactor my code or account for different "roadblocks", such as "how would I do this without using any major built-in Swift functions (like filter, map, reduce, etc etc)?   
+Most of the challenges I completed were from Codewars. It's great to look back to [day 16](#day16) (when I had completed my first level 6 challenge) and realising how comfortable I am now with most level 6 Codewars Kata.
 
 **Key Takeaways**: 
 
