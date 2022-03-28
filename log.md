@@ -19,7 +19,7 @@
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
-| [Day 31](#day31)    |                                         |[Day 32](#day32)     |                                               |
+| [Day 31](#day31)    |                                         |[Day 32](#day32)     | Abstract classes + Codewars                   |
 
 ------------------------------------------------------------------------------------------------------
 
