@@ -19,7 +19,7 @@
 | [Day 25](#day25)    | HackerRank's Basic Problem Solving Certificate|[Day 26](#day26) | Adding new recipe editing for Cookcademy    |
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
-| [Day 31](#day31)    |                                         |[Day 32](#day32)     | Abstract classes + Codewars                   |
+| [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -773,11 +773,19 @@ I got introduced to the Stepper view and how we can use it to easily change nume
 
 <a name="day31"></a>
 ### Day 31: 27 March 2022, Sunday
-### ****
+### **Abstract classes + Codewars**
 
-**Today's Progress**: 
+**Today's Progress**: Today I had a brief introduction to abstract classes. Although they don't seem to be an option with Swift, I guess it doesn't hurt to learn about it. According to HackerRank, abstract classes are "the separation between what a class does and how it's accomplished. One real world example of this concept is a snack machine, where you give the machine money, make a selection, and the machine dispenses the snack. The only thing that matters is what the machine does (i.e.: dispenses the selected snack); you can easily buy a snack from any number of snack machines without knowing how the machine's internals are designed (i.e.: the implementation details)."   
+Additionally, I went back to Codewars and completed 3 challenges. 
+
+
+**Key Takeaways**: 
+- An abstract class can have abstract methods as well as defined methods, but it cannot be instantiated (meaning you cannot create a new instance of it). To use an abstract class, you must create and instantiate a subclass that extends the abstract class. Any abstract methods declared in an abstract class must be implemented by its subclasses (unless the subclass is also abstract).
+- With Swift Dictionaries, we can use dictionary[key, default: x] to assign a default value whenever a key hasn't been assigned. Very useful when using dictionaries to keep count of something (example: counting how many times each letter appears in a string)
 
 **Link(s) to work**
-1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
-2. [HackerRank - Abstract Classes](https://www.hackerrank.com/challenges/30-abstract-classes/problem)
+1. [HackerRank - Day 13: Abstract classes](https://www.hackerrank.com/challenges/30-abstract-classes?h_r=profile)
+2. [Codewars - Square Every Digit](https://www.codewars.com/kata/546e2562b03326a88e000020)
+3. [Codewars - Find the first non-consecutive number](https://www.codewars.com/kata/58f8a3a27a5c28d92e000144)
+4. [Codewars - Counting duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 
