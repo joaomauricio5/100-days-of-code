@@ -789,3 +789,27 @@ Additionally, I went back to Codewars and completed 3 challenges.
 3. [Codewars - Find the first non-consecutive number](https://www.codewars.com/kata/58f8a3a27a5c28d92e000144)
 4. [Codewars - Counting duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day31"></a>
+### Day 32: 28 March 2022, Monday
+### ****
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+**Link(s) to work**
+1. [HackerRank - Day 14: Scope](https://www.hackerrank.com/challenges/30-scope?h_r=profile)
+2. [Codewars - Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e)
+3. [Codewars - Sum of Digits/Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00)
+4. [Codewars - Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+5. [Codewars - Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)
+6. [Codewars - Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6)
+7. [Codewars - Persisting Buggers](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
+
