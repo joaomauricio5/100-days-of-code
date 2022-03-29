@@ -821,7 +821,7 @@ Most of the challenges I completed were from Codewars. It's great to look back t
 
 
 
-<a name="day32"></a>
+<a name="day33"></a>
 ### Day 33: 29 March 2022, Tuesday
 ### **Intro to Linked Lists**
 
