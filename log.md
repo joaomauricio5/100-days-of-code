@@ -20,6 +20,7 @@
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
+| [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -811,4 +812,25 @@ Most of the challenges I completed were from Codewars. It's great to look back t
 5. [Codewars - Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)
 6. [Codewars - Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6)
 7. [Codewars - Persisting Buggers](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day32"></a>
+### Day 33: 29 March 2022, Tuesday
+### **Intro to Linked Lists**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+- 
+
+**Link(s) to work**
+1. [HackerRank - Day 15: Linked List](https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true)
+2. [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift)
 
