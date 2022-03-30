@@ -20,7 +20,7 @@
 | [Day 27](#day27)    | Continuing recipe editing in Cookcademy |[Day 28](#day28)     | Protocols and Generics in Cookcademy          |
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
-| [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     |                                               |
+| [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -825,7 +825,7 @@ Most of the challenges I completed were from Codewars. It's great to look back t
 ### Day 33: 29 March 2022, Tuesday
 ### **Intro to Linked Lists**
 
-**Today's Progress**: I've been looking forward to today: I finally started learning about Linked Lists. We thouched on it during my Software Development for Audio module at university but didn't actually get any practice with this concept. From what I've been reading, it seems like it's a popular subject in some tech interviews, so I thought it definitely was worth learning about it. I started with the [HackerRank - Day 15: Linked List]((https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true) and then went over to [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift) to get a more practical intro to Linked Lists. This involved creating our own Linked Lists in Swift and adding features like removing nodes, inserting nodes, getting nodes, etc. I'll be honest, I'm still processing all of the information, but I'm understanding it a lot better than the first time I hear about it.
+**Today's Progress**: I've been looking forward to today: I finally started learning about Linked Lists. We thouched on it during my Software Development for Audio module at university but didn't actually get any practice with this concept. From what I've been reading, it seems like it's a popular subject in some tech interviews, so I thought it definitely was worth learning about it. I started with the [HackerRank - Day 15: Linked List]((https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true) and then went over to [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift) to get a more practical intro to Linked Lists. This involved creating our own Linked Lists in Swift and adding features like removing nodes, inserting nodes, getting nodes, etc. I'll be honest, I'm still processing all of the information, but I'm understanding it a lot better than the first time I heard about it.
 
 **Key Takeaways**: 
 - A Linked List is comprised of a series of nodes. The head node is the node at the beginning of the list. Each node contains data and a link (or pointer) to the next node in the list. The list is terminated when a node’s link is null. This last node is called the tail node.
@@ -837,4 +837,27 @@ Most of the challenges I completed were from Codewars. It's great to look back t
 **Link(s) to work**
 1. [HackerRank - Day 15: Linked List](https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true)
 2. [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day34"></a>
+### Day 34: 30 March 2022, Wednesday
+### **Continuing Linked Lists**
+
+**Today's Progress**: Today I continued my journey with Linked Lists, by reviewing Codecademy's [Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift) and completing some HackerRank challenges on Linked Lists. I'm curious to learn how this data structure can actually benefit software developers and how it can be used in a practical scenario.  
+Additionally, I reviewed Error Handling with Swift (specifically with the try-catch statement) through HackerRank's 30 Days of Code challenge (Currently on [Day 16](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer?h_r=profile))
+
+**Key Takeaways**: 
+- If your code attempts to perform an action that cannot be completed, the flow of control is halted and an exception is thrown. This means that an Exception object is created as a response to this unusual condition. The control flow is then transferred (or handed off) to an exception handler. By anticipating and writing handlers for exceptional conditions in your program's logic, you can resolve the issue that raised the exception and your program can continue executing. A program "crash" is generally the result of an unhandled exception.
+- Linked Lists form the basis for many other data structures, which I'll be studying later on.
+
+**Link(s) to work**
+1. [HackerRank - Day 16: Exceptions - String To Integer](https://www.hackerrank.com/challenges/30-exceptions-string-to-integer?h_r=profile)
+2. [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift)
+3. [HackerRank - Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list?h_r=profile)
+4. [HackerRank - Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list?h_r=profile)
 
