@@ -825,10 +825,14 @@ Most of the challenges I completed were from Codewars. It's great to look back t
 ### Day 33: 29 March 2022, Tuesday
 ### **Intro to Linked Lists**
 
-**Today's Progress**: 
+**Today's Progress**: I've been looking forward to today: I finally started learning about Linked Lists. We thouched on it during my Software Development for Audio module at university but didn't actually get any practice with this concept. From what I've been reading, it seems like it's a popular subject in some tech interviews, so I thought it definitely was worth learning about it. I started with the [HackerRank - Day 15: Linked List]((https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true) and then went over to [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift) to get a more practical intro to Linked Lists. This involved creating our own Linked Lists in Swift and adding features like removing nodes, inserting nodes, getting nodes, etc. I'll be honest, I'm still processing all of the information, but I'm understanding it a lot better than the first time I hear about it.
 
 **Key Takeaways**: 
-- 
+- A Linked List is comprised of a series of nodes. The head node is the node at the beginning of the list. Each node contains data and a link (or pointer) to the next node in the list. The list is terminated when a node’s link is null. This last node is called the tail node.
+- Since the nodes use links to denote the next node in the sequence, the nodes are not required to be sequentially located in memory. These links also allow for quick insertion and removal of nodes.
+- If you accidentally remove the single link to a node, that node’s data and any following nodes could be lost to your application, leaving you with orphaned nodes. To properly maintain the list when removing a node from the middle of a linked list, you need to be sure to adjust the link on the previous node so that it points to the following node.
+- The runtime efficiency of our append function should be constant, or Θ(1). Since we are adding nodes to the tail, which we always have a reference to, the runtime is the same for all linked lists, no matter how many nodes are in them.
+- A function to find and return the data of a node at a specific index should have a runtime efficiency of Θ(n) since the worst-case scenario would be to search through the entire length of the chain of nodes, n, for a node.
 
 **Link(s) to work**
 1. [HackerRank - Day 15: Linked List](https://www.hackerrank.com/challenges/30-linked-list?isFullScreen=true)
