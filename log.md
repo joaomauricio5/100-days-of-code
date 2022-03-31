@@ -21,6 +21,7 @@
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
+| [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -860,4 +861,31 @@ Additionally, I reviewed Error Handling with Swift (specifically with the try-ca
 2. [Codecademy - Intro to Algorithms and Linear Data Structures in Swift - Linked Lists](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift)
 3. [HackerRank - Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list?h_r=profile)
 4. [HackerRank - Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list?h_r=profile)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day35"></a>
+### Day 35: 31 March 2022, Thursday
+### **Asymptotic Notation**
+
+**Today's Progress**: Today I learnt about another important concept for developing algorithms: asymptotic notation. I've heard about Big-O Notation for a while now and it's good to finally understand what it actually is, as well as Big-Omega and Big-Theta. From what I understood, Big-O is normally the most important one for tech interviews and for programming in general, as we should always be prepared for the worst case scenario. This will definitely help me go back to HackerRank's problem solving certificate test where, even though my solutions were "correct", they were taking too long to run.  
+I also realised the Swift documentation has the time complexity for some of its own methods (like sort, filter, etc), which might come in handy in the future. 
+
+**Key Takeaways**: 
+- Asymptotic Notation is used to describe the running time of an algorithm - how much time an algorithm takes with a given input, n. There are three different notations: big O, big Theta (Θ), and big Omega (Ω). big-Θ is used when the running time is the same for all cases, big-O for the worst case running time, and big-Ω for the best case running time.
+- You may see the term execution count used in evaluating algorithms. Execution count is more precise than Big O notation.
+- Big O Notation is a way to formalize fuzzy counting. It allows us to talk formally about how the runtime of an algorithm grows as the inputs grow. Big O doesn’t focus on the details, only the trends.
+- When describing runtime, people typically discuss the worst case because you should always prepare for the worst case scenario! Often times, in technical interviews, they will only ask you for the Big O of a program.
+- The different common runtimes from fastest to slowest are: Θ(1), Θ(log N), Θ(N), Θ(N log N), Θ(N2), Θ(2N), Θ(N!).
+- When finding the runtime of a program with multiple steps, you can divide the program into different sections and add the runtimes of the various sections. You can then take the slowest runtime and use that runtime to describe the entire program.
+
+**Link(s) to work**
+1. [HackerRank - Day 17: More Exceptions](https://www.hackerrank.com/challenges/30-more-exceptions?h_r=profile)
+2. [Codecademy - Asymptotic Notation](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/algorithms-swift/cheatsheet)
 
