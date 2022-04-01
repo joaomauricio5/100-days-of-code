@@ -21,7 +21,7 @@
 | [Day 29](#day29)    | HackerRank challenges                   |[Day 30](#day30)     | Static properties in Cookcademy + HackerRank  |
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
-| [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     |                                               |
+| [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -889,3 +889,31 @@ I also realised the Swift documentation has the time complexity for some of its 
 1. [HackerRank - Day 17: More Exceptions](https://www.hackerrank.com/challenges/30-more-exceptions?h_r=profile)
 2. [Codecademy - Asymptotic Notation](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/algorithms-swift/cheatsheet)
 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day36"></a>
+### Day 36: 1 April 2022, Friday
+### **Queues and Stacks with Swift**
+
+**Today's Progress**: Today I learnt about two more data structures: Queues and Stacks. Thinking about it, I remember using a FIFO (First In First Out) structure - Queue - during my final year project at university, specifically to load audio samples into a buffer before processing and outputing them. And then Stacks are very similar but operate by LIFO (Last In First Out). I managed to get some practice with each data structure by creating both in Swift using an array or a linked list as a base structure. Now I'm starting to see how Linked Lists can be used in real world scenarios by helping to create other more complex data structures.  Also, I learnt about the === operator (identity operator) and used it for the first time.
+
+**Key Takeaways**: 
+- Queue follows FIFO (First In First Out) protocol
+- The queue data structure has three main methods: - **enqueue** (adds a node to the back of the queue); **dequeue** (removes node at the front of the queue); **peek** (returns value of node at the front of the queue, without removing it).
+- A Stack is a data structure that follows a last in, first out (LIFO) protocol.
+- The stack data structure has three main methods: push(), pop() and peek(). The push() method adds a node to the top of the stack. The pop() method removes a node from the top of the stack. The peek() method returns the value of the top node without removing it from the stack.
+- Similar to stacks, attempting to enqueue data onto an already full queue will result in a queue overflow. If you attempt to dequeue data from an empty queue, it will result in a queue underflow.
+- === is the identity operator, which checks whether two instances of a class point to the same memory. This is different from equality, because two objects that were created independently using the same values will be considered equal using == but not === because they are different objects.
+The === operator is available only when using classes because structs are designed so they are always uniquely referenced.
+
+
+**Link(s) to work**
+1. [HackerRank - Day 18: Queues and Stacks](https://www.hackerrank.com/challenges/30-queues-stacks?h_r=profile)
+2. [Queues and Stacks in Swift - Exercise](https://app.codingrooms.com/w/sp7rws4EC7GD)
+3. [Codecademy - Queues Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/queues-swift/cheatsheet)
+4. [Codecademy - Stacks Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/stacks-swift/cheatsheet)
