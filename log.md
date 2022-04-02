@@ -22,6 +22,7 @@
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
+| [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -917,3 +918,33 @@ The === operator is available only when using classes because structs are design
 2. [Queues and Stacks in Swift - Exercise](https://app.codingrooms.com/w/sp7rws4EC7GD)
 3. [Codecademy - Queues Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/queues-swift/cheatsheet)
 4. [Codecademy - Stacks Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/stacks-swift/cheatsheet)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day37"></a>
+### Day 37: 2 April 2022, Saturday
+### **Recursion + Intro to Hash Tables**
+
+**Today's Progress**: Today I completed Codecademy's sections on Recursion and Nodes, and started the Hash Table tutorial through the [Introduction to Algorithms and Linear Data Structures in Swift](https://www.codecademy.com/learn/intro-to-algorithms-and-linear-data-structures-in-swift). The concept of recursion and calling a function within itself is something I've been doing for a while but I hadn't realised there was an actual term for that, so it's good to finally be "formalising" my knowledge so far.  
+Hash Tables is something I'll still need more time with, particularly when it comes to creating hashing functions and handling hashing conflicts. This data structure feels very similar to Dictionaries in Swift, so how I'm curious to learn more about how the two structures relate to each other.
+
+**Key Takeaways**: 
+- Recursion is a strategy for solving problems by defining the problem in terms of itself. A recursive function consists of two basic parts: the base case and the recursive step.
+- A recursive function should have a base case with a condition that stops the function from recursing indefinitely.
+- A recursive function should have a recursive step which calls the recursive function with some input that brings it closer to its base case.
+- Your programming language often manages the call stack, which exists outside of any specific function. This call stack tracks the ordering of the different function invocations, so the last function to enter the call stack is the first function to exit the call stack.
+- An execution context of a recursive function is the set of arguments to the recursive function call. Programming languages use execution contexts to manage recursive functions.
+- Hash maps are a common data structure used to store key-value pairs for efficient retrieval. A value stored in a hash map is retrieved using the key under which it was stored.
+- Hash map data structures use a hash function, which turns a key into an index within an underlying array. The hash function can be used to access an index when inserting a value or retrieving a value from a hash map.
+
+
+**Link(s) to work**
+1. [HackerRank - Day 19: Interfaces](https://www.hackerrank.com/challenges/30-interfaces?h_r=profile)
+2. [Codecademy - Recursion Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/recursion-swift/cheatsheet)
+3. [Codecademy - Nodes Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/nodes-swift/cheatsheet)
+4. [Codecademy - Hash Tables](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/hash-tables-swift/cheatsheet)
