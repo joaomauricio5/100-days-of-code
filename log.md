@@ -22,7 +22,7 @@
 | [Day 31](#day31)    | Abstract classes + Codewars             |[Day 32](#day32)     | Codewars Tech Interview Prep                  |
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
-| [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     |                                               |
+| [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -948,3 +948,22 @@ Hash Tables is something I'll still need more time with, particularly when it co
 2. [Codecademy - Recursion Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/recursion-swift/cheatsheet)
 3. [Codecademy - Nodes Cheatsheet](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/nodes-swift/cheatsheet)
 4. [Codecademy - Hash Tables](https://www.codecademy.com/learn/paths/intro-to-algorithms-and-linear-data-structures-in-swift/tracks/intro-to-algorithms-and-linear-data-structures-in-swift/modules/hash-tables-swift/cheatsheet)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day38"></a>
+### Day 38: 3 April 2022, Sunday
+### **Codewars**
+
+**Today's Progress**: Today I started by studying and implementing the Bubble Sort algorithm. It seems to be quite simple, but I read that it is quite an inneficient algorithm to sort data. I'm going to study a few other sorting algorithms in the next few days. Additionally, I completed a few Codewars challenges. I was pretty tired from work today so I decided to keep it simple! Will go back to SwiftUI and the Cookcademy app tomorrow.
+
+
+**Link(s) to work**
+1. [HackerRank - Day 20: Sorting](https://www.hackerrank.com/challenges/30-sorting?h_r=profile)
+2. [Codewars - Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)
+3. [Codewars - Opposite Number](https://www.codewars.com/kata/56dec885c54a926dcd001095)
+4. [Codewars - Tribonnaci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db)
