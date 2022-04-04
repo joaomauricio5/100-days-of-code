@@ -23,6 +23,7 @@
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
+| [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -967,3 +968,24 @@ Hash Tables is something I'll still need more time with, particularly when it co
 2. [Codewars - Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc)
 3. [Codewars - Opposite Number](https://www.codewars.com/kata/56dec885c54a926dcd001095)
 4. [Codewars - Tribonnaci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day39"></a>
+### Day 39: 4 April 2022, Monday
+### **Cookcademy - Editing existing recipes**
+
+**Today's Progress**: Today I worked on a few extra features for Cookcademy. We are now able to edit existing recipes rather than only being able to edit new ones. I still need to debug a few things specifically when it comes to saving the edits. For some reason, they are not updating straight away. I need to make the change, go to a different view, come back to previous view and only then I can see the changes. Strange. The next step will be to implement a way to reorder and delete the list of ingredients and directions. 
+
+**Key Takeaways**: 
+- The letters enclosed between angle brackets (< and >) are type parameters and, like many things in programming, there is a convention behind them (remember, following conventions help us write clean, readable code!). The letters below are commonly-used generic type parameters: E - Element; K - Key; V - Value; N - Number; T - Type (e.g.: data type); S,U,V, etc. These are second, third, and fourth types for when T is already in use.
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Generics](https://www.hackerrank.com/challenges/30-generics?h_r=profile)
