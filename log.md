@@ -23,7 +23,7 @@
 | [Day 33](#day33)    | Intro to Linked Lists                   |[Day 34](#day34)     | Continuing Linked Lists                       |
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
-| [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     |                                               |
+| [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -989,3 +989,30 @@ Hash Tables is something I'll still need more time with, particularly when it co
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Generics](https://www.hackerrank.com/challenges/30-generics?h_r=profile)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day40"></a>
+### Day 40: 6 April 2022, Wednesday
+### **Cookcademy - Editing existing recipes pt.2 + Trees**
+
+**Today's Progress**: Yesterday was my birthday so I decided to take 1 day off from this challenge, but I spent some extra time today working to make up for it. Firstly, through the HackerRank [30 Days Of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) challenge I was introduced to Trees, specifically Binary Search Trees. Although I've roughly understood what they were, I'm still not aware of how we can use these types of data structures within real-world scenarios. I'll be spending some time again with Data Structures in the next few days.  
+Additionally, I've added an Edit button to the ingredients and directions sections of the Cookcademy app, allowing users to delete specific ingredients/directions and move them around in the list (most useful for the directions where the order of steps is very important). I also managed to do some debugging for the problem I mentioned on [day 39](#39), and it seems like the some bug is happening even when I'm using the same exact source code provided by Cookcademy. Will continue digging deeper in the next few days to see if I can find a solution.
+
+**Key Takeaways**: 
+- Fundamentally, a binary tree is composed of nodes connected by edges (with further restrictions discussed below). Some binary tree, *t* , is either empty or consists of a single root element with two distinct binary tree child elements known as the left subtree and the right subtree of *t*.
+- The convention for binary tree diagrams is that the root is at the top, and the subtrees branch down from it.
+- A node's left and right subtrees are referred to as children, and that node can be referred to as the parent of those subtrees.
+- A non-root node with no children is called a leaf.
+- The depth (or level) of some node  is its distance (i.e., number of edges) from the tree's root node.
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Binary Search Trees](https://www.hackerrank.com/challenges/30-binary-search-trees?h_r=profile)
+3. [HackerRank - BST Level-Order Traversal](https://www.hackerrank.com/challenges/30-binary-trees?h_r=profile)
