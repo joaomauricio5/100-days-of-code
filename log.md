@@ -24,6 +24,7 @@
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
+| [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1016,3 +1017,30 @@ Additionally, I've added added an Edit process to the ingredients and directions
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Binary Search Trees](https://www.hackerrank.com/challenges/30-binary-search-trees?h_r=profile)
 3. [HackerRank - BST Level-Order Traversal](https://www.hackerrank.com/challenges/30-binary-trees?h_r=profile)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day41"></a>
+### Day 41: 7 April 2022, Thursday
+### **Tab Views and Labels in SwiftUI**
+
+**Today's Progress**: Today I continued Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by finishing the section about Tab Views and Labels. I've used both already but one thing I didn't know about was how to use TabView to create different "pages" that can be swiped sideaways in order to change the current view (the same way we would change the current photo in Photos on iOS). I created a very simple project experimenting with these concepts and I'm going to be implementing them in Cookcademy tomorrow. It's going to be useful for users to swap between the recipes list / recipe detail and their favorite recipes.  
+Additionally, I completed another HackerRank challenge which involved removing duplicated data from a LinkedList. Getting fairly comfortable with with Linked Lists now.
+
+**Key Takeaways**: 
+- Garbage collection is a form of automated memory management that frees up memory locations that are no longer in use.
+- If you're writing in a language that does not have garbage collection, you should make sure you are freeing up the memory that a reference refers to before deleting the reference itself.
+- Removing an element from a linked list of nodes is easier than it sounds! In a language with automatic garbage collection (like Java), you simply have to change the next reference from one node so that it points to another node.
+- Tab views allow more complex applications a degree of flexibility that they would not have otherwise. For example, in order to access any other page, such as a user profile, we’d need to go all the way back to the main menu. With the help of a tab view, users can quickly and easily navigate to a profile page by clicking on the icon at the bottom. The video here shows an example of that.
+- Stylizing the tab view with a PageTabViewStyle will remove the tab bar view and display each view as individual pages. These pages can be accessed by scrolling through the views with a swipe gesture.
+
+
+
+**Link(s) to work**
+1. [HackerRank - More Linked Lists](https://www.hackerrank.com/challenges/30-linked-list-deletion?h_r=profile)
