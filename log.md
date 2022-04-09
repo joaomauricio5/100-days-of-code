@@ -24,7 +24,7 @@
 | [Day 35](#day35)    | Asymptotic Notation                     |[Day 36](#day36)     | Queues and Stacks with Swift                  |
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
-| [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     |                                               |
+| [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1044,3 +1044,31 @@ Additionally, I completed another HackerRank challenge which involved removing d
 
 **Link(s) to work**
 1. [HackerRank - More Linked Lists](https://www.hackerrank.com/challenges/30-linked-list-deletion?h_r=profile)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day42"></a>
+### Day 42: 8 April 2022, Friday
+### **Persistence in iOS**
+
+**Today's Progress**: Today I learnt about persistence in iOS, and how we can make sure than certains properties in our apps are still saved after the app has been restarted. This can be implemented with User Defaults, the file system and Core Data. Today I focused on User Defaults to save some user preferences for the Cookcademy app. This involved creating a SettingsView where users can change the colors of the background in the ingredients/directions list, the color of the text and if the list of directions includes optional steps.  
+I also finished implementing the favorites tab, which displays the user's favorite recipes (favorites don't persist yet), as well as reviewing Throwing Functions and JSON Decoding/Encoding. 
+
+**Key Takeaways**: 
+- Persistence is the ability to save information so that it persists between restarts. Without persistence, you’d start from scratch every time you open an app—your settings, documents, photos, and more would be lost.
+- In iOS, there are a few different ways to persist data. Of these, the most important are User Defaults, the file system, and Core Data.
+- User Defaults is the simplest way to store information on iOS. With User Defaults, we can access the defaults system, which is designed for storing user preferences and other simple data. We call this the defaults system because it often determines the app’s default state when it’s first opened or how the app behaves by default.
+- SwiftUI provides the @AppStorage property wrapper that gives direct access to UserDefaults. Simply wrapping a property with @AppStorage will automatically persist it to UserDefaults when it changes, and access UserDefaults to get the most up-to-date value.
+- To wrap a property with the @AppStorage property wrapper, the type must already be supported by the @AppStorage property wrapper, or conform to RawRepresentable.
+- @AppStorage writes your data to UserDefaults, which is not secure storage. As a result, you should not save any personal data using @AppStorage, because it’s relatively easy to extract.
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Day 25: Running Time and Complexity](https://www.hackerrank.com/challenges/30-running-time-and-complexity?h_r=profile)
