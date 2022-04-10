@@ -1094,7 +1094,6 @@ I also finished implementing the favorites tab, which displays the user's favori
 - Before we can save our notes to a file, we’ll first need to determine where that file will be located. This takes two steps: Use the FileManager to find the URL for the directory we want; Use the resulting URL to build the path to our file.
 - On iOS, each app receives its own “sandbox” directory with subdirectories that serve different purposes. This improves security by preventing apps from modifying files other than their own, while also making it easier for us to include features such as iCloud backups.
 - [Apple's Guidelines on where to put your app's files](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW28)
-- 
 
 
 **Link(s) to work**
