@@ -25,7 +25,7 @@
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
-| [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     |                                               |
+| [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1097,5 +1097,24 @@ I also finished implementing the favorites tab, which displays the user's favori
 
 
 **Link(s) to work**
-1. [NotesApp]()
+1. [NotesApp](https://github.com/joaomauricio5/NotesApp-iOS)
 2. [HackerRank - Day 26: Nested Logic](https://www.hackerrank.com/challenges/30-nested-logic?h_r=profile)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day44"></a>
+### Day 44: 10 April 2022, Sunday
+### **Cookcademy - Using the file system**
+
+**Today's Progress**: I finally reached the last session for Cookcademy. Today was all about finishing persistence in the app and making sure that everything was being saved and loaded correctly. This includes any new recipes, any existing recipes that are being edited and being selected as favorites. It was a lot easier than what I was expecting, so that was good. SwiftUI still continues to amaze me with how simple it can make my life sometimes. Really excited to learn more and more about it.  
+Cookcademy still has a few bugs or missing features before I mark it as properly completed: whenever I'm trying to edit ingredients in an **existing** recipe, the quantity doesn't update automatically on the screen, even if I click on the **+** button. Also, there is still no way to delete recipes. After that, I'll start another project and continue learning about Algorithms and Data Structures, and will only come back to Cookcademy to fix any additional bugs that I might eventually find.
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Day 27: Testing](https://www.hackerrank.com/challenges/30-testing?h_r=profile)
