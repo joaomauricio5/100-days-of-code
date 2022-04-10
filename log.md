@@ -25,6 +25,7 @@
 | [Day 37](#day37)    | Recursion + Intro to Hash Tables        |[Day 38](#day38)     | Codewars                                      |
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
+| [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1072,3 +1073,30 @@ I also finished implementing the favorites tab, which displays the user's favori
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Day 25: Running Time and Complexity](https://www.hackerrank.com/challenges/30-running-time-and-complexity?h_r=profile)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day43"></a>
+### Day 43: 9 April 2022, Saturday
+### **NotesApp - Using the iOS File Manager**
+
+**Today's Progress**: Today I continued focusing on persistence with SwiftUI, specifically through the iOS File Manager. With this, I decided to create a small project off of Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) (rather than copying their code, I decided to build my own app by following their wireframes.) It consisted of a simple notes app, with the ability to either edit existing notes (title and content) or adding new ones. After this, I implemented persistence by encoding the notes array property to a JSON file, and saving the file into the app's file manager. For this app, it seemed to be a pretty straightfoward implementation: convert the needed property into Data -> encode Data with JSONEncoder -> save with Data.write(to: fileDestinationURL). When loading: create Data(fromContent: fileDestinationURL) -> notesArray = JSONDecoder().decode([Note].self, from: Data). We then perform the save process whenever the notesArray changes, and perform the loading process whenever the mainView is loaded. 
+
+**Key Takeaways**: 
+- For persistence with iOS: User Defaults is best for small bits of data; The file system is best for documents and large files; Core Data is best for large webs of interrelated data.
+- Like other classes, we can create as many instances of the FileManager as we’d like. However, since there’s only one file system for us to work with, it’s unlikely that we’ll need more than one FileManager instance. That’s why the FileManager is a singleton—an object that’s instantiated only once throughout our app’s lifecycle. To access the singleton instance from our code, we can use the default property of the FileManager class.
+- Before we can save our notes to a file, we’ll first need to determine where that file will be located. This takes two steps: Use the FileManager to find the URL for the directory we want; Use the resulting URL to build the path to our file.
+- On iOS, each app receives its own “sandbox” directory with subdirectories that serve different purposes. This improves security by preventing apps from modifying files other than their own, while also making it easier for us to include features such as iCloud backups.
+- [Apple's Guidelines on where to put your app's files](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW28)
+- 
+
+
+**Link(s) to work**
+1. [NotesApp]()
+2. [HackerRank - Day 26: Nested Logic](https://www.hackerrank.com/challenges/30-nested-logic?h_r=profile)
