@@ -26,6 +26,7 @@
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
+| [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1118,3 +1119,30 @@ Cookcademy still has a few bugs or missing features before I mark it as properly
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Day 27: Testing](https://www.hackerrank.com/challenges/30-testing?h_r=profile)
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day45"></a>
+### Day 45: 11 April 2022, Monday
+### **Deleting recipes in Cookcademy + Regex**
+
+**Today's Progress**: Today I got an introduction to Regular Expressions in Swift through HackerRank's [30 Days Of Code challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code). I am understanding the general concept roughly, but I still need some more practice with it. Definitely seems to be useful (I can see it being relevant in a search bar feature, for example).   
+Additionaly, I managed to add a feature to Cookcademy in order for the user to be able to delete individual recipes. It was a bit trickier than I was expecting because, when the user is presented with the RecipesList, it's just displaying FilteredRecipes by their category. What that means is, whenever we need to delete a specific recipe, we need to find which recipe it's referring to within the FilteredRecipes, match it with the same exact one in the Recipes Array and only then delete it from the source. Currently that logic is still coded into the RecipeDetailView so I will try and think of a way to implement it within the ViewModel instead - I want to make sure that Logic and Views are separated as much as possible.
+
+**Key Takeaways**: 
+- Regular expressions allow us to run complex search and replace operations across thousands of text files in just a handful of seconds
+- Apple provides support for regular expressions on all of its platforms – iOS, macOS, tvOS, and even watchOS – all using the same class, NSRegularExpression.
+- Swift Strings are automatically bridged to NSStringwhich means String has some nice features that allow us to easily perform pattern matching (via a regular expression) on a String. The best example is the range(of:options:) method on the NSString class.
+- [Regex in Swift](https://www.hackingwithswift.com/articles/108/how-to-use-regular-expressions-in-swift)
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Day 28: Regular Expressions](https://www.hackerrank.com/challenges/30-regex-patterns?h_r=profile)
