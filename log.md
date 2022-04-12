@@ -26,7 +26,7 @@
 | [Day 39](#day39)    | Cookcademy - Editing existing recipes   |[Day 40](#day40)     | Cookcademy - Editing existing recipes pt.2 + Trees |
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
-| [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     |                                               |
+| [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1146,3 +1146,30 @@ Additionaly, I managed to add a feature to Cookcademy in order for the user to b
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Day 28: Regular Expressions](https://www.hackerrank.com/challenges/30-regex-patterns?h_r=profile)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day46"></a>
+### Day 46: 12 April 2022, Tuesday
+### **Cookcademy - Deleting Favorites + Bitwise Operators**
+
+**Today's Progress**: Today I finally finished HackerRank's [30 Days Of Code challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code). I definitely learnt a lot with this extra practice, and I'm looking forward to continuing with HackerRank challenges. This last problem was about Bitwise operators, specifically the Bitwise AND. I read that these are specifically useful with low-level programming like graphics programming, drivers, etc.  Also, I managed to implenent another feature in Cookcademy: now, whenever users are removing a recipe from the favorites tab, it only makes the recipe non-favorite, whereas if you remove it from the normal recipe list, it actually deletes the recipe.
+
+**Key Takeaways**: 
+- Bitwise operators perform operations on integer data at the individual bit-level. These operations include testing, setting, or shifting the actual bits.
+- The bitwise AND & operator returns 1 if and only if both the operands are 1. Otherwise, it returns 0.
+- The bitwise OR | operator returns 1 if at least one of the operands is 1. Otherwise, it returns 0.
+- The bitwise XOR ^ operator returns 1 if and only if one of the operands is 1. However, if both the operands are 0, or if both are 1, then the result is 0.
+- The bitwise NOT ~ operator inverts the bit( 0 becomes 1, 1 becomes 0).
+- The left shift operator shifts all bits towards the left by a specified number of bits. It is denoted by <<.
+- The right shift operator shifts all bits towards the right by a certain number of specified bits. It is denoted by >>.
+
+
+**Link(s) to work**
+1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
+2. [HackerRank - Day 29: Bitwise AND](https://www.hackerrank.com/challenges/30-bitwise-and?h_r=profile)
