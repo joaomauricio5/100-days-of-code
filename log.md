@@ -1158,7 +1158,8 @@ Additionaly, I managed to add a feature to Cookcademy in order for the user to b
 ### Day 46: 12 April 2022, Tuesday
 ### **Cookcademy - Deleting Favorites + Bitwise Operators**
 
-**Today's Progress**: Today I finally finished HackerRank's [30 Days Of Code challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code). I definitely learnt a lot with this extra practice, and I'm looking forward to continuing with HackerRank challenges. This last problem was about Bitwise operators, specifically the Bitwise AND. I read that these are specifically useful with low-level programming like graphics programming, drivers, etc.  Also, I managed to implenent another feature in Cookcademy: now, whenever users are removing a recipe from the favorites tab, it only makes the recipe non-favorite, whereas if you remove it from the normal recipe list, it actually deletes the recipe.
+**Today's Progress**: Today I finally finished HackerRank's [30 Days Of Code challenge](https://www.hackerrank.com/domains/tutorials/30-days-of-code). I definitely learnt a lot with this extra practice, and I'm looking forward to continuing with HackerRank challenges. This last problem was about Bitwise operators, specifically the Bitwise AND. I read that these are specifically useful with low-level programming like graphics programming, drivers, etc.  
+I also managed to implenent another feature in Cookcademy: now, whenever users are removing a recipe from the favorites tab, it only makes the recipe non-favorite, whereas if you remove it from the normal recipe list, it actually deletes the recipe.
 
 **Key Takeaways**: 
 - Bitwise operators perform operations on integer data at the individual bit-level. These operations include testing, setting, or shifting the actual bits.
