@@ -27,6 +27,7 @@
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
+| [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1174,3 +1175,24 @@ I also managed to implenent another feature in Cookcademy: now, whenever users a
 **Link(s) to work**
 1. [Cookcademy App](https://github.com/joaomauricio5/Cookcademy/commits/main)
 2. [HackerRank - Day 29: Bitwise AND](https://www.hackerrank.com/challenges/30-bitwise-and?h_r=profile)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day47"></a>
+### Day 47: 13 April 2022, Wednesday
+### **HackerRank Challenges**
+
+**Today's Progress**: Today I focused on some more HackerRank challenges to prepare myself for a potential interview in the next few days. I've been trying to think out loud through the exercises and it seems to be getting a bit less distracting for me. I'm also finding that, with more complex challenges, thinking about the Big O notation of my algorithms has been more and more important, to make sure that they don't exceed HackerRank's maximum time limit for the runtime. Whenenever I get to a solution, I try to analyse the current Big O and think for a few extra minutes if there are any changes I could make to my current approach, until I refactor it into a more refined solution.  
+
+**Key Takeaways**: 
+- Big O notation is getting more and more important with more complex HackerRank challenges.
+- I need to start thinking about the problem itself first instead of the Swift implementation.
+
+
+**Link(s) to work**
+1. [HackerRank - Recursive Digit Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-recursive-digit-sum?h_r=profile)
+2. [HackerRank - Sherlock and Array](https://www.hackerrank.com/challenges/one-month-preparation-kit-sherlock-and-array?h_r=profile)
