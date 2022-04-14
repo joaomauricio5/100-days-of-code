@@ -27,7 +27,7 @@
 | [Day 41](#day41)    | Tab Views and Labels in SwiftUI         |[Day 42](#day42)     | Persistence in iOS                            |
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
-| [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     |                                               |
+| [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1196,3 +1196,23 @@ I also managed to implenent another feature in Cookcademy: now, whenever users a
 **Link(s) to work**
 1. [HackerRank - Recursive Digit Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-recursive-digit-sum?h_r=profile)
 2. [HackerRank - Sherlock and Array](https://www.hackerrank.com/challenges/one-month-preparation-kit-sherlock-and-array?h_r=profile)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day48"></a>
+### Day 48: 14 April 2022, Thursday
+### **Landmarks App - Saving favorite landmarks**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
