@@ -1208,11 +1208,13 @@ I also managed to implenent another feature in Cookcademy: now, whenever users a
 ### Day 48: 14 April 2022, Thursday
 ### **Landmarks App - Saving favorite landmarks**
 
-**Today's Progress**: 
+**Today's Progress**: Today I finally went back to the Landmarks app in order to add a new feature: persisting the selection of favorite landmarks between restarts. Now, whenever a user (un)marks a landmark as a favorite, the JSON data is updated for subsequent app loads. Although I had studied iOS Persistence a few days ago with the Cookcademy app, this implementation was a bit different as the JSON file in Landmarks is stored in the Bundle (Resources) instead of the Documents Directory. The problem with this is that, apparently, files in the app Bundle are not editable.   
+So, with this in mind, whenever the app is opened for the first time, a new file is created in the Documents Directory and the contents of the JSON file in the Bundle are copied there. If the app has been opened before, then the landmarks are loaded from the JSON file in the Documents Directory. This way, whenever the favorite option of a landmark is toggled, the JSON file (in Documents Directory) is saved with the new changes.
 
 **Key Takeaways**: 
-
-
+- In iOS, you can't write into a file in your app's bundle -- the entire bundle is read-only. Use a path into the Documents folder instead.
+- FileManager.default.copyItem(atPath:toPath:) copies the item at the specified path to a new location synchronously. 
+- FileManager.default.isReadableFile(atPath:) returns a Boolean value that indicates whether the invoking object appears able to read a specified file.
 
 **Link(s) to work**
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
