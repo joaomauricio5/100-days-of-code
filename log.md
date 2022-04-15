@@ -28,6 +28,7 @@
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
 | [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
+| [Day 49](#day49)    | Landmarks App - Featured Tab            |[Day 50](#day50)     |                                               |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1215,6 +1216,25 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 - In iOS, you can't write into a file in your app's bundle -- the entire bundle is read-only. Use a path into the Documents folder instead.
 - FileManager.default.copyItem(atPath:toPath:) copies the item at the specified path to a new location synchronously. 
 - FileManager.default.isReadableFile(atPath:) returns a Boolean value that indicates whether the invoking object appears able to read a specified file.
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day49"></a>
+### Day 49: 15 April 2022, Friday
+### **Landmarks App - Featured Tab**
+
+**Today's Progress**: Today I continued working through Apple's [iOS App Dev Tutorials](https://developer.apple.com/tutorials/app-dev-training) and created a new Featured tab for the app. It essentially contains a vertical ScrollView that contains various horizontal ScrollViews containing landmarks of specific categories (Lakes, Mountains and Rivers). It presents an image of each landmark which, when clicked, takes the user to the LandmarkDetailView of that landmark. No major new concept learnt here, but I definitely need to spend more time exploring the way that the different views are laid out here, specifically when it comes to padding, fonts, color, modifiers, etc.
+
+**Key Takeaways**: 
+- I need to spend some more time exploring how the different types of padding, fonts, colors and modifiers from the tutorial actually affect the final look of the Category tab, to then be able to implement them all by myself.
 
 **Link(s) to work**
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
