@@ -28,7 +28,7 @@
 | [Day 43](#day43)    | NotesApp - Using the iOS File Manager   |[Day 44](#day44)     | Cookcademy - Using the file system            |
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
 | [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
-| [Day 49](#day49)    | Landmarks App - Featured Tab            |[Day 50](#day50)     |                                               |
+| [Day 49](#day49)    | Landmarks App - Categories Tab          |[Day 50](#day50)     | Landmarks App - Categories Tab pt.2           |
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1229,12 +1229,37 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 <a name="day49"></a>
 ### Day 49: 15 April 2022, Friday
-### **Landmarks App - Featured Tab**
+### **Landmarks App - Categories Tab**
 
 **Today's Progress**: Today I continued working through Apple's [iOS App Dev Tutorials](https://developer.apple.com/tutorials/app-dev-training) and created a new Featured tab for the app. It essentially contains a vertical ScrollView that contains various horizontal ScrollViews containing landmarks of specific categories (Lakes, Mountains and Rivers). It presents an image of each landmark which, when clicked, takes the user to the LandmarkDetailView of that landmark. No major new concept learnt here, but I definitely need to spend more time exploring the way that the different views are laid out here, specifically when it comes to padding, fonts, color, modifiers, etc.
 
 **Key Takeaways**: 
 - I need to spend some more time exploring how the different types of padding, fonts, colors and modifiers from the tutorial actually affect the final look of the Category tab, to then be able to implement them all by myself.
+
+**Link(s) to work**
+1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day50"></a>
+### Day 50: 16 April 2022, Saturday
+### **Landmarks App - Categories Tab pt.2**
+
+**Today's Progress**: Today I spent some more time with the Landmarks app going through yesterday's [tutorial](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces) and trying to fully understand the modifiers that were being used for the visual aspect of the app. I found it a bit confusing yesterday, specifically when it came down to making the photos the correct sizes and making sure they were dynamic depending on the size of the device. I managed to note down some key takeaways below.
+
+**Key Takeaways**: 
+- Use listRowInsets(_:) to change the default padding of the content of list items.
+- Dictionary(grouping:by:) creates a new dictionary whose keys are the groupings returned by the given closure and whose values are arrays of the elements that returned each key.
+- Use the clipped(antialiased:) modifier to hide any content that extends beyond the layout bounds of the shape.
+- The Image.TemplateRenderingMode enumeration has two cases: Image.TemplateRenderingMode.original and Image.TemplateRenderingMode.template. The original mode renders pixels as they appear in the original source image. Template mode renders all nontransparent pixels as the foreground color, which you can use for purposes like creating image masks.
+- scaledToFill() scales the view to fill its parent.
+- scaledToFit() scales the view to fit its parent.
 
 **Link(s) to work**
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
