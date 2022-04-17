@@ -29,6 +29,8 @@
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
 | [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
 | [Day 49](#day49)    | Landmarks App - Categories Tab          |[Day 50](#day50)     | Landmarks App - Categories Tab pt.2           |
+| [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     |                                               |
+
 
 ------------------------------------------------------------------------------------------------------
 
@@ -1263,3 +1265,31 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 **Link(s) to work**
 1. [Landmarks App](https://github.com/joaomauricio5/Landmarks/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day51"></a>
+### Day 51: 17 April 2022, Sunday
+### **Trees in Swift**
+
+**Today's Progress**: Today I continued my learning with Data Structures, by studying Trees. Codecademy recently released a new Skill Path -> [Pass the Technical Interview with Swift](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-swift) and I was super happy to see that they added a lot more content than there was before for Swift, specifically around Non-Linear Data Structures. I'm really enjoying the way that Codecademy explains each of them and how it "forces" us to practice it during the tutorials. They also added a few articles on tips about whiteboard interviews and common interview problems with Swift, which I'm definitely looking forward to reading through.
+
+
+**Key Takeaways**: 
+- Trees grow downwards in computer science, and a root node is at the very top
+- Each node will only ever have at most one parent; otherwise, they wouldn’t be trees.
+- When a node has no children, we refer to it as a leaf node.
+- Each time we move from a parent to a child, we’re moving down a level. Depending on the orientation we refer to this as the depth (counting levels down from the root node) or height (counting levels up from a leaf node).
+- A binary tree is a type of tree where each parent can have no more than two children, known as the left child and right child.
+- In a binary search tree: Left child values must be lesser than their parent; Right child values must be greater than their parent.
+- Function overloading (or method overloading, depending on your programming language), is the practice of creating multiple instances of a function with different parameters and/or return types.
+
+
+
+**Link(s) to work**
+1. [Codecademy's Tree Cheatsheet](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-swift/tracks/swift-non-linear-data-structures/modules/trees-swift/cheatsheet)
