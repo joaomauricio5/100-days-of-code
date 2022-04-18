@@ -29,7 +29,7 @@
 | [Day 45](#day45)    | Deleting Recipes in Cookcademy + Regex  |[Day 46](#day46)     | Cookcademy - Deleting Favorites + Bitwise Operators |
 | [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
 | [Day 49](#day49)    | Landmarks App - Categories Tab          |[Day 50](#day50)     | Landmarks App - Categories Tab pt.2           |
-| [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     |                                               |
+| [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     | Trees in Swift pt.2                           |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1289,6 +1289,31 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 - In a binary search tree: Left child values must be lesser than their parent; Right child values must be greater than their parent.
 - Function overloading (or method overloading, depending on your programming language), is the practice of creating multiple instances of a function with different parameters and/or return types.
 
+
+
+**Link(s) to work**
+1. [Codecademy's Tree Cheatsheet](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-swift/tracks/swift-non-linear-data-structures/modules/trees-swift/cheatsheet)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day52"></a>
+### Day 52: 18 April 2022, Monday
+### **Trees in Swift pt.2**
+
+**Today's Progress**: Today I continued learning about Trees in Swift. This is really testing my ability to think abstractly. I can understand the concept of trees in computer science, but when it comes to thinking about things like breadth-first traversal / depth-first traversal on a more low level, it gets a bit trickier to focus at the moment, specifically when thinking about recursion, queues and stacks to achieve tree traversal. However, these concepts are still quite fresh in my brain, so I definitely need some more practice and time to feel comfortable with them.  I'm implementing my tree structure in Swift by creating functions to add, remove, find, print and traverse (breadth-first and depth-first) TreeNodes.
+
+
+**Key Takeaways**: 
+- We can define equality by implementing the Equatable protocol and define what equal means to our classes.
+- We can change the way Swift prints a class by implementing the CustomStringConvertible protocol and defining what data to return as the description variable.
+- Depth-First Traversal: climbing from the root and following each branch down to its leaves
+- Breadth-First Traversal: climbing all the branches on the same level (depth) before moving to the next level.
+- There are several different ways to implement a depth-first algorithm: pre-order traversal, post-order and in-order. Will come back to this later on.
 
 
 **Link(s) to work**
