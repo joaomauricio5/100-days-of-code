@@ -30,6 +30,7 @@
 | [Day 47](#day47)    | HackerRank Challenges                   |[Day 48](#day48)     | Landmarks App - Saving favorite landmarks     |
 | [Day 49](#day49)    | Landmarks App - Categories Tab          |[Day 50](#day50)     | Landmarks App - Categories Tab pt.2           |
 | [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     | Trees in Swift pt.2                           |
+| [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1318,3 +1319,30 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 **Link(s) to work**
 1. [Codecademy's Tree Cheatsheet](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-swift/tracks/swift-non-linear-data-structures/modules/trees-swift/cheatsheet)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day53"></a>
+### Day 53: 19 April 2022, Tuesday
+### **LeetCode Challenges**
+
+**Today's Progress**: Today I finally started using LeetCode after so many recommendations to try it. I'm really enjoying the fact that I get to compare my solutions with others when it comes to time and space complexity. It gets me to really think about ways to improve my solution, and it was just what I needed to get back to HackerRank's Problem Solving Certificate (I managed to create suitable solutions for the certificate's test, but they ended up being too inneficient time-wise. I also like the fact that LeetCode forces me to use the Data Structures I've recently learning about to complete the solutions (a few challenges from today were based around Linked Lists, while also touching on Stacks and Queues).
+
+**Key Takeaways**: 
+- LeetCode lets us compare our solutions with others when it comes to time and space complexity.
+- I am finally starting to actively utilising the Data Structures I've been learning about, mainly Linked Lists.
+- I will retry HackerRank's Problem Solving Certificate test again in a few days, now that I am aware of how time complexity affects my algorithms.
+
+
+**Link(s) to work**
+1. [LeetCode - Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+2. [LeetCode - Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
+3. [LeetCode - Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+4. [LeetCode - Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+5. [LeetCode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
