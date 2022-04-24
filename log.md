@@ -1355,7 +1355,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 <a name="day54"></a>
 ### Day 53: 20 April 2022, Wednesday
-### **LeetCode Challenges**
+### **LeetCode Challenges pt.2**
 
 **Today's Progress**: For these next few days, I'm going to focus mostly on LeetCode challenges, potentially without looking at any major new concepts. My parents are coming over from Portugal for a week but I'll still try and stay consistent with the 1h minimum coding time as much as possible.
 
@@ -1374,7 +1374,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 <a name="day54"></a>
 ### Day 54: 21 April 2022, Thursday
-### **LeetCode Challenges**
+### **LeetCode Challenges pt.3**
 
 **Today's Progress**: Today I focused specifically on Linked List exercises, as it seems to be quite a popular topic for technical interviews. A lot of the questions seem to be revolving at least around some form of iterating through the whole list, so that's definitely an important technique to be aware of -> while currentNode != nil -> currentNode = currentNode?.next
 
@@ -1383,3 +1383,23 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 2. [LeetCode - Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 3. [LeetCode - Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 4. [LeetCode - Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day54"></a>
+### Day 55: 24 April 2022, Sunday
+### **LeetCode Challenges pt.4**
+
+**Today's Progress**: In these last 2 days I had to skip the challenge as I was in London with no laptop with my parents, but I'm back in Bristol today so I continued with a few more LeetCode problems. Will be coming back to SwiftUI and Data Structures again in a few days.
+
+**Link(s) to work**
+1. [LeetCode - Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
+2. [LeetCode - Kids with the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+3. [LeetCode - Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+4. [LeetCode - Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)
