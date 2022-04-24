@@ -31,6 +31,7 @@
 | [Day 49](#day49)    | Landmarks App - Categories Tab          |[Day 50](#day50)     | Landmarks App - Categories Tab pt.2           |
 | [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     | Trees in Swift pt.2                           |
 | [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     | LeetCode Challenges pt.2                      |
+| [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1353,7 +1354,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 <a name="day54"></a>
-### Day 53: 20 April 2022, Tuesday
+### Day 53: 20 April 2022, Wednesday
 ### **LeetCode Challenges**
 
 **Today's Progress**: For these next few days, I'm going to focus mostly on LeetCode challenges, potentially without looking at any major new concepts. My parents are coming over from Portugal for a week but I'll still try and stay consistent with the 1h minimum coding time as much as possible.
@@ -1363,3 +1364,22 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 2. [LeetCode - The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
 3. [LeetCode - Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 4. [LeetCode - Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day54"></a>
+### Day 54: 21 April 2022, Thursday
+### **LeetCode Challenges**
+
+**Today's Progress**: Today I focused specifically on Linked List exercises, as it seems to be quite a popular topic for technical interviews. A lot of the questions seem to be revolving at least around some form of iterating through the whole list, so that's definitely an important technique to be aware of -> while currentNode != nil -> currentNode = currentNode?.next
+
+**Link(s) to work**
+1. [LeetCode - Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+2. [LeetCode - Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+3. [LeetCode - Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+4. [LeetCode - Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
