@@ -32,6 +32,7 @@
 | [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     | Trees in Swift pt.2                           |
 | [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     | LeetCode Challenges pt.2                      |
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
+| [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1392,7 +1393,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 
-<a name="day54"></a>
+<a name="day55"></a>
 ### Day 55: 24 April 2022, Sunday
 ### **LeetCode Challenges pt.4**
 
@@ -1403,3 +1404,29 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 2. [LeetCode - Kids with the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
 3. [LeetCode - Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 4. [LeetCode - Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day56"></a>
+### Day 56: 30 April 2022, Monday
+### **Concurrency and Swift**
+
+**Today's Progress**: Today I finally got back on track - my parents went back to Portugal yesterday so I'm back to coding everyday. I started studying concurrency and multi-threading with Swift, specifically in order to be able to use APIs through network requests. I was familiar with the concept of multi-threading from working with audio software (I always had to make sure the audio processing was done on a separate thread than the UI processing) but I'm still not 100% comfortable with it. I learnt about the different ways a device can process tasks (sequentially, concurrently and in parallel), and about Grand Central Dispatch, which handles thread creation and CPU processing for Swift. I also had an introduction to async functions and await statements, which I'm looking forward to experimenting with tomorrow.
+
+**Key Takeaways**: 
+- In programming, concurrency refers to an application’s ability to process more than one task at a time. If an application processes tasks concurrently, the tasks must be independent of one another. This means that the completion of tasks is not dependent upon other tasks being completed.
+- In the sequential approach, activities are executed in a specific order to provide a specific outcome. In the concurrent approach, activities are executed in any order and will still achieve the desired result.
+- Parallelism is the execution of multiple tasks at the same time : parallelism needs hardware with multiprocessing units whereas concurrency does not; parallelism assigns each task for a core to execute whereas concurrency executes all tasks by switching tasks at the same time.
+- Every application begins with one thread known as the main thread. In Swift, the main thread is also known as the main queue. Think of the main queue as the entire application. The main queue will then spawn other threads to complete tasks for the application. This is known as multi-threading.
+- The main thread is responsible for all application logic, including UI updates and interactions. Since the main thread is a serial queue and responsible for the entire application, it is imperative that you don’t put tasks on it that take a long time.
+- Grand Central Dispatch (GCD) is Swift’s older framework for creating threads, handling tasks, and managing concurrency. Swift 5.5 introduced a new way to manage concurrency, but many older applications will use GCD
+
+
+**Relevant Links**
+1. [Concurrency Visualized - Part 1: Sync vs Async](https://medium.com/@almalehdev/concurrency-visualized-part-1-sync-vs-async-c433ff7b3ebe)
+2. [Async await in Swift explained with code examples](https://www.avanderlee.com/swift/async-await/)
