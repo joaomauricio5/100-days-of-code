@@ -1355,7 +1355,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 <a name="day54"></a>
-### Day 53: 20 April 2022, Wednesday
+### Day 54: 20 April 2022, Wednesday
 ### **LeetCode Challenges pt.2**
 
 **Today's Progress**: For these next few days, I'm going to focus mostly on LeetCode challenges, potentially without looking at any major new concepts. My parents are coming over from Portugal for a week but I'll still try and stay consistent with the 1h minimum coding time as much as possible.
@@ -1373,8 +1373,8 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 
-<a name="day54"></a>
-### Day 54: 21 April 2022, Thursday
+<a name="day55"></a>
+### Day 55: 21 April 2022, Thursday
 ### **LeetCode Challenges pt.3**
 
 **Today's Progress**: Today I focused specifically on Linked List exercises, as it seems to be quite a popular topic for technical interviews. A lot of the questions seem to be revolving at least around some form of iterating through the whole list, so that's definitely an important technique to be aware of -> while currentNode != nil -> currentNode = currentNode?.next
@@ -1393,8 +1393,8 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 
-<a name="day55"></a>
-### Day 55: 24 April 2022, Sunday
+<a name="day56"></a>
+### Day 56: 24 April 2022, Sunday
 ### **LeetCode Challenges pt.4**
 
 **Today's Progress**: In these last 2 days I had to skip the challenge as I was in London with no laptop with my parents, but I'm back in Bristol today so I continued with a few more LeetCode problems. Will be coming back to SwiftUI and Data Structures again in a few days.
@@ -1412,8 +1412,8 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 
-<a name="day56"></a>
-### Day 56: 30 April 2022, Monday
+<a name="day57"></a>
+### Day 57: 30 April 2022, Monday
 ### **Concurrency and Swift**
 
 **Today's Progress**: Today I finally got back on track - my parents went back to Portugal yesterday so I'm back to coding everyday. I started studying concurrency and multi-threading with Swift, specifically in order to be able to use APIs through network requests. I was familiar with the concept of multi-threading from working with audio software (I always had to make sure the audio processing was done on a separate thread than the UI processing) but I'm still not 100% comfortable with it. I learnt about the different ways a device can process tasks (sequentially, concurrently and in parallel), and about Grand Central Dispatch, which handles thread creation and CPU processing for Swift. I also had an introduction to async functions and await statements, which I'm looking forward to experimenting with tomorrow.
