@@ -32,7 +32,7 @@
 | [Day 51](#day51)    | Trees in Swift                          |[Day 52](#day52)     | Trees in Swift pt.2                           |
 | [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     | LeetCode Challenges pt.2                      |
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
-| [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     |                                               |
+| [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1413,7 +1413,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 
 
 <a name="day57"></a>
-### Day 57: 30 April 2022, Monday
+### Day 57: 30 April 2022, Saturday
 ### **Concurrency and Swift**
 
 **Today's Progress**: Today I finally got back on track - my parents went back to Portugal yesterday so I'm back to coding everyday. I started studying concurrency and multi-threading with Swift, specifically in order to be able to use APIs through network requests. I was familiar with the concept of multi-threading from working with audio software (I always had to make sure the audio processing was done on a separate thread to the UI processing) but I'm still not 100% comfortable with it. I learnt about the different ways a device can process tasks (sequentially, concurrently and in parallel), and about Grand Central Dispatch, which handles thread creation and CPU processing for Swift. I also had an introduction to async functions and await statements, which I'm looking forward to experimenting with tomorrow.
@@ -1430,3 +1430,27 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 **Relevant Links**
 1. [Concurrency Visualized - Part 1: Sync vs Async](https://medium.com/@almalehdev/concurrency-visualized-part-1-sync-vs-async-c433ff7b3ebe)
 2. [Async await in Swift explained with code examples](https://www.avanderlee.com/swift/async-await/)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day58"></a>
+### Day 58: 1st May 2022, Sunday
+### **Intro to APIs with Swift**
+
+**Today's Progress**: Today I continued on the topic of concurrency and finally got to use an API for the first time. For this, I'm creating a very simple app through Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) that requests random users from the [Random User Generator API](https://randomuser.me/) as a JSON file and displays some of their information. I'm finding that I'm fairly comfortable with the concepts behind APIs, but still processing all of the information I learnt yesterday about multi-threading in iOS (we need to make sure that the API requests don't block the UI processing and is done on a different thread). Fortunately, Swift's [URLSession.shared.data(from: URL)](https://developer.apple.com/documentation/foundation/urlsession/3767353-data) function already processes the network requests on a background thread for us.
+
+**Key Takeaways**: 
+- The MainActor is a globally unique actor who performs tasks on the main thread so you don’t perform UI updates on a background thread.
+- The async keyword declares a function as asynchronous - a coroutine. Coroutines are functions that may return normally with a value or may suspend themselves internally and return a continuation.
+- The await keyword works like the try keyword. It will execute the asynchronous function and wait for the result.
+- The URLSession can call the function data(from:) to retrieve data from an API's URL.
+- By default, URLSession operations occur on a background thread and do not need to be specified otherwise.
+
+
+**Relevant Links**
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
