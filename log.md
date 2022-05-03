@@ -1467,7 +1467,7 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 ### Day 59: 2nd May 2022, Monday
 ### **JSON review + Coding Keys**
 
-**Today's Progress**: Today I was able to do a bit of a review on JSON, as well as learning about Coding Keys in Swift. Coding Keys seem to be particularly useful when we rather have a different name for our property within our data model than following the naming convention from the JSON itself. At the moment, the [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main) only displays the actualy JSON text to the user, but as I will be implementing a proper User structure next, this concept will come in handy.   
+**Today's Progress**: Today I was able to do a bit of a review on JSON, as well as learning about Coding Keys in Swift. Coding Keys seem to be useful when we rather have a different name for our properties within our data model than following the naming convention from the JSON itself. At the moment, the [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main) only displays the actual JSON text to the user, but as I will be implementing a proper User structure next, this concept will come in handy.   
 I also learnt that Swift provides us with a way to manually decode JSON into our structures, whenever we don't want to follow the exact structure that the JSON file has. This can be done with the [init(from decoder: Decoder)](https://developer.apple.com/documentation/swift/decodable/2894081-init) initializer.
 
 **Key Takeaways**: 
