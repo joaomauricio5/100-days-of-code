@@ -33,6 +33,7 @@
 | [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     | LeetCode Challenges pt.2                      |
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
+| [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1450,6 +1451,29 @@ So, with this in mind, whenever the app is opened for the first time, a new file
 - The await keyword works like the try keyword. It will execute the asynchronous function and wait for the result.
 - The URLSession can call the function data(from:) to retrieve data from an API's URL.
 - By default, URLSession operations occur on a background thread and do not need to be specified otherwise.
+
+
+**Relevant Links**
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day59"></a>
+### Day 59: 2nd May 2022, Monday
+### **JSON review + Coding Keys**
+
+**Today's Progress**: Today I was able to do a bit of a review on JSON, as well as learning about Coding Keys in Swift. Coding Keys seem to be particularly useful when we rather have a different name for our property within our data model than following the naming convention from the JSON itself. At the moment, the [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main) only displays the actualy JSON text to the user, but as I will be implementing a proper User structure next, this concept will come in handy.   
+I also learnt that Swift provides us with a way to manually decode JSON into our structures, whenever we don't want to follow the exact structure that the JSON file has. This can be done with the [init(from decoder: Decoder)](https://developer.apple.com/documentation/swift/decodable/2894081-init) initializer.
+
+**Key Takeaways**: 
+- Coding Keys can be declared in the form of an enumeration which conforms to the CodingKey protocol and has a raw value of type String. Coding Keys give us the ability to have modified versions of our properties so that we’re not always relying on the naming conventions provided by the API response.
+- Decodable offers a customer initializer for manually decoding JSON. 
+- Instead of relying on the automatic decoding that Decodable brings with it, we’re able to manually bring together different keys in a JSON response and convert them into the date type we want in our data model.
 
 
 **Relevant Links**
