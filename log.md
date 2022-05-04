@@ -1519,10 +1519,8 @@ Tomorrow I will import this new knowledge to the RandomUsers app and start creat
 **Key Takeaways**: 
 - Our goal should be to write unit tests that fail when the behavior of our code changes so that we can catch this and make the necessary adjustments.
 - XCTest Starter Code: **setUpWithError** - This is a setup method. It lets us initialize variables as needed before each test method is called; **tearDownWithError** - This is a teardown method. It lets us clean up variables, set them to nil, etc after each test method is called; **testExample()** - This is a basic test method. Making sure our test methods are prefixed with test enables it for testing in Xcode; **testPerformanceExample()** - This method shows how a performance test measuring time can be written.
-- XCTAssert asserts that an expression is true.
+- XCTAssert and XCTAssertTrue assert that an expression is true.
 - XCTFail generates a failure immediately and unconditionally.
 - XCTAssertNotNil asserts that an expression is not nil.
 - XCTAssertEqual asserts that two expressions have the same value.
-- XCTAssertTrue asserts that an expression is true.
 - XCTAssertGreaterThan asserts that the value of the first expression is greater than the value of the second expression.
-
