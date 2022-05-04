@@ -33,7 +33,7 @@
 | [Day 53](#day53)    | LeetCode Challenges                     |[Day 54](#day54)     | LeetCode Challenges pt.2                      |
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
-| [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     |                                               |
+| [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1475,6 +1475,24 @@ I also learnt that Swift provides us with a way to manually decode JSON into our
 - Decodable offers a customer initializer for manually decoding JSON. 
 - Instead of relying on the automatic decoding that Decodable brings with it, we’re able to manually bring together different keys in a JSON response and convert them into the date type we want in our data model.
 
+
+**Relevant Links**
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day60"></a>
+### Day 60: 3rd May 2022, Tuesday
+### **Converting JSON to User - RandomUsers App**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
 
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
