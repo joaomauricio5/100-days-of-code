@@ -34,6 +34,7 @@
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
+| [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1499,3 +1500,29 @@ I also had a brief introduction to Unit Testing with XCTest, Xcode's framework t
 
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day61"></a>
+### Day 61: 4th May 2022, Wednesday
+### **Unit testing with XCTest**
+
+**Today's Progress**: Today I focused on Unit Testing with XCTest and created a simple app that sums two numbers and is able to load a JSON file, only to test the functions that were implemented, both for the sum and JSON handling. Although I only focused on testing the logic, I'm also really curious to learn UI testing later on. I can definitely see how incredibly important testing is on a huge codebase which is constantly being updated and refactored, to make sure that although the code changes, the behaviour doesn't.  
+Tomorrow I will import this new knowledge to the RandomUsers app and start creating some tests for the API handling.
+
+**Key Takeaways**: 
+- Our goal should be to write unit tests that fail when the behavior of our code changes so that we can catch this and make the necessary adjustments.
+- XCTest Starter Code: **setUpWithError** - This is a setup method. It lets us initialize variables as needed before each test method is called; **tearDownWithError** - This is a teardown method. It lets us clean up variables, set them to nil, etc after each test method is called; **testExample()** - This is a basic test method. Making sure our test methods are prefixed with test enables it for testing in Xcode; **testPerformanceExample()** - This method shows how a performance test measuring time can be written.
+- XCTAssert asserts that an expression is true.
+- XCTFail generates a failure immediately and unconditionally.
+- XCTAssertNotNil asserts that an expression is not nil.
+- XCTAssertEqual asserts that two expressions have the same value.
+- XCTAssertTrue asserts that an expression is true.
+- XCTAssertGreaterThan asserts that the value of the first expression is greater than the value of the second expression.
+
