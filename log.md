@@ -1513,7 +1513,7 @@ I also had a brief introduction to Unit Testing with XCTest, Xcode's framework t
 ### Day 61: 4th May 2022, Wednesday
 ### **Unit testing with XCTest**
 
-**Today's Progress**: Today I focused on Unit Testing with XCTest and created a simple app that sums two numbers and is able to load a JSON file, only to test the functions that were implemented, both for the sum and JSON handling. Although I only focused on testing the logic, I'm also really curious to learn UI testing later on. I can definitely see how incredibly important testing is on a huge codebase which is constantly being updated and refactored, to make sure that although the code changes, the behaviour doesn't.  
+**Today's Progress**: Today I focused on Unit Testing with XCTest through Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) and created a simple app that sums two numbers and is able to load a JSON file, only to test the functions that were implemented. Although I only focused on testing the logic, I'm also really curious to learn UI testing later on. I can definitely see how incredibly important testing is on a huge codebase which is constantly being updated and refactored, to make sure that although the code changes, the behaviour doesn't.  
 Tomorrow I will import this new knowledge to the RandomUsers app and start creating some tests for the API handling.
 
 **Key Takeaways**: 
