@@ -1490,9 +1490,12 @@ I also learnt that Swift provides us with a way to manually decode JSON into our
 ### Day 60: 3rd May 2022, Tuesday
 ### **Converting JSON to User - RandomUsers App**
 
-**Today's Progress**: 
+**Today's Progress**: Today I made some progress on the RandomUsers app, by finally handling the JSON response from the API with Coding Keys, in order to get the user's names and uuid's. Coding Keys and the custom decoding came in super handy as both the names and uuid were both nested in dictionaries in the JSON response, and the uuid, in the User structure, needed to be called "id" instead in order to conform to the Identifiable protocol to be used in a List.  
+I also had a brief introduction to Unit Testing with XCTest, Xcode's framework to write tests for Xcode projects. I've been really curious about this in the last few weeks and I'm really looking forward to focusing on it tomorrow.
 
 **Key Takeaways**: 
+- A function that tests something in our codebase is called a unit test. This unit test is responsible for testing for edge cases, such as calling a function by passing in an empty array as an argument, and overall making sure that the code works as expected.
+- Tests assert that certain conditions are satisfied during code execution, and record test failures (with optional messages) if those conditions aren’t satisfied. Tests can also measure the performance of blocks of code to check for performance regressions, and can interact with an application's UI to validate user interaction flows.
 
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
