@@ -35,6 +35,7 @@
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
 | [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
+| [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1549,3 +1550,27 @@ Additionally, I implemented profile pictures for each user by utilising SwiftUI'
 
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day63"></a>
+### Day 63: 6th May 2022, Friday
+### **Intro to Relational Databases with PostgreSQL**
+
+**Today's Progress**: Today I took a break from Swift and finally began learning about SQL - more specifically with [PostgreSQL](https://www.postgresql.org/). Experience with relational databases seems to be a popular requirement for developer roles, so I'm excited to learn more about it. I started by learning the basics of SQL's syntax: creating tables, inserting/updating/removing data, setting constraints, data types, queries, etc. After that, I installed [PostgreSQL](https://www.postgresql.org/) and [Postbird](https://www.electronjs.org/apps/postbird) (GUI client for PostgreSQL), and created a small database with information about some movies (such as name, runtime, release year, earnings) that was added both through SQL queries as well as the GUI. No major roadblocks for now, but I'm curious to see how much more complex SQL can get.
+
+**Key Takeaways**: 
+- A relational database is a type of database that allows us to identify and access data in relation to another piece of data in the database. Often, data in a relational database is organized into tables.
+- Tables can have hundreds, thousands, sometimes even millions of rows of data. These rows are often called records.
+Tables can also have many columns of data. Columns are labeled with a descriptive name (say, age for example) and have a specific data type.
+- A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. Most relational database management systems use the SQL language to access the database.
+- SQL, Structured Query Language, is a programming language designed to manage data stored in relational databases.
+- A statement is a string of characters that the database recognizes as a valid command.
+- SELECT is a clause that indicates that the statement is a query. You will use SELECT every time you query data from a database.
+- [Common SQL commands](https://www.codecademy.com/article/sql-commands)
