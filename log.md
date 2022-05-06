@@ -34,7 +34,7 @@
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
-| [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     |                                               |
+| [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1524,3 +1524,28 @@ Tomorrow I will import this new knowledge to the RandomUsers app and start creat
 - XCTAssertNotNil asserts that an expression is not nil.
 - XCTAssertEqual asserts that two expressions have the same value.
 - XCTAssertGreaterThan asserts that the value of the first expression is greater than the value of the second expression.
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day62"></a>
+### Day 62: 5th May 2022, Thursday
+### **RandomUsers App - Unit Testing pt.2 + AsyncImage**
+
+**Today's Progress**: Today I worked on the RandomUsersApp: I started by creating an extra unit test to evaluate the JSON decoding that was done through the app. One thing I realised from this is how important it is to "think ahead" about the tests, so that it really evaluates the behaviour and not the code itself, specifically with code that might be refactored/upgraded later on.  
+Additionally, I implemented profile pictures for each user by utilising SwiftUI's [AsyncImage](https://developer.apple.com/documentation/swiftui/asyncimage) to load the images from the given url asynchronously. Super useful that it abstracts a lot of work that would need to be done, such as networking, multi-threads handling, etc, just to download an image from an URL.
+
+**Key Takeaways**: 
+- With AsyncImage, as soon as the image gets downloaded, it is modified by the code inside the closure containing the content image and rendered into a view on the main thread.
+- The scale parameter will make sure our image is loaded and scaled to the correct resolution. It is most useful when loading high-resolution images.
+- With AsyncImage, we're able to add a placeholder image until the one that was requested is finally downloaded fromt the URL.
+- We can even set specific images to be shown based on the loading states of the asynchronous process giving us the power and flexibility to create a robust user experience.
+- Use ProgressView() to show that a task is making progress towards completion. A progress view can show both determinate (percentage complete) and indeterminate (progressing or not) types of progress.
+
+
+**Relevant Links**
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
