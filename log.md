@@ -35,7 +35,7 @@
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
 | [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
-| [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64)     |                                               |
+| [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1574,3 +1574,33 @@ Tables can also have many columns of data. Columns are labeled with a descript
 - A statement is a string of characters that the database recognizes as a valid command.
 - SELECT is a clause that indicates that the statement is a query. You will use SELECT every time you query data from a database.
 - [Common SQL commands](https://www.codecademy.com/article/sql-commands)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day64"></a>
+### Day 64: 6th May 2022, Saturday
+### **SQL Queries and Agreggate Functions**
+
+**Today's Progress**: Today I continued my progress through Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path, and focused on SQL queries and agreggate functions. I can imagine SQL might be very relevant for Data Science, just from how easy it is to get conclusions about the whole database by filtering down the data we actually need and finding relevant patterns. For example, one of the exercises I did today revolved around a database of restaurants in New York, which included data about average price, neighborhood, health rating, etc. From here, with a large enough dataset, we could make some assumptions about how these bits of information relate to each other: Do specific neighborhoods tend to have more expensive restaurants? Do cheaper restaurants generally have a lower health rating? Do certain neighborhoods have more restaurants with higher health ratings?  
+
+**Key Takeaways**: 
+- SELECT is the clause we use every time we want to query information from a database.
+- AS renames a column or table.
+- DISTINCT returns unique values.
+- WHERE is a popular command that lets you filter the results of the query based on conditions that you specify.
+- LIKE and BETWEEN are special operators.
+- AND and OR combines multiple conditions.
+- ORDER BY sorts the result.
+- LIMIT specifies the maximum number of rows that the query will return.
+- CASE creates different outputs.
+- COUNT(): count the number of rows
+- SUM(): the sum of the values in a column
+- MAX()/MIN(): the largest/smallest value
+- AVG(): the average of the values in a column
+- ROUND(): rounds the values in the column to a number of decimal places that we can specify as the 2nd argument.
+- GROUP BY is a clause used with aggregate functions to combine data from one or more columns.
+- HAVING limits the results of a query based on an aggregate property.
