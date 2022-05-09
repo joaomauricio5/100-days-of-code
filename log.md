@@ -36,7 +36,7 @@
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
 | [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
-| [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges (LeetCode)                    |
+| [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1638,7 +1638,7 @@ I finished the day off by getting started on a PostgreSQL exercise off-platform 
 
 <a name="day66"></a>
 ### Day 66: 9th May 2022, Monday
-### **SQL Challenges (LeetCode)**
+### **SQL Challenges**
 
 **Today's Progress**: Today I managed to complete quite a few SQL challenges by going through this [database](https://www.seanlahman.com/baseball-archive/statistics) and finding specific information, such as: find the team with the highest average weight of its batters on a given year; find the team that had the smallest “cost per win” in 2010; find the pitcher who, in a given year, cost the most money per game in which they were the starting pitcher, if they started at least 10 games, etc. I also completed a few SQL challenges from LeetCode.
 I can see how many companies ask for practice and knowledge about SQL, as it seems to be invaluable when navigating huge databases. I'm really curious to see how I can pair this up with Swift and iOS apps in the next few days.
