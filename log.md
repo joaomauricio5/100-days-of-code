@@ -1648,4 +1648,5 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 - In SQL, a comparison against a null value does not evaluate to true or false , it evaluates to unknown. We should use IS NULL or IS NOT NULL.
 - The IN operator is used in a WHERE clause that allows checking whether a value is present in a list of other values.
 - [PostgreSQL IN, Not IN with examples](https://www.guru99.com/postgresql-in-not.html#5)
+- The PostgreSQL LEFT() function returns the first n characters in a string.
 
