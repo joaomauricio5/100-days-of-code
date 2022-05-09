@@ -36,6 +36,7 @@
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
 | [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
+| [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1582,7 +1583,7 @@ Tables can also have many columns of data. Columns are labeled with a descript
 
 
 <a name="day64"></a>
-### Day 64: 6th May 2022, Saturday
+### Day 64: 7th May 2022, Saturday
 ### **SQL Queries and Agreggate Functions**
 
 **Today's Progress**: Today I continued my progress through Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path, and focused on SQL queries and agreggate functions. I can imagine SQL might be very relevant for Data Science, just from how easy it is to get conclusions about the whole database by filtering down the data we actually need and finding relevant patterns. For example, one of the exercises I did today revolved around a database of restaurants in New York, which included data about average price, neighborhood, health rating, etc. From here, with a large enough dataset, we could make some assumptions about how these bits of information relate to each other: Do specific neighborhoods tend to have more expensive restaurants? Do cheaper restaurants generally have a lower health rating? Do certain neighborhoods have more restaurants with higher health ratings?  
@@ -1604,3 +1605,27 @@ Tables can also have many columns of data. Columns are labeled with a descript
 - ROUND(): rounds the values in the column to a number of decimal places that we can specify as the 2nd argument.
 - GROUP BY is a clause used with aggregate functions to combine data from one or more columns.
 - HAVING limits the results of a query based on an aggregate property.
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day65"></a>
+### Day 65: 8th May 2022, Sunday
+### **SQL Queries and Agreggate Functions**
+
+**Today's Progress**: I continued working through Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path up to the point where I already finished the basic [Learn SQL](https://www.codecademy.com/learn/learn-sql) course. Today was about working with multiple tables and how they will relate to each other. This was especially useful to get some [guidelines about designing my own databases](https://discuss.codecademy.com/t/are-there-guidelines-to-splitting-a-table-as-provided-in-the-example/356116?_gl=1*kk22fj*_ga*MTE5NjU3NTA0NC4xNjQ2OTE5ODQ1*_ga_3LRZM6TM9L*MTY1MjAyMTc0OC4xNDcuMS4xNjUyMDIxNzUyLjU2) in a way that they avoid data redundancy - having lots of columns which are present in various tables with the same information.  
+I finished the day off by getting started on a PostgreSQL exercise off-platform from Codecademy, where I need to work with an [external database](https://www.seanlahman.com/baseball-archive/statistics) and find answers to the project's questions. It was my first time working with a huge database - 29 tables, where some of them have hundreds of thousands of rows. A bit overwhelming at first but I'm getting there.
+
+**Key Takeaways**: 
+- JOIN (Inner Join) will combine rows from different tables if the join condition is true.
+- LEFT JOIN (Outer Join) will return every row in the left table, and if the join condition is not met, NULL values are used to fill in the columns from the right table.
+- Primary key is a column that serves a unique identifier for the rows in the table.
+- Foreign key is a column that contains the primary key to another table.
+- CROSS JOIN lets us combine all rows of one table with all rows of another table.
+- UNION stacks one dataset on top of another.
+- WITH allows us to define one or more temporary tables that can be used in the final query.
