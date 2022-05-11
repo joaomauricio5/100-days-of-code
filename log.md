@@ -1667,6 +1667,6 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 **Key Takeaways**: 
 - Many linked list problems can be solved with the two-pointer technique. If it seems like a linked list problem requires keeping track of multiple positions or creating other data representations (such as using an array), consider whether two pointers iterating in parallel or at different speeds could help solve the problem efficiently.
 - We can reverse a linked list through recursion or using a loop.
-- [Reversing a Linked List GIF](https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif)
+- [Reversing a Linked List GIF](https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif) + [Article](https://www.geeksforgeeks.org/reverse-a-linked-list/)
 
 
