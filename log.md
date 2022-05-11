@@ -1657,8 +1657,8 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 
 
 
-<a name="day66"></a>
-### Day 66: 10th May 2022, Tuesday
+<a name="day67"></a>
+### Day 67: 10th May 2022, Tuesday
 ### **Back to Linked Lists + SQL practice**
 
 **Today's Progress**: Today I went to back to studying Linked Lists and practiced a bit more SQL through LeetCode. I had a look at how to swap nodes in linked lists, as well as the two-pointer technique - this one is going to be super useful, as I had a few linked list challenges that I wasn't sure how to solve without using arrays (which could easily use a lot of unnecessary space), but using the two-pointer technique is such a great idea when we need to keep track of multiple node positions: find the middle of the linked list; returning the node that is n places behind the tail, etc. I also started getting some practice with reversing linked lists, as it seems to be quite popular in technical interviews.
