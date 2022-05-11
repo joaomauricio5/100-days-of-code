@@ -37,6 +37,7 @@
 | [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
+| [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1649,4 +1650,23 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 - The IN operator is used in a WHERE clause that allows checking whether a value is present in a list of other values.
 - [PostgreSQL IN, Not IN with examples](https://www.guru99.com/postgresql-in-not.html#5)
 - The PostgreSQL LEFT() function returns the first n characters in a string.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day66"></a>
+### Day 66: 10th May 2022, Tuesday
+### **Back to Linked Lists + SQL practice**
+
+**Today's Progress**: Today I went to back to studying Linked Lists and practiced a bit more SQL through LeetCode. I had a look at how to swap nodes in linked lists, as well as the two-pointer technique - this one is going to be super useful, as I had a few linked list challenges that I wasn't sure how to solve without using arrays (which could easily use a lot of unnecessary space), but using the two-pointer technique is such a great idea when we need to keep track of multiple node positions: find the middle of the linked list; returning the node that is n places behind the tail, etc. I also started getting some practice with reversing linked lists, as it seems to be quite popular in technical interviews.
+
+
+**Key Takeaways**: 
+- Many linked list problems can be solved with the two-pointer technique. If it seems like a linked list problem requires keeping track of multiple positions or creating other data representations (such as using an array), consider whether two pointers iterating in parallel or at different speeds could help solve the problem efficiently.
+- We can reverse a linked list through recursion or using a loop.
+- [Reversing a Linked List GIF](https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif)
+
 
