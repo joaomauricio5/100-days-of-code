@@ -1682,12 +1682,10 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 
 **Key Takeaways**: 
 - Like an architectural blueprint, a database schema is documentation that helps its audience such as a database designer, administrator and other users interact with a database. It gives an overview of the purpose of the database along with the data that makes up the database, how the data is organized into tables, how the tables are internally structured and how they relate to one another.
-- [DbDiagram.io](DbDiagram.io) - a free, simple tool to draw ER diagrams by just writing code, designed for developers and data analysts.
 - A database key is a column or group of columns in a table that uniquely identifies a row in a table.
 - Designating a **primary key** on a particular column in a table ensures that this column data is always unique and not null. For example, there may be multiple recipes of the same name, each with its own id but no two recipes should share the same id.
 - Sometimes, none of the columns in a table can uniquely identify a record. When this happens, we can designate multiple columns in a table to serve as the primary key, also known as a **composite primary key**.
-- We can query a special view, key_column_usage, generated from the information_schema database to identify all columns in the current database that are restricted by some constraint such as primary key or foreign key.
-- A foreign key is a key that references a primary key column in another table.
+- A **foreign key** is a key that references a primary key column in another table.
 - In a one-to-one relationship, a row of table A is associated with exactly one row of table B and vice-versa. For example, a person may only have one passport assigned to them. Conversely, a passport may only be issued to one person.
 - To enforce a strictly one-to-one relationship in PostgreSQL, we need the UNIQUE keyword appended to the declaration of the foreign key.
 - We need to represent a one-to-many relationship with two tables - a parent and a child table. Analogous to a parent-child relationship where a parent can have multiple children, a parent table will house a primary key and the child table will house both primary and foreign keys. The foreign key binds the child table to the parent table.
