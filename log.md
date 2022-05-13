@@ -38,6 +38,7 @@
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
+| [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     |                                             |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1690,3 +1691,21 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 - To enforce a strictly one-to-one relationship in PostgreSQL, we need the UNIQUE keyword appended to the declaration of the foreign key.
 - We need to represent a one-to-many relationship with two tables - a parent and a child table. Analogous to a parent-child relationship where a parent can have multiple children, a parent table will house a primary key and the child table will house both primary and foreign keys. The foreign key binds the child table to the parent table.
 - A many-to-many relationship can be broken into two one-to-many relationships. To implement a many-to-many relationship in a relational database, we would create a third cross-reference table also known as a join table. It will have these two constraints: foreign keys referencing the primary keys of the two member tables; a composite primary key made up of the two foreign keys.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day69"></a>
+### Day 69: 12th May 2022, Thursday
+### **Database Schemas, Keys and Relationships pt.2**
+
+**Today's Progress**: Today was all around practicing yesterday's concept around designing databases schemas by implementing relationships between tables and their keys. I managed to create a database for a restaurant, which included separate tables for: restaurant (in case they opened more than one), address, category (for dishes), dish, review and join table - category_dishes, as some dishes will have different prices depending on which category they're bought from (main dish or lunch deal). It was a good method of practicing and thinking about different relationships -> one-to-one: each restaurant_id can only have a single address; one-to-many: each restaurant can have multiple ratings/reviews; many-to-many: each category can have multiple dishes and each dish can be represented in multiple categories (ex: vegan dishes + fried rice dishes).
+
+**Key Takeaways**: 
+- [DbDiagram.io](DbDiagram.io) - a free, simple tool to draw ER diagrams by just writing code, designed for developers and data analysts.
+- We can query a special view, key_column_usage, generated from the information_schema database to identify all columns in the current database that are restricted by some constraint such as primary key or foreign key.
+- [Codecademy's Cheatsheet on Design a Database](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-and-populate-my-own-database/modules/designing-a-database-schema/cheatsheet)
+
