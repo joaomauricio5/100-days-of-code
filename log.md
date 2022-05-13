@@ -38,7 +38,7 @@
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
-| [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     |                                             |
+| [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1709,3 +1709,29 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 - We can query a special view, key_column_usage, generated from the information_schema database to identify all columns in the current database that are restricted by some constraint such as primary key or foreign key.
 - [Codecademy's Cheatsheet on Design a Database](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-and-populate-my-own-database/modules/designing-a-database-schema/cheatsheet)
 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day70"></a>
+### Day 70: 13th May 2022, Friday
+### **LeetCode SQL Challenges**
+
+**Today's Progress**: Today was all about solving [LeetCode](https://leetcode.com/explore/) challenges around SQL. A lot of the challenges have been revolving around creating sub-queries and joining different tables, and I'm happy that I'm getting along well with SQL after just a week of starting to learn about databases. I'm well aware that there is still a lot to learn though: I'm getting more and more curious to learn how I will be able to implement this knowledge within iOS Development and Swift. Will come back to Swift/SwiftUI tomorrow.
+
+**Key Takeaways**: 
+- The LIMIT x determines the number of rows (x) returned by the query. Whereas the OFFSET n clause skips n rows before beginning to return the rows.
+- The IF(x, y) function returns x if a condition is TRUE, or y if a condition is FALSE.
+- IFNULL(x, y) functions returns x IF the expression is NULL, otherwise it returns y.
+
+
+**Relevant Links**
+1. [LeetCode - Employees with Missing Information](https://leetcode.com/problems/employees-with-missing-information/)
+2. [LeetCode - Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)
+3. [LeetCode - Tree Node](https://leetcode.com/problems/tree-node/)
+4. [LeetCode - Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
+5. [LeetCode - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
+6. [LeetCode - Article Views I](https://leetcode.com/problems/article-views-i/)
