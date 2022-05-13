@@ -1720,7 +1720,7 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 ### Day 70: 13th May 2022, Friday
 ### **LeetCode SQL Challenges**
 
-**Today's Progress**: Today was all about solving [LeetCode](https://leetcode.com/explore/) challenges around SQL. A lot of the challenges have been revolving around creating sub-queries and joining different tables, and I'm happy that I'm getting along well with SQL after just a week of starting to learn about databases. I'm well aware that there is still a lot to learn though: I'm getting more and more curious to learn how I will be able to implement this knowledge within iOS Development and Swift. Will come back to Swift/SwiftUI tomorrow.
+**Today's Progress**: Today was all about solving [LeetCode](https://leetcode.com/explore/) challenges around SQL. A lot of the challenges have been revolving around sub-queries and joining different tables, and I'm happy that I'm getting along well with SQL after just a week of starting to learn about databases. I'm well aware that there is still a lot to learn though: I'm getting more and more curious to see how I will be able to implement this knowledge within iOS Development and Swift. Will come back to Swift/SwiftUI tomorrow by improving the RandomUsers App.
 
 **Key Takeaways**: 
 - The LIMIT x determines the number of rows (x) returned by the query. Whereas the OFFSET n clause skips n rows before beginning to return the rows.
