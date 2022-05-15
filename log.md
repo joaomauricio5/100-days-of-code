@@ -39,6 +39,7 @@
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
+| [Day 71](#day71)    | RandomUsers App + PostgreSQL + LinkedLists |[Day 72](#day72)     |                                         |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1735,3 +1736,23 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 4. [LeetCode - Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
 5. [LeetCode - Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
 6. [LeetCode - Article Views I](https://leetcode.com/problems/article-views-i/)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day71"></a>
+### Day 71: 14th May 2022, Saturday
+### **RandomUsers App + PostgreSQL + LinkedLists**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+**Relevant Links**
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+2. [LeetCode - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+3. [LeetCode - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+4. [LeetCode - Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
