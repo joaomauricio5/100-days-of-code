@@ -39,7 +39,7 @@
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
-| [Day 71](#day71)    | RandomUsers App + PostgreSQL + LinkedLists |[Day 72](#day72)     |                                         |
+| [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     |                                         |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1745,14 +1745,18 @@ I can see how many companies ask for practice and knowledge about SQL, as it see
 
 <a name="day71"></a>
 ### Day 71: 14th May 2022, Saturday
-### **RandomUsers App + PostgreSQL + LinkedLists**
+### **RandomUsers App + Constraints in PostgreSQL**
 
-**Today's Progress**: 
+**Today's Progress**: Today I started by adding a new feature to the RandomUsersApp: it now has a button which allows the user to load an extra 10 Users from the API, instead of having a fixed number of displayed Users (code changes available in the commits below) Next step will be to implement infinite scrolling (very much like Instagram / Facebook) where more Users would automatically be loaded while I scroll down the app.  
+Also, I learnt about constraints within PostgreSQL and how they are useful to safeguard a database and maintain data integrity (more information below), finishing off by creating a small database to practice these concepts.
 
 **Key Takeaways**: 
+- Constraints are rules defined as part of the data model to control what values are allowed in specific columns and tables.
+- Columns of a PostgreSQL database table must have a data type, which constrains the type of information that can be entered into that column.
+- Althought data types aren’t constraints, they can help reject incorrect data from a database.
+- There are different types of constraints: NOT NULL constraints — Reject incoming rows from your table when critical information is missing from a row; CHECK constraints — Allow us to reject a row if it fails the criteria we’ve defined; UNIQUE constraints — Help with defining unique values in a table, they also create an index which can improve query and join performance; PRIMARY KEY constraints — A column or combination of columns that uniquely identify a row and are both NOT NULL and UNIQUE. PRIMARY KEYs are unique to a table, and will often be used in joins between tables; FOREIGN KEY constraints — Allow us to maintain referential integrity between two tables by validating the entry in one also appears in the other.
+- Backfilling is a term occasionally used in DB engineering to refer to the process of adding or updating past values.
 
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
-2. [LeetCode - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-3. [LeetCode - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
-4. [LeetCode - Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+2. [Codecademy's Cheatsheet on SQL constraints](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-intact/modules/constraints/cheatsheet)
