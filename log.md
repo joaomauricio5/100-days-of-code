@@ -40,6 +40,7 @@
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
+| [Day 73](#day73)    |                              |[Day 74](#day74)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1783,4 +1784,25 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 3. [LeetCode - Sales Person](https://leetcode.com/problems/sales-person/)
 4. [LeetCode - Find Followers Count](https://leetcode.com/submissions/detail/700225352/)
 5. [LeetCode - User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) 
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day73"></a>
+### Day 73: 16th May 2022, Monday
+### **         **
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+
+**Relevant Links**
+1. [LeetCode - Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+2. [LeetCode - Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)
+3. 
 
