@@ -39,7 +39,7 @@
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
-| [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     |                                         |
+| [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1760,3 +1760,27 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 **Relevant Links**
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
 2. [Codecademy's Cheatsheet on SQL constraints](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-intact/modules/constraints/cheatsheet)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day72"></a>
+### Day 72: 15th May 2022, Sunday
+### **Linked Lists + SQL challenges**
+
+**Today's Progress**: As I'm having an interview tomorrow and I'm focusing on preparing for it, I decided to just complete a few LeetCode challenges, without going through any new concepts. I finally got some pratice with reversing linked lists and it's significantly less complex than what I was thinking, at least with the iteration method. Reallistically, we only need to change the nodes so that they point to their previous node in the list. I'm curious to also figure out how we can implement this through recursion instead of iteration. 
+
+**Key Takeaways**: 
+- DATEDIFF(date1, date2) returns the number of days between two date values.
+- The DATE_PART(field, source) function extracts a subfield from a date or time value, where "field" evaluates to TIMESTAMP, INTERVAL or TIME, and it can have values such as: century, decade, month, day, minute, second, etc.
+
+**Relevant Links**
+1. [LeetCode - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+2. [LeetCode - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+3. [LeetCode - Sales Person](https://leetcode.com/problems/sales-person/)
+4. [LeetCode - Find Followers Count](https://leetcode.com/submissions/detail/700225352/)
+5. [LeetCode - User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) 
+
