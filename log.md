@@ -40,7 +40,7 @@
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
-| [Day 73](#day73)    |                              |[Day 74](#day74)     |                                               |
+| [Day 73](#day73)    | Linked Lists + SQL challenges pt.2      |[Day 74](#day74)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1794,15 +1794,20 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 
 <a name="day73"></a>
 ### Day 73: 16th May 2022, Monday
-### **         **
+### **Linked Lists + SQL challenges pt.2**
 
-**Today's Progress**: 
-
-**Key Takeaways**: 
+**Today's Progress**: Today was all about practicing some more SQL with LeetCode before I continue through Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path. I feel like I'm getting more and more comfortable with these kinds of challenges, so I'm excited to transition to Medium/Hard SQL problems on LeetCode in the next few weeks. 
 
 
-**Relevant Links**
+**Links to work**
 1. [LeetCode - Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 2. [LeetCode - Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)
-3. 
+3. [LeetCode - Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)
+4. [LeetCode - Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)
+5. [LeetCode - The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)
+6. [LeetCode - Find Total Time Spent By Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/)
+7. [LeetCode - Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)
+8. [LeetCode - Swap Salary](https://leetcode.com/problems/swap-salary/)
+9. [LeetCode - Classes With More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)
+10.[LeetCode - Department's Highest Salary](https://leetcode.com/problems/department-highest-salary/)
 
