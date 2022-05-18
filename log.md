@@ -40,7 +40,7 @@
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
-| [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     |                                               |
+| [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1778,7 +1778,7 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 - DATEDIFF(date1, date2) returns the number of days between two date values.
 - The DATE_PART(field, source) function extracts a subfield from a date or time value, where "field" evaluates to TIMESTAMP, INTERVAL or TIME, and it can have values such as: century, decade, month, day, minute, second, etc.
 
-**Relevant Links**
+**Relevant Links:**
 1. [LeetCode - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 2. [LeetCode - Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
 3. [LeetCode - Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
@@ -1800,7 +1800,7 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 **Today's Progress**: Today was all about practicing some more SQL with LeetCode before I continue through Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path. I feel like I'm getting more and more comfortable with these kinds of challenges, so I'm excited to transition to Medium/Hard SQL problems on LeetCode in the next few weeks. 
 
 
-**Links to work**
+**Links to work:**
 1. [LeetCode - Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)
 2. [LeetCode - Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)
 3. [LeetCode - Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)
@@ -1810,4 +1810,32 @@ Also, I learnt about constraints within PostgreSQL and how they are useful to sa
 7. [LeetCode - Swap Salary](https://leetcode.com/problems/swap-salary/)
 8. [LeetCode - Classes With More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)
 9. [LeetCode - Department's Highest Salary](https://leetcode.com/problems/department-highest-salary/)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day74"></a>
+### Day 74: 17th May 2022, Tuesday
+### **RandomUsers App - Infinite Scrolling + Intro to SQL Indexes**
+
+**Today's Progress**: Today I went back to the [RandomUsers App](https://github.com/joaomauricio5/RandomUsers) to implement infinite scrolling, where the list just keeps getting bigger and bigger the more the user scrolls through it. This was done by attaching an onAppear(perform:) modifier to each user in the list, but it only triggers loadMoreUsers() if the user that is currently appearing on the screen (through scrolling) is the last user in the array of Users. This way, we know that the app reached the end of the list and we need to load more Users from the API. I also added a ProgressView (progress circle noting that the app is loading) while the app is loading, for when the app is opening on a slower (or inexistent) internet connection: If array of users is still empty, show ProgressView; else, show list of Users.   
+I also had a brief introduction to Indexes in PostgreSQL, and how they can be used to make our filtering faster when querying a database. Will dive deeper into it tomorrow.
+
+
+**Key Takeaways**: 
+- Use a ProgressView() to show that a task is making progress towards completion. A progress view can show both determinate (percentage complete) and indeterminate (progressing or not) types of progress.
+- onAppear(perform:) adds an action to perform when the view it is attached to appears.
+
+
+**Links to work:**
+
+1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
+2. [Codecademy's PostgreSQL Indexes Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/indexes/cheatsheet)
+
+
+
+
 
