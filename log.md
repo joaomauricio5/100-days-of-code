@@ -41,6 +41,7 @@
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
+| [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     |   |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1834,6 +1835,27 @@ I also had a brief introduction to Indexes in PostgreSQL, and how they can be us
 
 1. [RandomUsers App](https://github.com/joaomauricio5/RandomUsers/commits/main)
 2. [Codecademy's PostgreSQL Indexes Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/indexes/cheatsheet)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day75"></a>
+### Day 75: 18th May 2022, Wednesday
+### **PostgreSQL - Indexes**
+
+**Today's Progress**: 
+
+
+**Key Takeaways**: 
+
+
+**Links to work:**
+
+1. [Codecademy's PostgreSQL Indexes Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/indexes/cheatsheet)
 
 
 
