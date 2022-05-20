@@ -1847,10 +1847,16 @@ I also had a brief introduction to Indexes in PostgreSQL, and how they can be us
 ### Day 75: 18th May 2022, Wednesday
 ### **PostgreSQL - Indexes**
 
-**Today's Progress**: 
+**Today's Progress**: Today I studied and practiced a concept that is used to make sure that databases stay fast: Indexes. Indexing allows us to organize the database structure in such a way that it makes finding specific records much faster. By default it divides the possible matching records in half, then half, then half, and so on until the specific match we are searching for is found, very much like a binary tree. In this way, indexes speed up searching and filtering. However, there is a disadvantage associated with it, as indexes seem to slow down inserts, updates and deletions, as well as taking up significant space. I tested this by implementing indexes in different columns for tables with >100 000 entries, and using PostgreSQL's EXPLAIN ANALYZE to check the runtime of specific queries with and without indexes.
 
 
 **Key Takeaways**: 
+- Indexes speed up searching and filtering, however, they slow down insert, update, and delete statements. Also, the index data structures can sometimes take up as much space as the database itself.
+- To get insight into how PostgreSQL breaks down your statements into runnable parts, we can investigate the query plan by adding EXPLAIN ANALYZE before your query. Rather than returning the results of the query, it will return information about the query.
+- The index is built in the specific order listed at creation, so (last_name, first_name) is different from (first_name, last_name). The order will impact the efficiency of our searches.
+- The higher the percentage of a table we are returning the less useful an index becomes. If we’re only searching for 1 record in 1,000,000, an index could be incredibly useful. However, if we are searching for 900,000 out of that same 1,000,000 the advantages of an index become useless.
+- Even if we have a single non-indexed condition, if it’s in an OR, the system will still have to check every record in your table, making our index useless.
+
 
 
 **Links to work:**
