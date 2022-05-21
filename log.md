@@ -41,7 +41,7 @@
 | [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
-| [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     |   |
+| [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1856,6 +1856,38 @@ I also had a brief introduction to Indexes in PostgreSQL, and how they can be us
 - The index is built in the specific order listed at creation, so (last_name, first_name) is different from (first_name, last_name). The order will impact the efficiency of our searches.
 - The higher the percentage of a table we are returning the less useful an index becomes. If we’re only searching for 1 record in 1,000,000, an index could be incredibly useful. However, if we are searching for 900,000 out of that same 1,000,000 the advantages of an index become useless.
 - Even if we have a single non-indexed condition, if it’s in an OR, the system will still have to check every record in your table, making our index useless.
+
+
+
+**Links to work:**
+
+1. [Codecademy's PostgreSQL Indexes Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/indexes/cheatsheet)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day75"></a>
+### Day 75: 19th May 2022, Thursday
+### **PostgreSQL - Indexes pt.2**
+
+**Today's Progress**: Today I continued my learning around PostgreSQL's indexes and how they can be used to make querying a database a more efficient (or inefficient) process. I'm starting to feel like indexes are not going to be a "set-and-forget" scenario, as they will depend on a lot of different variables: how many entries does the database have? how regularly are we going to query the index? Are we going to update the indexed column more than we are going to query it? In addition to this, the usage and querying of a database might change from time to time, so it seems reasonable to drop and create new indexes frequenty as well.  
+I had a look at clustered indexes, non-clustered indexes, partial indexes, ordered indexes, as well as creating indexes with functions instead of only column references. I also completed 2 projects about these concepts from Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path.
+
+
+
+**Key Takeaways**: 
+- pg_Indexes is a built-in view in PostgreSQL which lets us identify the existing indexes in a database.
+- To see the size of a database table we can run the SELECT pg_size_pretty (pg_total_relation_size('<table_name>')).
+- Normally an index doesn’t have any real-world impact until we are in the thousands (and normally larger than this) of rows.
+- A partial index allows for indexing on a subset of a table, allowing searches to be conducted on just this group of records in the table.
+- Each table can only have a single clustered index.
+- A clustered index contains all the information in our table and physically reorganizes the way it is stored in memory. A non-clustered index creates a key on the columns we indicate and a pointer back to the main table for any columns not part of the index.
+- In PostgreSQL, the CLUSTER keyword can be used to create a new clustered index on a table, or recluster a table already setup with an index.
+- PostgreSQL can use indexes to return results in order without a separate step to sort. This is done by specifying the order (ASC or DESC) we want the index to be in when we create the index.
+- A column Index is not limited to just a column reference, it can also be a function or scalar expression computed from one or more columns.
 
 
 
