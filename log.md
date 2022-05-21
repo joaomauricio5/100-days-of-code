@@ -1925,6 +1925,7 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 5. [LeetCode - Group Sold Products by the Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
 6. [LeetCode - Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)
 7. [LeetCode - Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
+8. [LeetCode - Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)
 
 
 
