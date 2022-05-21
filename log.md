@@ -42,6 +42,7 @@
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
+| [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1869,8 +1870,8 @@ I also had a brief introduction to Indexes in PostgreSQL, and how they can be us
 
 
 
-<a name="day75"></a>
-### Day 75: 19th May 2022, Thursday
+<a name="day76"></a>
+### Day 76: 19th May 2022, Thursday
 ### **PostgreSQL - Indexes pt.2**
 
 **Today's Progress**: Today I continued my learning around PostgreSQL's indexes and how they can be used to make querying a database a more efficient (or inefficient) process. I'm starting to feel like indexes are not going to be a "set-and-forget" scenario, as they will depend on a lot of different variables: how many entries does the database have? how regularly are we going to query the index? Are we going to update the indexed column more than we are going to query it? In addition to this, the usage and querying of a database might change from time to time, so it seems reasonable to drop and create new indexes frequenty as well.  
@@ -1894,6 +1895,36 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 **Links to work:**
 
 1. [Codecademy's PostgreSQL Indexes Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/indexes/cheatsheet)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day77"></a>
+### Day 77: 19th May 2022, Thursday
+### **LeetCode - SQL**
+
+**Today's Progress**: Today I decided to keep it simple and focus solely on solving LeetCode challenges around SQL. I definitely see how SQL can be super useful for me and I'm enjoying the learning process, but I definitely miss Swift and SwiftUI. Will probably come back to Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) tomorrow and start their social media app project.
+
+
+
+**Key Takeaways**: 
+- The CONCAT() function adds two or more strings together.
+- GROUP_CONCAT() function returns a string with concatenated non-NULL value from a group.
+
+**Links to work:**
+
+1. [LeetCode - Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/)
+2. [LeetCode - Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/)
+3. [LeetCode - Top Travellers](https://leetcode.com/problems/top-travellers/)
+4. [LeetCode - Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)
+5. [LeetCode - Group Sold Products by the Date](https://leetcode.com/problems/group-sold-products-by-the-date/)
+6. [LeetCode - Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)
+7. [LeetCode - Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
 
 
 
