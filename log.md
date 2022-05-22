@@ -42,7 +42,7 @@
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
-| [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     |                                               |
+| [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1905,7 +1905,7 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 
 
 <a name="day77"></a>
-### Day 77: 19th May 2022, Thursday
+### Day 77: 20th May 2022, Friday
 ### **LeetCode - SQL**
 
 **Today's Progress**: Today I decided to keep it simple and focus solely on solving LeetCode challenges around SQL. I definitely see how SQL can be super useful for me and I'm enjoying the learning process, but I definitely miss Swift and SwiftUI. Will probably come back to Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) tomorrow and start their social media app project.
@@ -1927,6 +1927,26 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 7. [LeetCode - Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
 8. [LeetCode - Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)
 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day78"></a>
+### Day 78: 21st May 2022, Saturday
+### **Intro to Firebase and Firestore**
+
+**Today's Progress**: Today I continued Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by starting their last project in the Career Path - Socialcademy. Socialcademy will be a social media app, with the abillity to authenticate different users, upload posts, etc through SwiftUI and Firebase (Google's Backend-as-a-Service app development platform). This is my first time using Firebase and most of the day was spent learning about what it is, setting it up, downloading the SDK to my Xcode project, etc. I'm going to be using Firestore as the database for the app, which is a NoSQL database, so I also got introduced to non-relational databases and how they layout their data. Also, it was my first time using the Swift Package Manager, in order to add dependencies to the project directly through Xcode.
+
+**Key Takeaways**: 
+- 
+
+
+**Links to work:**
+- [Swift Package Registry](https://swiftpackageregistry.com/)
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 
 
 
