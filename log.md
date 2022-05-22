@@ -1942,7 +1942,7 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 
 **Key Takeaways**: 
 - A backend is a software application accessible on the internet, usually via a server, that the app connects to in order to store and receive data. The client-server model allows our backend to receive requests for information from a “client” (usually a user, but not always!). The server can then respond to the request in a variety of ways: authenticating the user’s credentials to log them in; storing data for users in a database; process a payment that the user triggered; storing files for users to retrieve and load later on.
-- A non-relational database, commonly referred to as a NoSQL database, specializes in storing unstructured data in a non-tabular form. A non-relational database does not have a fixed “schema”, as its data can look different from each other.
+- A non-relational database, commonly referred to as a NoSQL database, specializes in storing unstructured data in a non-tabular form. It does not have a fixed “schema”, as its data can look different from each other.
 - The following are 4 different types of non-relational databases:
 * 		Key-value: A non-relational database that houses data in the form of a collection with key-value pairs. Each key is a unique identifier and each value represents some data.
 * 		Column-oriented: A non-relational database that stores its data in columns as opposed to rows. Each table organizes its data by field rather than by record.
