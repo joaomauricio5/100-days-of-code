@@ -1938,10 +1938,19 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 ### Day 78: 21st May 2022, Saturday
 ### **Intro to Firebase and Firestore**
 
-**Today's Progress**: Today I continued Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by starting their last project in the Career Path - Socialcademy. Socialcademy will be a social media app, with the abillity to authenticate different users, upload posts, etc through SwiftUI and Firebase (Google's Backend-as-a-Service app development platform). This is my first time using Firebase and most of the day was spent learning about what it is, setting it up, downloading the SDK to my Xcode project, etc. I'm going to be using Firestore as the database for the app, which is a NoSQL database, so I also got introduced to non-relational databases and how they layout their data. Also, it was my first time using the Swift Package Manager, in order to add dependencies to the project directly through Xcode.
+**Today's Progress**: Today I continued Codecademy's [iOS Developer Career Path](https://www.codecademy.com/learn/paths/ios-developer) by starting their last project in the Career Path - Socialcademy. Socialcademy will be a social media app, with the abillity to authenticate different users, upload posts, etc through SwiftUI and Firebase (Google's Backend-as-a-Service app development platform). This is my first time using Firebase and most of the day was spent learning about what it is, setting it up, downloading the SDK to my Xcode project, etc. I'm going to be using Firestore for the app, which is a NoSQL database, so I also got introduced to non-relational databases and how they layout their data. Additionally, it was my first time using the Swift Package Manager, in order to add dependencies to the project directly through Xcode.
 
 **Key Takeaways**: 
-- 
+- A backend is a software application accessible on the internet, usually via a server, that the app connects to in order to store and receive data. The client-server model allows our backend to receive requests for information from a “client” (usually a user, but not always!). The server can then respond to the request in a variety of ways: authenticating the user’s credentials to log them in; storing data for users in a database; process a payment that the user triggered; storing files for users to retrieve and load later on.
+- A non-relational database, commonly referred to as a NoSQL database, specializes in storing unstructured data in a non-tabular form. A non-relational database does not have a fixed “schema”, as its data can look different from each other.
+- The following are 4 different types of non-relational databases:
+* 		Key-value: A non-relational database that houses data in the form of a collection with key-value pairs. Each key is a unique identifier and each value represents some data.
+* 		Column-oriented: A non-relational database that stores its data in columns as opposed to rows. Each table organizes its data by field rather than by record.
+* 		Graph-based: A non-relational database that is designed to treat the relationships between data as equally important to the data itself. This means that data is not stored with a predefined model and is instead stored showing how each individual entity connects with others.
+* 		Document-oriented: A non-relational database that stores its data in documents through a JSON structure.
+- Non-relational databases store data as collections (as opposed to tables)
+- Whenever you use someone else’s code in your project, that is known as a dependency, because your code now depends on theirs to work.
+- Swift Package Manager is the newest tool for managing dependencies, and the one that we’ll be using in this article. It is fully integrated with Xcode and has an easy-to-use interface for adding and removing dependencies from your application.
 
 
 **Links to work:**
