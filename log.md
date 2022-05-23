@@ -1974,6 +1974,7 @@ Next step will be to implement the connection to the project's Firestore databas
 **Key Takeaways**: 
 - We can setup our app's connection to Firebase by adding FirebaseApp.configure() to our app's initializer.
 - searchable(text:placement:) marks the view it's attached to as searchable, which configures the display of a search field.
+- <ins>**WE NEED TO MAKE SURE THAT THE GoogleService-Info.plist FILE IS NOT UPLOADED TO OUR REPOSITORY, OTHERWISE OUR GITHUB AUTHENTICATION KEY WOULD BE PUBLICLY VISIBLE**</ins>.
 
 
 **Links to work:**
