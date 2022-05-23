@@ -43,6 +43,7 @@
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
+| [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     |                                               |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1958,5 +1959,24 @@ I had a look at clustered indexes, non-clustered indexes, partial indexes, order
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 
 
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day79"></a>
+### Day 79: 22nd May 2022, Sunday
+### **Socialcademy - Creating Posts + Firebase Setup**
+
+**Today's Progress**: Today I continued the Socialcademy project, by getting started on building the UI of the app, specifically the list that shows all the posts along with a form to create a new post. I also managed to implement a search bar for the first time, in order to search through the posts - it is case insentitive and ignores whitespaces and new lines. This was done using the .searchable(text:placement:) view modifier and creating a function to conclude whether or not the string we're searching is present in the post's title, author or content strings. For this search feature, I also created a few units tests to verify its behaviour.  
+Next step will be to implement the connection to the project's Firestore database in order to upload/download posts to/from it.
+
+**Key Takeaways**: 
+- We can setup our app's connection to Firebase by adding FirebaseApp.configure() to our app's initializer.
+- searchable(text:placement:) marks the view it's attached to as searchable, which configures the display of a search field.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 
 
