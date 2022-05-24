@@ -1995,6 +1995,7 @@ I also studied a few of SwiftUI's EnvironmentValues and how it can share informa
 **Key Takeaways**: 
 - SwiftUI automatically sets or updates many environment values, like pixelLength, scenePhase, or locale, based on device characteristics, system state, or user settings. We can access this with the @Environment property wrapper, and giving it the key path to the value we want.
 - The alert(_:isPresented:presenting:actions:message:) view modifier presents an alert with a message using the given data to produce the alert’s content and a string variable as a title. 
+- A type alias allows you to provide a new name for an existing data type into your program. After a type alias is declared, the aliased name can be used instead of the existing type throughout the program.
 
 
 **Links to work:**
