@@ -43,7 +43,7 @@
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
-| [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     |                                               |
+| [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -1981,3 +1981,22 @@ Next step will be to implement the connection to the project's Firestore databas
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 
 
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day80"></a>
+### Day 80: 23rd May 2022, Monday
+### **Socialcademy - Uploading Posts to Firestore**
+
+**Today's Progress**: Today I worked on finally uploading the app's posts to its Firestore database. First of all, I had a look at how to connect the app to the database, and how to get a reference of the specific collection that we want to upload to. The upload method itself seems quite simple, and we can conform the Post structure to conform to the Codable protocol, which in turns let us very easily organize our Post properties into key-value pairs. I also implemented some visual feedback for the user to know what's happening once they click on the "Create Post" button: a loading circle shows up while the post is being uploaded and an alert shows up in front of the screen when there's an error; if the upload is completed then the NewPostForm view dismisses itself and we go back to the list of posts.  
+I also studied a few of SwiftUI's EnvironmentValues and how it can share information about the view's environment (fixed properties that come from the system): is dark mode or light mode being used? what size class is our view being rendered with? Is our device in portrait or landscape orientation? In my case, this was useful to be able to get the dismiss environment value, which gives us a property of type DismissAction, which we can use to dismiss the current view (for when the user clicks on the "Create Post" button and we want the NewPostForm view to be dismissed).
+
+**Key Takeaways**: 
+- SwiftUI automatically sets or updates many environment values, like pixelLength, scenePhase, or locale, based on device characteristics, system state, or user settings. We can access this with the @Environment property wrapper, and giving it the key path to the value we want.
+- The alert(_:isPresented:presenting:actions:message:) view modifier presents an alert with a message using the given data to produce the alert’s content and a string variable as a title. 
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+- [Getting started with Firestore](https://firebase.google.com/docs/firestore/quickstart)
