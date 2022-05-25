@@ -44,6 +44,7 @@
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
 | [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
+| [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     |                                              |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -2001,3 +2002,28 @@ I also studied a few of SwiftUI's EnvironmentValues and how it can share informa
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 - [Getting started with Firestore](https://firebase.google.com/docs/firestore/quickstart)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day81"></a>
+### Day 81: 24th May 2022, Tuesday
+### **Socialcademy - Uploading Posts to Firestore**
+
+**Today's Progress**: Today I finally finished Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path by studying and practicing database normalization, and how useful it is to avoid data duplication, as well as making sure that data is easily updated and accurate. According to Codecademy, "in a relational database, columns that are not dependent on the primary key of a table can create inefficiencies related to data storage and modification, while also increasing the potential for future data errors". With this in mind, it's very likely that, for most databases, it's easier (or maybe I should say better) to have different tables with the information split by each "entity" and their rows, rather than having every piece of information in a huge single table.  
+One thing that I also learnt was how to redesign a database once it already has data in it, specifically to split it into smaller tables. This was mainly done with the CREATE TABLE <new_table_name> AS <SQL_query_from_original_table> to retrieve the information we want to have in the new table, and then using ALTER TABLE <original_table_name> + DROP COLUMN to delete the selected columns from the original table.
+
+**Key Takeaways**: 
+- Database normalization is a process by which database and table structures are created or modified in order to address inefficiencies/complexities related to data storage, data modification and querying database tables.
+- Repeating groups of columns in a database table can create inefficiencies and errors related to data storage, querying, and modification.
+- Problems can occur when updating a database table if new information needs to be inserted before the associated primary key is known. This can happen if columns are not dependent on the primary key.
+- In a relational database, columns that are not dependent on the primary key of a table can create inefficiencies related to data storage and modification, while also increasing the potential for future data errors. This is often because columns that are not dependent on the primary key contain duplicated information.
+- <ins>The efficiency of any database schema is dependent on how the database is going to be used.</ins>
+
+
+**Links to work:**
+- [Codecademy's PostgreSQL Database Normalization Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/normalizing-a-database/cheatsheet)
