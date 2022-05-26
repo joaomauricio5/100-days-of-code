@@ -44,7 +44,7 @@
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
 | [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
-| [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     |                                              |
+| [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -2027,3 +2027,22 @@ One thing that I also learnt was how to redesign a database once it already has 
 
 **Links to work:**
 - [Codecademy's PostgreSQL Database Normalization Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/normalizing-a-database/cheatsheet)
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day82"></a>
+### Day 82: 25th May 2022, Wednesday
+### **Designing Databases with PostgreSQL - Finale**
+
+**Today's Progress**: Today I finally finished Codecademy's [Design Databases with PostgreSQL](https://www.codecademy.com/learn/paths/design-databases-with-postgresql) Skill Path by completing their last project - this was based around normalizing an exisiting database that had already been created but had a single table with quite a lot of columns that weren't dependant on the primary key, and also a lot of duplicated data - very similar to the exercises I completed yesterday, to be honest.  
+I also completed a few LeetCode SQL challenges, which I intend to keep practicing in order to keep my SQL knowledge fresh.
+
+
+**Links to work:**
+- [Codecademy's PostgreSQL Database Normalization Cheatsheet](https://www.codecademy.com/learn/paths/design-databases-with-postgresql/tracks/how-do-i-make-sure-my-database-stays-fast/modules/normalizing-a-database/cheatsheet)
+- [LeetCode - Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/)
+- [LeetCode - Market Analysis I](https://leetcode.com/problems/market-analysis-i/)
+
