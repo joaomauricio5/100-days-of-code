@@ -2062,7 +2062,8 @@ I also completed a few LeetCode SQL challenges, which I intend to keep practicin
 With a reference to our collection of posts, we can map each document into a Post object. collectionReference.getDocuments() returns a [QuerySnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/QuerySnapshot), which contains all documents in our collection. We can then access the documents property of the QuerySnapshot, which contains an array of [DocumentSnapshots](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/DocumentSnapshot.html), and map each document into a Post object, using *document.data(as: Post.self)*
 
 **Key Takeaways**: 
-- [QuerySnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/QuerySnapshot)
+- The Query type in the Cloud Firestore SDK offers several methods we can use to customize our database query. For example, we can limit our query to documents that meet certain criteria (e.g. posts by a certain author)
+- [QuerySnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/QuerySnapshot) 
 - [DocumentSnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/DocumentSnapshot.html)
 - [compactMap(_:)](https://developer.apple.com/documentation/swift/sequence/2950916-compactmap) returns an array containing the non-nil results of calling the given transformation with each element of a sequence.
 
