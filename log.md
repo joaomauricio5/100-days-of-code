@@ -45,6 +45,7 @@
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
 | [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
+| [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)     | XCode's Address Sanitizer + Zombie Objects  |
 
 
 ------------------------------------------------------------------------------------------------------
@@ -2046,3 +2047,41 @@ I also completed a few LeetCode SQL challenges, which I intend to keep practicin
 - [LeetCode - Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/)
 - [LeetCode - Market Analysis I](https://leetcode.com/problems/market-analysis-i/)
 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day83"></a>
+### Day 83: 26th May 2022, Thursday
+### **Socialcademy - Fetching Posts from Firestore**
+
+**Today's Progress**: Today I learn how to retrieve data from Firestore, and implemented that in the Socialcademy app. Now, whenever the PostList view appears, it loads up all the posts from the database, ordered by most recent, and displays them in for the user. This way, the posts now persist between restarts - when the user creates a post, it gets uploaded to Firestore; whenever the user opens the app, it downloads all posts from Firestore. With a reference to our collection of posts, we can map each document into a Post object. collectionReference.getDocuments() returns a [QuerySnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/QuerySnapshot), which contains all documents in our collection. We can then access the documents property of the QuerySnapshot, which contains an array of [DocumentSnapshots](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/DocumentSnapshot.html), and map each document into a Post object, using *document.data(as: Post.self)*
+
+**Key Takeaways**: 
+- [QuerySnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/QuerySnapshot)
+- [DocumentSnapshot](https://firebase.google.com/docs/reference/swift/firebasefirestore/api/reference/Classes/DocumentSnapshot.html)
+- [compactMap(_:)](https://developer.apple.com/documentation/swift/sequence/2950916-compactmap) returns an array containing the non-nil results of calling the given transformation with each element of a sequence.
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+- [Get Data with Cloud Firestore](https://firebase.google.com/docs/firestore/query-data/get-data)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day84"></a>
+### Day 84: 27th May 2022, Friday
+### **XCode's Address Sanitizer + Zombie Objects**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
