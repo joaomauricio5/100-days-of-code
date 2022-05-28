@@ -2081,9 +2081,16 @@ With a reference to our collection of posts, we can map each document into a Pos
 ### Day 84: 27th May 2022, Friday
 ### **XCode's Address Sanitizer + Zombie Objects**
 
-**Today's Progress**: 
+**Today's Progress**: Today I started by experiencing quite a strange bug following yesterday's improvement on Socialcademy - I was getting a EXC_BAD_ACCESS error whenever I opened the app. Apparently, this problem arises whenever an app tries to access bad memory, for example, when it tries to access a pointer that is invalid or no longer available. To solve this, I started by creating a few breakpoints in the code to try and find exactly where the code was crashing. No success with this, so I ended up learning about a few other debugging tools within Xcode: Address Sanitizer, which finds memory errors at runtime, like memory corruptions; Zombie Objects, which means deallocated objects are kept around as zombies. Deallocated objects are kept alive for debugging purposes, so if we send a message to a zombie object, our application will still crash as a result of EXC_BAD_ACCESS, but we get to know exactly which object the app was trying to access when it crashed.  
+Strangely enough, none of these resources helped me debug the crash and the app started working after rebuilding it, which was definitely strange. At least I still feel like I learnt about some really useful techniques for future debugging.
 
 **Key Takeaways**: 
+- The Address Sanitizer, also known as ASan, finds memory corruptions and other memory errors at runtime. Apple even recommends using the ASan continuously during development.
+- EXC_BAD_ACCESS is an exception raised as a result of accessing bad memory. We’re constantly working with pointers to memory in Swift that link to a specific memory address. An application will crash whenever we try to access a pointer that is invalid or no longer exists. Such a pointer is also known as a “dangling pointer.”
+- The root cause of such bad memory can differ. The referencing memory could be deleted or deallocated while the value of the pointer never gets updated. The pointer still points to the memory location of the deallocated memory and becomes a dangling pointer. Another cause could be writing to read-only memory or jumping to an instruction at an invalid address.
+- In Xcode, we can enable zombie objects, which means deallocated objects are kept around as zombies. Put differently, deallocated objects are kept alive for debugging purposes. If we send a message to a zombie object, our application will crash as a result of EXC_BAD_ACCESS, but we get to know which object the app was trying to access.
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+- [Understanding and solving EXC_BAD_ACCESS](https://www.avanderlee.com/swift/exc-bad-access-crash/)
+- [What is EXC_BAD_ACCESS and How to Debug It](https://code.tutsplus.com/tutorials/what-is-exc_bad_access-and-how-to-debug-it--cms-24544)
