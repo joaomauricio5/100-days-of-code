@@ -2116,5 +2116,5 @@ So today I spent some time going through @StateObject, @ObservedObject, @Environ
 - [Complete Guide to Data Flow in SwiftUI](https://medium.nextlevelswift.com/complete-guide-to-data-flow-in-swiftui-bb5fca1cb4c5)
 - [A Guide to SwiftUI's State Management System](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/)
 - One of the primary reasons to choose value types over reference types is the ability to more easily reason about our code. If we always get a unique, copied instance, we can trust that no other part of our app is changing the data under the covers, which is specially useful for our ViewModel.
-- “Own” means whether the creation and destruction are tied to the view’s life cycle.
+- When a view “owns” an object, it means the creation and destruction of the object are tied to the view’s life cycle.
 
