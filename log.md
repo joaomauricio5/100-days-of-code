@@ -46,6 +46,8 @@
 | [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)     | XCode's Address Sanitizer + Zombie Objects  |
+| [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     |   |
+
 
 
 ------------------------------------------------------------------------------------------------------
@@ -2094,3 +2096,25 @@ Strangely enough, none of these resources helped me debug the crash and the app 
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
 - [Understanding and solving EXC_BAD_ACCESS](https://www.avanderlee.com/swift/exc-bad-access-crash/)
 - [What is EXC_BAD_ACCESS and How to Debug It](https://code.tutsplus.com/tutorials/what-is-exc_bad_access-and-how-to-debug-it--cms-24544)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day85"></a>
+### Day 85: 28th May 2022, Saturday
+### **Revising Data Flow in SwiftUI**
+
+**Today's Progress**: With Socialcademy, I've been trying to complete the project by trying to follow my intuition rather than strictly following the tutorials: reading what I need to achieve and then coding it on my own, so that when I do something incorrectly, I then have the problems come up and I get some experience debugging them and really understanding what I've done wrong. This really uncovered that I needed to spend some more time studying how data flows within SwiftUI and how the state of the app can be managed and shared across different views.  
+So today I spent some time going through @StateObject, @ObservedObject, @EnvironmentObject, @Published, the ObservableObject protocol and reference vs value types (specifically why we should use a class for our ViewModel instead of a structure).
+
+**Key Takeaways / Relevant Links**: 
+- [Apple - Managing Model Data in Your App](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app)
+- [Complete Guide to Data Flow in SwiftUI](https://medium.nextlevelswift.com/complete-guide-to-data-flow-in-swiftui-bb5fca1cb4c5)
+- [A Guide to SwiftUI's State Management System](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/)
+- One of the primary reasons to choose value types over reference types is the ability to more easily reason about our code. If we always get a unique, copied instance, we can trust that no other part of our app is changing the data under the covers, which is specially useful for our ViewModel.
+- “Own” means whether the creation and destruction are tied to the view’s life cycle.
+
