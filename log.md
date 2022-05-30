@@ -46,7 +46,7 @@
 | [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)     | XCode's Address Sanitizer + Zombie Objects  |
-| [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     |   |
+| [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 
 
 
@@ -2118,3 +2118,17 @@ So today I spent some time going through @StateObject, @ObservedObject, @Environ
 - One of the primary reasons to choose value types over reference types is the ability to more easily reason about our code. If we always get a unique, copied instance, we can trust that no other part of our app is changing the data under the covers, which is specially useful for our ViewModel.
 - When a view “owns” an object, it means the creation and destruction of the object are tied to the view’s life cycle.
 
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day86"></a>
+### Day 86: 29th May 2022, Sunday
+### **Socialcademy - Loading Posts State Feedback**
+
+**Today's Progress**: Today I continued working on Socialcademy by adding feedback to the posts download process. Whenever the app opens now, the user will get a progressView() with a loading circle until: the posts are loaded and show up on the screen; there are no posts to load and an EmptyListView appears, telling the users there are no posts yet; the posts fail to load, and a different EmptyListView appears stating there was an error and providing a "Try Again" button for the app to retry downloading the posts from the database. The state is updated using a LoadingStatus enum, which the values: Loading, Loaded, Error.  
+I found that Codecademy's implementation for this step was a lot more complex than mine, so I'm really curious to see how much my strategy can affect some of the next few steps for Socialcademy. 
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
