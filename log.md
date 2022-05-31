@@ -47,6 +47,7 @@
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)     | XCode's Address Sanitizer + Zombie Objects  |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
+| [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     |    |
 
 
 
@@ -2132,3 +2133,25 @@ I found that Codecademy's implementation for this step was a lot more complex th
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day87"></a>
+### Day 87: 30th May 2022, Monday
+### **Swift's ARC + Avoiding Retain Cycles**
+
+**Today's Progress**: Today I started by learning about garbage collection within programming languages - where the language will go through instances of classes and structures we don't need any longer and deletes them, freeing up space for other objects to be created. For this purpose, Swift uses ARC (Automatic Reference Counting). Codecademy explains "the way that ARC works is that every time you create a new instance of a class or structure, Swift tracks how many references there are to it. If there are ever zero references to a structure, Swift will automatically remove it from memory, because it knows that no one needs it around anymore". However, by using ARC, there is the risk that we get into a situation where an object can no longer be accessed but still is retained in memory - for example, when two classes hold references to each other, so their reference count is one even if we set the objects themselves to nil. If this process repeats, more and more memory will be taken up by these objects which is known as a memory leak. Eventually, our app will run out of memory and crash.  
+To solve a retain cycle, we can make one of the properties of the two classes a *weak* variable, which means that it won't count towards ARC, so if all other references go away, the object will leave memory.
+
+**Key Takeaways**: 
+- Many languages will automatically go through our created structures and classes and delete anything that we don’t need anymore. This process is called garbage collection.
+- Swift does not have a dedicated algorithm to clean up unused objects, it instead uses a system called Automatic Reference Counting, ARC for short, that deletes objects as soon as they aren’t needed anymore.
+- Because of how Automatic Reference Counting works, it is possible to get into a situation where an object can no longer be accessed but still is retained in memory, creating a retain cycle.
+- Retain cycles are most commonly created when relating two classes to each other or when using a self reference in a closure. 
+-  When creating classes that hold references to each other, make sure that one of the references is a weak reference so that the objects aren’t holding on to each other in memory.
+-  When defining closures, it’s usually a good idea to use [weak self] whenever you need to refer to self.
+
+
