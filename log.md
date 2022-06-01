@@ -34,20 +34,20 @@
 | [Day 55](#day55)    | LeetCode Challenges pt.3                |[Day 56](#day56)     | LeetCode Challenges pt.4                      |
 | [Day 57](#day57)    | Concurrency in Swift                    |[Day 58](#day58)     | Intro to APIs in Swift                        |
 | [Day 59](#day59)    | JSON review + Coding Keys               |[Day 60](#day60)     | Converting JSON to Users - RandomUsers App    |
-| [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage  |
+| [Day 61](#day61)    | Unit testing with XCTest                |[Day 62](#day62)     | RandomUsers App - Unit Testing pt.2 + AsyncImage |
 | [Day 63](#day63)    | Intro to Relational Databases with PostgreSQL  |[Day 64](#day64) | SQL Queries and Aggregate Functions        |
 | [Day 65](#day65)    | SQL - Working with multiple tables      |[Day 66](#day66)     |  SQL Challenges                               |
 | [Day 67](#day67)    | Back to Linked Lists + SQL practice     |[Day 68](#day68)     |  Database Schemas, Keys and Relationships     |
-| [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70)     | LeetCode SQL Challenges                 |
+| [Day 69](#day69)    | Database Schemas, Keys and Relationships pt.2 |[Day 70](#day70) | LeetCode SQL Challenges                     |
 | [Day 71](#day71)    | RandomUsers App + PostgreSQL            |[Day 72](#day72)     | Linked Lists + SQL challenges                 |
 | [Day 73](#day73)    | SQL challenges pt.2                     |[Day 74](#day74)     | RandomUsers App - Infinite Scrolling + Intro to SQL Indexes |
 | [Day 75](#day75)    | PostgreSQL - Indexes                    |[Day 76](#day76)     | PostgreSQL - Indexes pt.2                     |
 | [Day 77](#day77)    | LeetCode - SQL                          |[Day 78](#day78)     | Intro to Firebase and Firestore               |
-| [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)     | Socialcademy - Uploading Posts to Firestore  |
+| [Day 79](#day79)    | Socialcademy - Creating Posts + Firebase Setup |[Day 80](#day80)| Socialcademy - Uploading Posts to Firestore |
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
-| [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)     | XCode's Address Sanitizer + Zombie Objects  |
+| [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)| XCode's Address Sanitizer + Zombie Objects    |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
-| [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     |    |
+| [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     |   |
 
 
 
@@ -2155,3 +2155,18 @@ To solve a retain cycle, we can make one of the properties of the two classes a 
 -  When defining closures, it’s usually a good idea to use [weak self] whenever you need to refer to self.
 
 
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day88"></a>
+### Day 88: 31st May 2022, Tuesday
+### ****
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
