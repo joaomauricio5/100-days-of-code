@@ -2172,6 +2172,7 @@ It was also the first time that I worked with SwiftUI animations when deleting p
 - We can use the .labelStyle view modifier to have a label only show the icon, only the title, or both of them.
 - The [animation(_:value:)](https://developer.apple.com/documentation/swiftui/animation) modifier tells SwiftUI to apply an animation when a certain value changes. 
 - <ins>**When using buttons in list rows, SwiftUI can be a little unpredictable. By default, SwiftUI turns the entire list row into a button. As a result, if our button has a destructive role, it loses its red tint color, and tapping anywhere on each row of the list is the same as tapping the delete button. We can overcome this by setting the [.buttonStyle](https://developer.apple.com/documentation/swiftui/buttonstyle) as borderless**</ins>
+- [.confirmationDialog](https://developer.apple.com/documentation/swiftui/foreach/confirmationdialog(_:ispresented:titlevisibility:actions:)-548mb) presents a confirmation dialog when a given condition is true, using a string variable as a title. This is useful for when the user is making some kind of irreversible modification (like deleting a post), by asking them if they're sure about their action.
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
