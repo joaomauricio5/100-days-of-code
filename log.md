@@ -47,7 +47,7 @@
 | [Day 81](#day81)    | SQL - Database Normalization            |[Day 82](#day82)     | Designing Databases with PostgreSQL - Finale  |
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)| XCode's Address Sanitizer + Zombie Objects    |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
-| [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     |   |
+| [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
 
 
 
@@ -2162,11 +2162,16 @@ To solve a retain cycle, we can make one of the properties of the two classes a 
 
 <a name="day88"></a>
 ### Day 88: 31st May 2022, Tuesday
-### ****
+### **Socialcademy - Deleting Posts + Favorites**
 
-**Today's Progress**: 
+**Today's Progress**: Today I continued working on Socialcademy, and I implemented deletion of posts as well as allowing the user to mark specific posts as favorites, while updating the database at every point. I'm finding that the [Firestore Documentation](https://firebase.google.com/docs/firestore/manage-data/add-data) is actually really well written and covers a lot of the scenarios that I'm working with. Also, I'm finding that the tutorial itself from Codecademy is a little bit outdated when it comes to Firestore, so I might as well just use the actual documentation straight away - same as I would were I working on this project without any guidance.  
+It was also the first time that I worked with SwiftUI animations when deleting posts from the list - looking forward to learning more about this.
 
 **Key Takeaways**: 
+- A button's role provides a description of a button’s purpose. For example, the destructive role indicates that a button performs a destructive action, like delete user data, and automatically provides a red color for the button's label.
+- We can use the .labelStyle view modifier to have a label only show the icon, only the title, or both of them.
+- The [animation(_:value:)](https://developer.apple.com/documentation/swiftui/animation) modifier tells SwiftUI to apply an animation when a certain value changes. 
+- <ins>**When using buttons in list rows, SwiftUI can be a little unpredictable. By default, SwiftUI turns the entire list row into a button. As a result, if our button has a destructive role, it loses its red tint color, and tapping anywhere on each row of the list is the same as tapping the delete button. We can overcome this by setting the [.buttonStyle](https://developer.apple.com/documentation/swiftui/buttonstyle) as borderless**</ins>
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
