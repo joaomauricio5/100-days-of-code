@@ -48,6 +48,7 @@
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)| XCode's Address Sanitizer + Zombie Objects    |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
+| [Day 89](#day89)    | Socialcademy - Database Queries + Offline Persistence |[Day 90](#day90)     |       |
 
 
 
@@ -2173,6 +2174,24 @@ It was also the first time that I worked with SwiftUI animations when deleting p
 - The [animation(_:value:)](https://developer.apple.com/documentation/swiftui/animation) modifier tells SwiftUI to apply an animation when a certain value changes. 
 - <ins>**When using buttons in list rows, SwiftUI can be a little unpredictable. By default, SwiftUI turns the entire list row into a button. As a result, if our button has a destructive role, it loses its red tint color, and tapping anywhere on each row of the list is the same as tapping the delete button. We can overcome this by setting the [.buttonStyle](https://developer.apple.com/documentation/swiftui/buttonstyle) as borderless**</ins>
 - [.confirmationDialog](https://developer.apple.com/documentation/swiftui/foreach/confirmationdialog(_:ispresented:titlevisibility:actions:)-548mb) presents a confirmation dialog when a given condition is true, using a string variable as a title. This is useful for when the user is making some kind of irreversible modification (like deleting a post), by asking them if they're sure about their action.
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day89"></a>
+### Day 89: 1st June 2022, Wednesday
+### **Socialcademy - Database Queries + Offline Persistence**
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
