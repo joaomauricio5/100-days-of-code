@@ -48,7 +48,7 @@
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)| XCode's Address Sanitizer + Zombie Objects    |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
-| [Day 89](#day89)    | Socialcademy - Database Queries + Offline Persistence |[Day 90](#day90)     |       |
+| [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)     |       |
 
 
 
