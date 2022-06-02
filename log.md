@@ -2187,11 +2187,16 @@ It was also the first time that I worked with SwiftUI animations when deleting p
 
 <a name="day89"></a>
 ### Day 89: 1st June 2022, Wednesday
-### **Socialcademy - Database Queries + Offline Persistence**
+### **Socialcademy - Queries + Offline Persistence**
 
-**Today's Progress**: 
+**Today's Progress**: Today I continued working on Socialcademy, by adding a new tab where the user can retrieve only posts that have been marked as favorites. For this, I learnt more about [database queries within Firestore](https://firebase.google.com/docs/firestore/query-data/queries), and how we can chain them to refine our results - specifically using functions like .orderBy and .whereField. One thing that came up is that Firestore apparently requires indexes for every query. For simpler queries, the index is automatically generated, however, for more complex queries, we need to create that index manually. Doing so was actually super simple, as Firestore outputs an error in the console saying that we need to create an index for that specific query, and provides a link for us to do so.  
+I also explored Firestore a little bit further, as I wasn't getting any errors throw when trying to create, delete, favorite posts when not connected to internet - turns out that this is actually a feature of Firestore, as it supports offline data persistence. The app can write and read data that is cached on-device, and whenever the device reconnects to internet, all those changes are uploaded to the database. 
 
 **Key Takeaways**: 
+- Cloud Firestore requires an index for every query. However, Firestore generates indexes automatically for simpler queries. For more complex queries, such as our fetchFavoritePosts call, we’ll need to create the index ourselves. Fortunately, we can do this by simply following the provided link in the error message.
+- [Simple and compound queries in Firestore](https://firebase.google.com/docs/firestore/query-data/queries)
+- Deleting a document from Firestore that doesn’t exist does not currently produce an error
+- Cloud Firestore supports offline data persistence. This feature caches a copy of the Cloud Firestore data that the app is actively using, so our app can access the data when the device is offline. We can write, read, listen to, and query the cached data. When the device comes back online, Cloud Firestore synchronizes any local changes made by our app to the Cloud Firestore backend.
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
