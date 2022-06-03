@@ -49,6 +49,7 @@
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
 | [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
+| [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) |   |
 
 
 
@@ -2222,6 +2223,29 @@ I also reviewed async functions vs completion handlers, as FirebaseAuth gives us
 - A completion handler in Swift calls back when a task has been completed and they are useful when dealing with asynchronous functions—The code can continue to the next task while the asynchronous code runs in the background. Once the async task completes, it calls a callback function with the result.
 - [From completion handlers to async await](https://forums.swift.org/t/concurrency-asynchronous-functions/41619)
 - When a property includes the Published property wrapper, we can forward its value and any updates to another Published property by using the assign(to:) method and referencing both properties with a $ in front of their names.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day91"></a>
+### Day 91: 3rd June 2022, Friday
+### **Socialcademy - Creating Accounts + Refining UI**
+
+**Today's Progress**: Today I continued working on Socialcademy and implemented account creation that syncs to my Firebase project. At this point, I'm fairly far away from Codecademy's implementation, and I can definitely understand some of the reasons behind their code, but it doesn't really feel in line with I'm comfortable with at the moment, and I really am trying to do this project as independently as I can. I can already see one drawback, specifically around repeating code for similar functions/views, but then again, I'm really enjoying the fact that I do actually get faced with these problems and I then have to do some refactoring - rather than having Codecademy guide me the whole way through. Will be gradually studying some of the new concepts that Codecademy introduced during their implementation - dynamic member lookup, nonisolated keyword, convenience init and @ViewBuilder.  
+Also refined the login/signup process with a better looking UI that provides feedback of the state to the user - SignUp button changes to a ProgressView() while the app is communicating with Firebase to sign them in.
+
+**Key Takeaways**: 
+- textContentType(_:) modifier sets the text content type for the view, which the system uses to offer suggestions while the user enters text on an iOS or tvOS device.
+- textInputAutocapitalization(_:) sets how often the shift key in the keyboard is automatically enabled.
+- A repository pattern has more to do with how data is persisted and retrieved from a database, while the ViewModel pattern is a UI pattern that defines how to bind data to the UI.
 
 
 **Links to work:**
