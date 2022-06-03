@@ -48,7 +48,7 @@
 | [Day 83](#day83)    | Socialcademy - Fetching Posts from Firestore |[Day 84](#day84)| XCode's Address Sanitizer + Zombie Objects    |
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
-| [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)     |       |
+| [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
 
 
 
@@ -2197,6 +2197,32 @@ I also explored Firestore a little bit further, as I wasn't getting any errors t
 - [Simple and compound queries in Firestore](https://firebase.google.com/docs/firestore/query-data/queries)
 - Deleting a document from Firestore that doesn’t exist does not currently produce an error
 - Cloud Firestore supports offline data persistence. This feature caches a copy of the Cloud Firestore data that the app is actively using, so our app can access the data when the device is offline. We can write, read, listen to, and query the cached data. When the device comes back online, Cloud Firestore synchronizes any local changes made by our app to the Cloud Firestore backend.
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day90"></a>
+### Day 90: 2nd June 2022, Thursday
+### **Socialcademy - Firebase Authentication + Async Review**
+
+**Today's Progress**: Today I started using Firebase Authentication, by implementing authentication methods for users to log in to Socialcademy, as well as creating an AuthenticationView to sign in and a profile tab where users can sign out. I've always been curious to learn how this process worked, and I'm genuinely impressed with how easy Firebase makes it. Currently I'm only using email+password authentication, but we can also use Google, Facebook, Apple Sign In, etc, which I'm really curious to learn about.  
+I also reviewed async functions vs completion handlers, as FirebaseAuth gives us both options for most methods. This was finally a good real-world example of when to use escaping closures, which I found a bit confusing the first time I read about them. I still need to continue studying concurrency in Swift, but I'm getting there.
+
+**Key Takeaways**: 
+- Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
+- [FirebaseAuth Get Started - iOS](https://firebase.google.com/docs/auth/ios/start)
+- [Modern Swift Concurrency](https://www.raywenderlich.com/books/modern-concurrency-in-swift/v1.0/chapters/1-why-modern-swift-concurrency)
+- A completion handler in Swift calls back when a task has been completed and they are useful when dealing with asynchronous functions—The code can continue to the next task while the asynchronous code runs in the background. Once the async task completes, it calls a callback function with the result.
+- [From completion handlers to async await](https://forums.swift.org/t/concurrency-asynchronous-functions/41619)
+- When a property includes the Published property wrapper, we can forward its value and any updates to another Published property by using the assign(to:) method and referencing both properties with a $ in front of their names.
+
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
