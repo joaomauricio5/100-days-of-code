@@ -50,6 +50,7 @@
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
 | [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
 | [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) |   |
+| [Day 93](#day93)    |  |[Day 94](#day94) |   |
 
 
 
@@ -2246,6 +2247,44 @@ Also refined the login/signup process with a better looking UI that provides fee
 - textContentType(_:) modifier sets the text content type for the view, which the system uses to offer suggestions while the user enters text on an iOS or tvOS device.
 - textInputAutocapitalization(_:) sets how often the shift key in the keyboard is automatically enabled.
 - A repository pattern has more to do with how data is persisted and retrieved from a database, while the ViewModel pattern is a UI pattern that defines how to bind data to the UI.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day92"></a>
+### Day 92: 4th June 2022, Saturday
+### ****
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day93"></a>
+### Day 93: 5th June 2022, Friday
+### ****
+
+**Today's Progress**: 
+
+**Key Takeaways**: 
 
 
 **Links to work:**
