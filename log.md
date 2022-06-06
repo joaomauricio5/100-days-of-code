@@ -50,7 +50,7 @@
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
 | [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
 | [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) | Socialcademy - Integrating Users           |
-| [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     |         |
+| [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
 
 
 
@@ -2279,8 +2279,27 @@ Also refined the login/signup process with a better looking UI that provides fee
 ### Day 93: 5th June 2022, Sunday
 ### **Socialcademy - Integrating Users pt.2**
 
-**Today's Progress**: For the past 2 days, I've been improving Socialcademy by integrating users into the app - whenever a post is created, it is automatically attached to the account that was logged in and uploaded the post. Making this change was actually a bit more difficult than I was expecting, as the majority of files needed to be changed to accomodate this feature - different view models need to be aware of the current user and will rely on their information. This project is definitely testing my skills and I'm really enjoying working with Firebase. I've also created a simple list of tasks to track small-ish features I need to implement as well as small bugs, and this is already turning out to be quite a big project.  
+**Today's Progress**: For the past 2 days, I've been improving Socialcademy by integrating users into the app - whenever a post is created, it is automatically attached to the specific account that uploaded the post. Making this change was actually a bit more difficult than I was expecting, as the majority of files needed to be changed to accomodate this feature - different view models need to be aware of the current user and will rely on their information. This project is definitely testing my skills and I'm really enjoying working with Firebase. I've also created a simple list of tasks to track small-ish features I need to implement as well as small bugs, and this is already turning out to be quite a big project.  
 Next step will be to implement authorization in the app, by making sure that only the creator of a post can delete it, as well as saving the favorites for each user.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day94"></a>
+### Day 94: 6th June 2022, Monday
+### **Socialcademy - Posts deletion authorization + filter by author**
+
+**Today's Progress**: Today I continued integrating users into Socialcademy, specifically by restricting the posts that the current logged in user can delete - they should only be able to delete posts that they uploaded themselves. Additionally, I started implementing a feature to fetch posts from a specific user, by clicking on their name on a post. Still a bit buggy but the fetching methods from the repository were successful.   
+I can already see some code repetition starting to appear in the PostViewModel, so I've added that to my tasks list and will address it in the next few days. I am starting to feel like, once I start refactoring some of my code, my implementation will start to get closer to Codecademy's and a lot of it will start to make sense.
 
 
 **Links to work:**
