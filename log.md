@@ -2299,7 +2299,7 @@ Next step will be to implement authorization in the app, by making sure that onl
 ### **Socialcademy - Posts deletion authorization + filter by author**
 
 **Today's Progress**: Today I continued integrating users into Socialcademy, specifically by restricting the posts that the current logged in user can delete - they should only be able to delete posts that they uploaded themselves. Additionally, I started implementing a feature to fetch posts from a specific user, by clicking on their name on a post. Still a bit buggy but the fetching methods from the repository were successful.   
-I can already see some code repetition starting to appear in the PostViewModel, so I've added that to my tasks list and will address it in the next few days. I am starting to feel like, once I start refactoring some of my code, my implementation will start to get closer to Codecademy's and a lot of it will start to make sense.
+I can already see some code repetition starting to appear in the PostViewModel, so I've added that to my tasks list and will address it in the next few days. I am starting to feel like, once I start refactoring some of my code, my implementation will start to get closer to Codecademy's and a lot of their strategies will start to make practical sense to me.
 
 
 **Links to work:**
