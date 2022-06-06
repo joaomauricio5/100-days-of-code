@@ -49,8 +49,8 @@
 | [Day 85](#day85)    | Revising Data Flow in SwiftUI           |[Day 86](#day86)     | Socialcademy - Loading Posts State Feedback   |
 | [Day 87](#day87)    | Swift's ARC + Avoiding Retain Cycles    |[Day 88](#day88)     | Socialcademy - Deleting Posts + Favorites     |
 | [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
-| [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) |   |
-| [Day 93](#day93)    |  |[Day 94](#day94) |   |
+| [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) | Socialcademy - Integrating Users           |
+| [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     |         |
 
 
 
@@ -2262,12 +2262,9 @@ Also refined the login/signup process with a better looking UI that provides fee
 
 <a name="day92"></a>
 ### Day 92: 4th June 2022, Saturday
-### ****
+### **Socialcademy - Integrating Users**
 
-**Today's Progress**: 
-
-**Key Takeaways**: 
-
+**Today's Progress**: See [day 93](#day93) below.
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
@@ -2280,11 +2277,10 @@ Also refined the login/signup process with a better looking UI that provides fee
 
 <a name="day93"></a>
 ### Day 93: 5th June 2022, Friday
-### ****
+### **Socialcademy - Integrating Users pt.2**
 
-**Today's Progress**: 
-
-**Key Takeaways**: 
+**Today's Progress**: For the past 2 days, I've been improving Socialcademy by integrating users into the app - whenever a post is created, it is automatically attached to the account that was logged in and uploaded the post. Making this change was actually a bit more difficult than I was expecting, as the majority of files needed to be changed to accomodate this feature, as different view models need to be aware of the current user. This project is definitely testing my skills and I'm really enjoying working with Firebase. I've also created a simple list of tasks to track small-ish features I need to implement as well as small bugs, and this is already turning out to be quite a big project.  
+Next step will be to implement authorization in the app, by making sure that only the creator of a post can delete it, as well as saving the favorites for each user.
 
 
 **Links to work:**
