@@ -2279,7 +2279,7 @@ Also refined the login/signup process with a better looking UI that provides fee
 ### Day 93: 5th June 2022, Sunday
 ### **Socialcademy - Integrating Users pt.2**
 
-**Today's Progress**: For the past 2 days, I've been improving Socialcademy by integrating users into the app - whenever a post is created, it is automatically attached to the account that was logged in and uploaded the post. Making this change was actually a bit more difficult than I was expecting, as the majority of files needed to be changed to accomodate this feature, as different view models need to be aware of the current user. This project is definitely testing my skills and I'm really enjoying working with Firebase. I've also created a simple list of tasks to track small-ish features I need to implement as well as small bugs, and this is already turning out to be quite a big project.  
+**Today's Progress**: For the past 2 days, I've been improving Socialcademy by integrating users into the app - whenever a post is created, it is automatically attached to the account that was logged in and uploaded the post. Making this change was actually a bit more difficult than I was expecting, as the majority of files needed to be changed to accomodate this feature - different view models need to be aware of the current user and will rely on their information. This project is definitely testing my skills and I'm really enjoying working with Firebase. I've also created a simple list of tasks to track small-ish features I need to implement as well as small bugs, and this is already turning out to be quite a big project.  
 Next step will be to implement authorization in the app, by making sure that only the creator of a post can delete it, as well as saving the favorites for each user.
 
 
