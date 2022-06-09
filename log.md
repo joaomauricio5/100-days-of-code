@@ -51,6 +51,7 @@
 | [Day 89](#day89)    | Socialcademy - Queries + Offline Persistence |[Day 90](#day90)| Socialcademy - Firebase Authentication + Async Review  |
 | [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) | Socialcademy - Integrating Users           |
 | [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
+| [Day 95](#day95)    | Socialcademy - UI refining + ViewBuilder|[Day 96](#day96)     | Socialcademy - Analysing NavigationLink bug   |
 
 
 
@@ -2304,3 +2305,47 @@ I can already see some code repetition starting to appear in the PostViewModel, 
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day95"></a>
+### Day 95: 7th June 2022, Tuesday
+### **Socialcademy - Socialcademy - UI refining + ViewBuilder**
+
+**Today's Progress**: Following yesterday's new feature, where we can click in the name of the author in a post and it shows us a list of posts from just that author, the UI was acting a bit strange. The NavigationLink to the filtered list was making the whole post row clickable, instead of just the author's name. To solve this, I implemented a ForEach within a ScrollView instead. Apparently this is one of the quirks of SwiftUI's Lists. Additionally, I started having a look at the ViewBuilder attribute, and how it can be utilized to make Views make reusable. @ViewBuilder is used in Views like HStack and VStack, where we can list other views in a trailing closure. I can already see this being useful for reducing some of the code repetition within Socialcademy.
+
+**Key Takeaways**: 
+- ViewBuilder is used extensively in SwiftUI to let us create new on-screen views by just listing them out in a trailing closure.
+- @ViewBuilder is a kind of result builder that’s specifically designed to help create child views. Result builders create functions that build a result from a sequence of elements. SwiftUI uses this in its own native views, controls and components.
+- We can use result builders to create our own Domain-Specific Language, or DSL. A DSL is like a miniature language-within-a-language used to solve problems within a particular area or domain.
+- [SwiftOnTap - ViewBuilder](https://swiftontap.com/viewbuilder)
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day96"></a>
+### Day 96: 8th June 2022, Wednesday
+### **Socialcademy - Analysing NavigationLink bug**
+
+**Today's Progress**: 
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+
+
