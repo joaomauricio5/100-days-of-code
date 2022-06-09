@@ -2338,7 +2338,10 @@ I can already see some code repetition starting to appear in the PostViewModel, 
 ### Day 96: 8th June 2022, Wednesday
 ### **Socialcademy - Analysing NavigationLink bug**
 
-**Today's Progress**: 
+**Today's Progress**: After implenting a feature in Socialcademy where we can filter posts by author when clicking on the author's name on a post, a few strange bugs have appeared - sometimes, whenever we click on the author's name (which is a NavigationLink), the user is taken to a new page with a list of that author's posts, but not even after 1 second, it goes back to the previous page automatically. Additionally, whenever the user opens the app and needs to manually log in, the list of posts just continues loading and never shows up on the UI. However, this is not a problem when the user opens the app and is already logged in through Firebase.  
+Because of this, my whole programming time today was spent trying to analyse what my code and the flow of project's data - specifically by using breakpoints and trying to extract any clues of what might be wrong. I noticed that, when a user manually logs in, the posts do actually finish loading in the background, and the changes are published (both the array of posts and the status of the loading task). However, for some reason, the PostsList View never actually updates.  
+Regarding the NavigationLink bug, where it goes back to the previous page instantly after being clicked, I googled it and a few people have reported the same issue. However, none of the suggested fixes worked for me, so I'm still investigating.  
+Will come back to it tomorrow and try to Google some more info, as well as triple checking my data flow.
 
 
 **Links to work:**
