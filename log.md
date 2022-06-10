@@ -52,7 +52,7 @@
 | [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) | Socialcademy - Integrating Users           |
 | [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
 | [Day 95](#day95)    | Socialcademy - UI refining + ViewBuilder|[Day 96](#day96)     | Socialcademy - Analysing NavigationLink bug   |
-| [Day 97](#day97)    | Socialcademy - Fixing Login Bug (Hopefully?)|[Day 98](#day98) |    |
+| [Day 97](#day97)    | Socialcademy - Fixing Login Bug (Hopefully?)|[Day 98](#day98) | Socialcademy - Fixing the NavigationLink bug  |
 
 
 
@@ -2365,6 +2365,25 @@ Additionally, on the second bug I was having (when clicking on the author's name
 
 **Key Takeaways**: 
 - Whenever a new feature is implemented, it's super important to test the previous features as well. Because I didn't do this in the past few days, I ended up creating bugs that were a lot harder to debug simply because I wasn't sure of exactly which changes caused them. This would also be easily avoided with a good coverage of tests within the app.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day98"></a>
+### Day 98: 10th June 2022, Friday
+### **Socialcademy - Fixing NavigationLink bug**
+
+**Today's Progress**: Today felt great, as I finally figured out how to fix the NavigationLink bug Socialcademy had. The reason why the PostsList filtered by author was popping from the NavigationView right after we clicked on the name of the author on the parent PostsList (the one that showed all of the posts available from all authors) was that both views were sharing the same view model and were subscribed to the same array of posts. This meant that, whenever the user clicked on an author's name from the unfiltered PostsList, the view would transition to the list of that author's posts, but because the viewModel.posts array would be updated, the parent view (unfiltered PostsList) would be rendered again and we would go back to it.  
+Now, every PostsList view has its own view model, which fixed the bug. This made me understand why Codecademy chose to have separate view models in their implementation, as opposed to having all views share the some one (which is what I was used to before).
+
+**Key Takeaways**: 
+
 
 
 **Links to work:**
