@@ -52,6 +52,7 @@
 | [Day 91](#day91)    | Socialcademy - Creating Accounts + Refining UI |[Day 92](#day92) | Socialcademy - Integrating Users           |
 | [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
 | [Day 95](#day95)    | Socialcademy - UI refining + ViewBuilder|[Day 96](#day96)     | Socialcademy - Analysing NavigationLink bug   |
+| [Day 97](#day97)    | Socialcademy - Fixing Login Bug (Hopefully?)|[Day 98](#day98) |    |
 
 
 
@@ -2342,6 +2343,28 @@ I can already see some code repetition starting to appear in the PostViewModel, 
 Because of this, my whole programming time today was spent trying to analyse my code and the flow of data - specifically by using breakpoints and trying to extract any clues of what might be wrong. I noticed that, when a user manually logs in, the posts do actually finish loading in the background, and the changes are published (both the array of posts and the status of the loading task). However, for some reason, the PostsList View never actually updates.  
 Regarding the NavigationLink bug, where it goes back to the previous page instantly after being clicked, I googled it and a few people have reported the same issue. However, none of the suggested fixes worked for me, so I'm still investigating.  
 Will come back to it tomorrow and try to Google some more info, as well as triple checking my data flow.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day97"></a>
+### Day 97: 9th June 2022, Thursday
+### **Socialcademy - Fixing Login Bug (hopefully?)**
+
+**Today's Progress**: Today I continued debugging Socialcademy and I managed to stop one of the bugs: the one where, if a user was manually logging in, the PostsList UI would never update, even if the post had already been loaded in the backgroud. However, it would work if the user then clicked on Favorites and then back to Posts.  
+It turns out that creating separate ViewModels for the Posts and Favorites Views (instead of sharing the same one through @EnvironmentObject) made the bug go away. I'll be honest, I still haven't 100% understood why it solved the problem (so I'm not exactly sure if it fixed the bug or hid it), but I'm going to investigate further.  
+Additionally, on the second bug I was having (when clicking on the author's name on a post, a new view of that user's posts would show up but the app instantly goes back to the previous page), I was able to filter down what made it surface. Whenever I use a List for the posts, this doesn't happen. It only happens if I'm using ForEach within a ScrollView. Because using a List is not going to be an option here, I'm going to continue exploring this bug and search how other people managed to fix it, but at least I'm getting closer.
+
+**Key Takeaways**: 
+- Whenever a new feature is implemented, it's super important to test the previous features as well. Because I didn't do this in the past few days, I ended up creating bugs that were a lot harder to debug simply because I wasn't sure of exactly which changes caused them. This would also be easily avoided with a good coverage of tests within the app.
 
 
 **Links to work:**
