@@ -53,6 +53,7 @@
 | [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
 | [Day 95](#day95)    | Socialcademy - UI refining + ViewBuilder|[Day 96](#day96)     | Socialcademy - Analysing NavigationLink bug   |
 | [Day 97](#day97)    | Socialcademy - Fixing Login Bug (Hopefully?)|[Day 98](#day98) | Socialcademy - Fixing the NavigationLink bug  |
+| [Day 99](#day99)    | Socialcademy - Refactoring PostsViewModel  |[Day 100](#day100)|   |
 
 
 
@@ -2382,12 +2383,30 @@ Additionally, on the second bug I was having (when clicking on the author's name
 **Today's Progress**: Today felt great, as I finally figured out how to fix the NavigationLink bug Socialcademy had. The reason why the PostsList filtered by author was popping from the NavigationView right after we clicked on the name of the author on the parent PostsList (the one that showed all of the posts available from all authors) was that both views were sharing the same view model and were subscribed to the same array of posts. This meant that, whenever the user clicked on an author's name from the unfiltered PostsList, the view would transition to the list of that author's posts, but because the viewModel.posts array would be updated, the parent view (unfiltered PostsList) would be rendered again and we would go back to it.  
 Now, every PostsList view has its own view model, which fixed the bug. This made me understand why Codecademy chose to have separate view models in their implementation, as opposed to having all views share the some one (which is what I was used to before).
 
-**Key Takeaways**: 
 
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day99"></a>
+### Day 99: 11th June 2022, Saturday
+### **Socialcademy - Refactoring PostsViewModel**
+
+**Today's Progress**: Today I focused on refactoring Socialcademy, specifically by moving all of the PostsList filter logic (filtered by author, filtered by favorites, no filter) to the PostsViewModel instead of the PostsList view, which makes a lot of sense now that each PostsList view has its own instance of the view model class. This allowed the view itself to become a lot cleaner and clearer, as well as simplifying PostsViewModel.  
+I'm really getting to understand some of the decisions Codecademy made in their implementation, and I'm really happy I decided to follow my own design while having to deal with the problems later on - this is proving to be a great way for me to learn - instead of just blindly following the tutorials and not fully understanding the reasoning behind it.  
+Additionally, I also created a helper function for AuthViewModel to delete some of the repeating code around error handling for signing in / creating accounts.
 
 
 **Links to work:**
 - [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
 
 
 
