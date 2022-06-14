@@ -53,7 +53,7 @@
 | [Day 93](#day93)    | Socialcademy - Integrating Users pt.2   |[Day 94](#day94)     | Socialcademy - Posts deletion authorization + filter by author|
 | [Day 95](#day95)    | Socialcademy - UI refining + ViewBuilder|[Day 96](#day96)     | Socialcademy - Analysing NavigationLink bug   |
 | [Day 97](#day97)    | Socialcademy - Fixing Login Bug (Hopefully?)|[Day 98](#day98) | Socialcademy - Fixing the NavigationLink bug  |
-| [Day 99](#day99)    | Socialcademy - Refactoring PostsViewModel  |[Day 100](#day100)|   |
+| [Day 99](#day99)    | Socialcademy - Refactoring PostsViewModel  |[Day 100](#day100)| Socialcademy - Fixing some more bugs          | 
 
 
 
@@ -2400,8 +2400,33 @@ Now, every PostsList view has its own view model, which fixed the bug. This made
 ### **Socialcademy - Refactoring PostsViewModel**
 
 **Today's Progress**: Today I focused on refactoring Socialcademy, specifically by moving all of the PostsList filter logic (filtered by author, filtered by favorites, no filter) to the PostsViewModel instead of the PostsList view, which makes a lot of sense now that each PostsList view has its own instance of the view model class. This allowed the view itself to become a lot cleaner and clearer, as well as simplifying PostsViewModel.  
+Additionally, this change also allowed me to disable the NavigationLink in the author's name on a post whenever we're already inside a PostsList view that is filtering posts by the selected author name - this way the user cannot keep adding extra PostsList (filtered by author) to the navigation stack.  
 I'm really getting to understand some of the decisions Codecademy made in their implementation, and I'm really happy I decided to follow my own design while having to deal with the problems later on - this is proving to be a great way for me to learn - instead of just blindly following the tutorials and not fully understanding the reasoning behind it.  
 Additionally, I also created a helper function for AuthViewModel to delete some of the repeating code around error handling for signing in / creating accounts.
+
+
+**Links to work:**
+- [Socialcademy App](https://github.com/joaomauricio5/Socialcademy/commits/main)
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+<a name="day100"></a>
+### Day 100: 12th June 2022, Sunday
+### **Socialcademy - Fixing some more bugs**
+
+**Today's Progress**: For the last day of this challenge, I decided to fix a few more bugs within Socialcademy and add a new small feature. During account creation, the user is now required to type the password twice, to verify it. In case both don't match, the form is not submitted and a message will show up on the screen. This prevents new users from having a typo in their password and not being able to access the account (I'm looking forward to also implement password reset via email).  
+I also fixed an annoying bug that was linked to how Firebase handles user login: right after creating an account, the name of the user would only show up after reloading the app, which meant that, if a new post was created right after account creation, it wouldn't be associated with a user name. This was because Firebase will trigger the sign up without waiting for the displayName (username) to finish updating, giving our views a user without name. To fix this, I'm restricting the MainTabView to only be created when a user is logged in AS WELL AS when their name is not nil - doesn't seem to be affecting the loading time of the app.   
+
+Finally, the last day of the 100DaysOfCode challenge. It's genuinely great to look back and realise how much I have learnt during this process, and how much more comfortable I am with Swift and SwiftUI. Also, I'm really glad I got to learn about other technologies, such as Git, Github itself, SQL (and PostgreSQL), XCTest, web APIs, new tools within Xcode, etc; as well as new resources that I will continue using: LeetCode, HackerRank, Codewars.  
+I was also impressed with how beneficial this whole log was, as a way to consolidate the main things I've learnt each day and give me evidence of how much I upskilled myself over the past 100 days.  
+Looking forward to learning even more and building projects that challenge me. 
+
+
+
 
 
 **Links to work:**
